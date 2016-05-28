@@ -5,7 +5,6 @@ public class MovePerso : MonoBehaviour {
 
     private NavMeshAgent navA;
 
-
     void Awake()
     {
         navA = GetComponent<NavMeshAgent>();
