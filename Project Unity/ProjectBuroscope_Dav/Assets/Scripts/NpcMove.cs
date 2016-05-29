@@ -21,7 +21,7 @@ public class NpcMove : MonoBehaviour {
     {
         if (waitingTime <= 0)
         {
-            if (Vector3.Distance(transform.position, listOfOption.GetChild(currentPoint).position) > navA.radius + navA.radius/3)
+            if (Vector3.Distance(transform.position, listOfOption.GetChild(currentPoint).position) > navA.radius + navA.radius/2)
                 navA.SetDestination(listOfOption.GetChild(currentPoint).position);
             else if (Random.value > 0.4f)
                 currentPoint = Random.Range(0, listOfOption.childCount - 1);
