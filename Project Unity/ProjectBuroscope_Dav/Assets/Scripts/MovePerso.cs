@@ -3,6 +3,10 @@ using System.Collections;
 
 public class MovePerso : MonoBehaviour {
 
+    public float angleOfView;
+
+    public bool professor;
+
     private NavMeshAgent navA;
 
     void Awake()
@@ -21,7 +25,14 @@ public class MovePerso : MonoBehaviour {
             {
                 //Debug.Log("HIT with" + hit.transform.name);
                 navA.SetDestination(hit.point);
+
+                if (hit.transform.tag == "Professor")
+                    professor = true;
+                else if (professor)
+                    professor = false;
             }
+
+            
         }
     }
 }
