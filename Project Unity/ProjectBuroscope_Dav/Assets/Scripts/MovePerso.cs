@@ -5,7 +5,7 @@ public class MovePerso : MonoBehaviour {
 
     public float angleOfView;
 
-    public bool professor;
+    public bool professor, canMove = true;
 
     private NavMeshAgent navA;
 
@@ -16,23 +16,28 @@ public class MovePerso : MonoBehaviour {
 
     void Update ()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            //Debug.DrawRay(mousePos, Vector3.back*100, Color.blue);
-            if (Physics.Raycast(ray, out hit, 100))
+        if (canMove)
+            if (Input.GetMouseButton(0) || Input.touchCount > 0)
             {
-                //Debug.Log("HIT with" + hit.transform.name);
-                navA.SetDestination(hit.point);
+                RaycastHit hit;
+                Ray ray;
+                #if UNITY_EDITOR
+                    ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                    //for touch device
+                #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
+                   ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+                #endif
+                //Debug.DrawRay(mousePos, Vector3.back*100, Color.blue);
+                if (Physics.Raycast(ray, out hit, 100))
+                {
+                    //Debug.Log("HIT with" + hit.transform.name);
+                    navA.SetDestination(hit.point);
 
-                if (hit.transform.tag == "Professor")
-                    professor = true;
-                else if (professor)
-                    professor = false;
+                    if (hit.transform.tag == "Professor")
+                        professor = true;
+                    else if (professor)
+                        professor = false;
+                }            
             }
-
-            
-        }
     }
 }

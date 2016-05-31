@@ -17,6 +17,7 @@ public class Professor : MonoBehaviour {
                     Camera.main.GetComponent<MoveCameraToRail>().enabled = true;
                     Camera.main.GetComponent<MoveCameraToRail>().currentNode = 0;
                     player.GetComponent<MovePerso>().professor = false;
+                    player.GetComponent<MovePerso>().canMove = false;
                 }
             }
     }
