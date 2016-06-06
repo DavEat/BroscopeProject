@@ -14,13 +14,13 @@ Platform assembly: C:\Users\javier\Desktop\BUROSCOPE\Buroscope Project\Build Uni
 Loading C:\Users\javier\Desktop\BUROSCOPE\Buroscope Project\Build Unity\Buroscope a 1.1\Project Buroscope a 1.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\javier\Desktop\BUROSCOPE\Buroscope Project\Build Unity\Buroscope a 1.1\Project Buroscope a 1.1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\javier\Desktop\BUROSCOPE\Buroscope Project\Build Unity\Buroscope a 1.1\Project Buroscope a 1.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.065 seconds
+- Completed reload, in  0.038 seconds
 Platform assembly: C:\Users\javier\Desktop\BUROSCOPE\Buroscope Project\Build Unity\Buroscope a 1.1\Project Buroscope a 1.1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\javier\Desktop\BUROSCOPE\Buroscope Project\Build Unity\Buroscope a 1.1\Project Buroscope a 1.1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.654523 ms
+UnloadTime: 0.514703 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: d34 -> priority: 1 
+  Thread -> id: 25a8 -> priority: 1 
