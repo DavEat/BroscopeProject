@@ -1,0 +1,17 @@
+walls + windows and floor without lightmaps
+
+Floor model use: 
+difuse: floor10.jpg
+bump: floor10b.jpg
+specular: floor10s.jpg
+
+Walls models use: (mat ID 01)
+difuse: wall07.jpg
+
+windows use: (mat ID 02)
+difuse: window-white01.jpg
+self-ilum: window-white01-self.jpg
+
+windows use: (mat ID 03)
+difuse: window-white03.jpg
+self-ilum: window-white03-self.jpg
