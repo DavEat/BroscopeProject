@@ -23,21 +23,30 @@ public class Secreter : MonoBehaviour {
         }
         else
         {
-            if (Input.GetMouseButtonDown(1) || Input.touchCount >= 2)
-            {
-                bool checkOK = true;
-                if (canvasElement.childCount > 0)
-                    for (int i = 0; i < canvasElement.childCount; i++)
-                        if (canvasElement.GetChild(0).GetComponent<OnClick>().grow)
-                            checkOK = false;
+            #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
+                if (Input.GetMouseButtonDown(1))
+                    exitMenu();
+            #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
+                if (Input.touchCount >= 2)                
+                    if (Input.touches[0].phase == TouchPhase.Ended && Input.touches[1].phase == TouchPhase.Ended)
+                        exitMenu();
+            #endif
+        }
+    }
 
-                if (checkOK)
-                {
-                    canvasElement.gameObject.SetActive(false);
-                    player.GetComponent<MovePerso>().canMove = true;
-                    active = false;
-                }
-            }
+    private void exitMenu()
+    {
+        bool checkOK = true;
+        if (canvasElement.childCount > 0)
+            for (int i = 0; i < canvasElement.childCount; i++)
+                if (canvasElement.GetChild(0).GetComponent<OnClick>().grow)
+                    checkOK = false;
+
+        if (checkOK)
+        {
+            canvasElement.gameObject.SetActive(false);
+            player.GetComponent<MovePerso>().canMove = true;
+            active = false;
         }
     }
 }

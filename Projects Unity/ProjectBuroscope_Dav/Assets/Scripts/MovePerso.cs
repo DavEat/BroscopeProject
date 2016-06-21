@@ -21,7 +21,7 @@ public class MovePerso : MonoBehaviour {
             {
                 RaycastHit hit;
                 Ray ray;
-                #if (UNITY_EDITOR)
+                #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
                     ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 //for touch device
                 #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)

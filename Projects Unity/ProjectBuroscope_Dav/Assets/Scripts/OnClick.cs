@@ -31,18 +31,29 @@ public class OnClick : MonoBehaviour
     void Update()
     {
         if (!childGrow && grow)
-            if (Input.GetMouseButtonDown(1) || Input.touchCount >= 2)
-            {
-                grow = false;
-                anim.Play(string.Concat(animName, "Return", buttonId));
-                if (parentGrow != null)
-                    parentGrow.GetComponent<OnClick>().childGrow = false;
+        {
+            #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
+                if (Input.GetMouseButtonDown(1))
+                    returnAnimF();
+            #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
+                if (Input.touchCount >= 2)
+                    if (Input.touches[0].phase == TouchPhase.Ended && Input.touches[1].phase == TouchPhase.Ended)
+                        returnAnimF();
+            #endif
+        }
 
-                if (listSameLevelElem.Count > 0)
-                    foreach (RectTransform elem in listSameLevelElem)
-                        elem.GetComponent<OnClick>().enabled = true;
-            }
+    }
 
+    private void returnAnimF()
+    {
+        //grow = false;
+        anim.Play(string.Concat(animName, "Return", buttonId));
+        if (parentGrow != null)
+            parentGrow.GetComponent<OnClick>().childGrow = false;
+
+        if (listSameLevelElem.Count > 0)
+            foreach (RectTransform elem in listSameLevelElem)
+                elem.GetComponent<OnClick>().enabled = true;
     }
 
     public void OnPointerClick(PointerEventData eventData) // 3
