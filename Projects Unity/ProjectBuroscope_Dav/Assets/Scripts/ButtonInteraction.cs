@@ -2,14 +2,9 @@
 
 public class ButtonInteraction : MonoBehaviour {
 
-    public static void ButtonEnter (Transform t)
+    public static void ButtonChangeSize (Transform t, Vector2 size)
     {
-        t.localScale += t.localScale / 10;
-    }
-
-    public static void ButtonExit(Transform t)
-    {
-        t.localScale -= t.localScale / 11;
+        t.localScale = size;
     }
 
     public static void ButtonGrowing(Transform t, int scale)
