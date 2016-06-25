@@ -27,16 +27,11 @@ public class LogoBoardClick : MonoBehaviour {
                     Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
                     checkClick(ray);
                 }
-            #elif UNITY_WEBPLAYER
-                Ray ray;
-                if (Input.touchCount > 0)                        
-                    ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-                else ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                checkClick(ray);
             #endif
         }
 
         CheckFade();
+        CheckClicked(null);
     }
 
     private void checkClick(Ray ray)
@@ -58,7 +53,7 @@ public class LogoBoardClick : MonoBehaviour {
                         {
                             ButtonInteraction.ButtonChangeSize(listButton[i], listButton[i].GetComponent<LogoStat>().maxSize);
                             ButtonInteraction.ButtonChangeSize(listTextButton[i], listTextButton[i].GetComponent<LogoStat>().maxSize);
-                            CheckClick(listButton[i]);
+                            CheckClicked(listButton[i]);
                         }
                         else if ((Vector2)listButton[i].localScale != listButton[i].GetComponent<LogoStat>().initialSize)
                         {
@@ -69,10 +64,10 @@ public class LogoBoardClick : MonoBehaviour {
                 }
             }            
         }
-        CheckClick(null);
+        CheckClicked(null);
     }
 
-    private void CheckClick(Transform elem)  //-----Check if elem is clicked of touched-----
+    private void CheckClicked(Transform elem)  //-----Check if elem is clicked of touched-----
     {
         #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
             if (Input.GetMouseButtonUp(0) && elem != null)
@@ -84,12 +79,14 @@ public class LogoBoardClick : MonoBehaviour {
                 OnRClickActions();
             }
         #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
-             if (Input.touchCount > 0)
+            if (Input.touchCount > 0 && elem != null) {
                 if (Input.touches[0].phase == TouchPhase.Ended)
                     OnLClickActions(elem);
-            if (Input.touchCount >= 2)
+            }
+            else if (Input.touchCount >= 2) {
                 if (Input.touches[0].phase == TouchPhase.Ended && Input.touches[1].phase == TouchPhase.Ended)
                     OnRClickActions();
+            }
         #endif
     }
 
