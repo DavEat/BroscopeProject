@@ -17,9 +17,9 @@ public class LogoBoardClick : MonoBehaviour {
 
 	void Update () {
         if (inFrontOfBoard)
-        { 
+        {
             #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                 checkClick(ray);
             #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
                 if (Input.touchCount > 0)
@@ -31,7 +31,6 @@ public class LogoBoardClick : MonoBehaviour {
         }
 
         CheckFade();
-        CheckClicked(null);
     }
 
     private void checkClick(Ray ray)
@@ -52,7 +51,6 @@ public class LogoBoardClick : MonoBehaviour {
                         if (listButton[i] == hit.collider.transform)
                         {
                             ButtonInteraction.ButtonChangeSize(listButton[i], listButton[i].GetComponent<LogoStat>().maxSize);
-                            ButtonInteraction.ButtonChangeSize(listTextButton[i], listTextButton[i].GetComponent<LogoStat>().maxSize);
                             CheckClicked(listButton[i]);
                         }
                         else if ((Vector2)listButton[i].localScale != listButton[i].GetComponent<LogoStat>().initialSize)
@@ -74,7 +72,7 @@ public class LogoBoardClick : MonoBehaviour {
             {
                 OnLClickActions(elem);
             }
-            else if (Input.GetMouseButtonUp(1))
+            else if (Input.GetMouseButtonUp(1) && elem == null)
             {
                 OnRClickActions();
             }
@@ -83,7 +81,7 @@ public class LogoBoardClick : MonoBehaviour {
                 if (Input.touches[0].phase == TouchPhase.Ended)
                     OnLClickActions(elem);
             }
-            else if (Input.touchCount >= 2) {
+            else if (Input.touchCount >= 2 && elem == null) {
                 if (Input.touches[0].phase == TouchPhase.Ended && Input.touches[1].phase == TouchPhase.Ended)
                     OnRClickActions();
             }
@@ -97,17 +95,31 @@ public class LogoBoardClick : MonoBehaviour {
             case "word-logo":
                 if (!elem.GetComponent<LogoStat>().active)
                 {
-                    for (int i = 0; i < transform.GetChild(0).GetComponent<listElemInView>().listButton.Count; i++)
+                    /*for (int i = 0; i < transform.GetChild(0).GetComponent<listElemInView>().listButton.Count; i++)
                         transform.GetChild(0).GetComponent<listElemInView>().listButton[i].GetComponent<LogoStat>().fadeOut = true;
                     for (int i = 0; i < transform.GetChild(0).GetComponent<listElemInView>().listTextButton.Count; i++)
-                        transform.GetChild(0).GetComponent<listElemInView>().listTextButton[i].GetComponent<LogoStat>().fadeOut = true;
+                        transform.GetChild(0).GetComponent<listElemInView>().listTextButton[i].GetComponent<LogoStat>().fadeOut = true;*/
+                    listView[0].gameObject.SetActive(false);
+                    listView[1].gameObject.SetActive(true);
 
-                    currentElemActive = transform.GetChild(1);
+                    currentViewId = 1;
+
+                    /*currentElemActive = transform.GetChild(1);
                     currentElemActive.gameObject.SetActive(true);
                     for (int i = 0; i < currentElemActive.GetComponent<listElemInView>().listButton.Count; i++)
                         currentElemActive.GetComponent<listElemInView>().listButton[i].GetComponent<LogoStat>().fadeIn = true;
                     for (int i = 0; i < currentElemActive.GetComponent<listElemInView>().listTextButton.Count; i++)
-                        currentElemActive.GetComponent<listElemInView>().listTextButton[i].GetComponent<LogoStat>().fadeIn = true;
+                        currentElemActive.GetComponent<listElemInView>().listTextButton[i].GetComponent<LogoStat>().fadeIn = true;*/
+                }
+                break;
+            case "programme":
+                if (!elem.GetComponent<LogoStat>().active)
+                {
+                    listView[1].gameObject.SetActive(false);
+                    listView[2].gameObject.SetActive(true);
+
+                    currentViewId = 2;
+
                 }
                 break;
             default: Debug.Log("red");
@@ -119,25 +131,24 @@ public class LogoBoardClick : MonoBehaviour {
 
     private void OnRClickActions()  //-----Do action on right click-----
     {
-        if (transform.GetChild(0).gameObject.activeSelf && !transform.GetChild(0).GetComponent<listElemInView>().listButton[0].GetComponent<LogoStat>().fadeIn && !transform.GetChild(0).GetComponent<listElemInView>().listButton[0].GetComponent<LogoStat>().fadeOut)
+        switch (currentViewId)
         {
-            inFrontOfBoard = false;
-            Camera.main.GetComponent<CameraMove>().enabled = true;
-            Camera.main.GetComponent<MoveCameraToRail>().enabled = false;
-            GameObject.FindGameObjectWithTag("Player").GetComponent<MovePerso>().canMove = true;
-        }
-        //if (!transform.GetChild(0).GetComponent<listElemInView>().listButton[0].GetComponent<LogoStat>().fadeIn && !transform.GetChild(0).GetComponent<listElemInView>().listButton[0].GetComponent<LogoStat>().fadeOut)
-        {
-            for (int i = 0; i < currentElemActive.GetComponent<listElemInView>().listButton.Count; i++)
-                currentElemActive.GetComponent<listElemInView>().listButton[i].GetComponent<LogoStat>().fadeOut = true;
-            for (int i = 0; i < currentElemActive.GetComponent<listElemInView>().listTextButton.Count; i++)
-                currentElemActive.GetComponent<listElemInView>().listTextButton[i].GetComponent<LogoStat>().fadeOut = true;
-
-            transform.GetChild(0).gameObject.SetActive(true);
-            for (int i = 0; i < transform.GetChild(0).GetComponent<listElemInView>().listButton.Count; i++)
-                transform.GetChild(0).GetComponent<listElemInView>().listButton[i].GetComponent<LogoStat>().fadeIn = true;
-            for (int i = 0; i < transform.GetChild(0).GetComponent<listElemInView>().listTextButton.Count; i++)
-                transform.GetChild(0).GetComponent<listElemInView>().listTextButton[i].GetComponent<LogoStat>().fadeIn = true;
+            case 0:
+                inFrontOfBoard = false;
+                Camera.main.GetComponent<CameraMove>().enabled = true;
+                Camera.main.GetComponent<MoveCameraToRail>().enabled = false;
+                GameObject.FindGameObjectWithTag("Player").GetComponent<MovePerso>().canMove = true;
+                break;
+           case 1:
+                currentViewId = 0;
+                listView[1].gameObject.SetActive(false);
+                listView[0].gameObject.SetActive(true);
+                break;
+            case 2:
+                currentViewId = 1;
+                listView[2].gameObject.SetActive(false);
+                listView[1].gameObject.SetActive(true);
+                break;
         }
     }
 
