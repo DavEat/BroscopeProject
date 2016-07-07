@@ -15,7 +15,10 @@ public class MoveCameraToRail : MonoBehaviour {
             if (currentNode < listNodes.childCount - 1)
                 currentNode++;
             else if (!listNodes.parent.GetComponentInChildren<LogoBoardClick>().inFrontOfBoard)
+            {
                 listNodes.parent.GetComponentInChildren<LogoBoardClick>().inFrontOfBoard = true;
+                listNodes.parent.GetComponentInChildren<LogoBoardClick>().listPNJ.gameObject.SetActive(false);
+            }
         }
         else
         {

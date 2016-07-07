@@ -37,10 +37,8 @@ public class Secreter : MonoBehaviour {
     private void exitMenu()
     {
         bool checkOK = true;
-        if (canvasElement.childCount > 0)
-            for (int i = 0; i < canvasElement.childCount; i++)
-                if (canvasElement.GetChild(0).GetComponent<OnClick>().grow)
-                    checkOK = false;
+           if (canvasElement.GetChild(0).GetComponent<OnClick>().grow)
+            checkOK = false;
 
         if (checkOK)
         {

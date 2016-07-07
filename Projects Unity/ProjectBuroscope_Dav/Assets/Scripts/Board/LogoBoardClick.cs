@@ -7,6 +7,8 @@ public class LogoBoardClick : MonoBehaviour {
     public int currentViewId;
     public List<Transform> listView;
 
+    public Transform listPNJ;
+
     private Transform currentElemActive;
 
     void Awake()  //-----Initialisation-----
@@ -112,14 +114,49 @@ public class LogoBoardClick : MonoBehaviour {
                         currentElemActive.GetComponent<listElemInView>().listTextButton[i].GetComponent<LogoStat>().fadeIn = true;*/
                 }
                 break;
-            case "programme":
+            case "programmeWord":
                 if (!elem.GetComponent<LogoStat>().active)
                 {
                     listView[1].gameObject.SetActive(false);
                     listView[2].gameObject.SetActive(true);
 
                     currentViewId = 2;
+                }
+                break;
+            case "access-logo":
+                if (!elem.GetComponent<LogoStat>().active)
+                {
+                    listView[0].gameObject.SetActive(false);
+                    listView[3].gameObject.SetActive(true);
 
+                    currentViewId = 3;
+                }
+                break;
+            case "programmeAccess":
+                if (!elem.GetComponent<LogoStat>().active)
+                {
+                    listView[3].gameObject.SetActive(false);
+                    listView[4].gameObject.SetActive(true);
+
+                    currentViewId = 4;
+                }
+                break;
+            case "excel-logo":
+                if (!elem.GetComponent<LogoStat>().active)
+                {
+                    listView[0].gameObject.SetActive(false);
+                    listView[5].gameObject.SetActive(true);
+
+                    currentViewId = 5;
+                }
+                break;
+            case "programmeExcel":
+                if (!elem.GetComponent<LogoStat>().active)
+                {
+                    listView[5].gameObject.SetActive(false);
+                    listView[6].gameObject.SetActive(true);
+
+                    currentViewId = 6;
                 }
                 break;
             default: Debug.Log("red");
@@ -138,6 +175,7 @@ public class LogoBoardClick : MonoBehaviour {
                 Camera.main.GetComponent<CameraMove>().enabled = true;
                 Camera.main.GetComponent<MoveCameraToRail>().enabled = false;
                 GameObject.FindGameObjectWithTag("Player").GetComponent<MovePerso>().canMove = true;
+                listPNJ.gameObject.SetActive(true);
                 break;
            case 1:
                 currentViewId = 0;
@@ -148,6 +186,26 @@ public class LogoBoardClick : MonoBehaviour {
                 currentViewId = 1;
                 listView[2].gameObject.SetActive(false);
                 listView[1].gameObject.SetActive(true);
+                break;
+            case 3:
+                currentViewId = 0;
+                listView[3].gameObject.SetActive(false);
+                listView[0].gameObject.SetActive(true);
+                break;
+            case 4:
+                currentViewId = 3;
+                listView[4].gameObject.SetActive(false);
+                listView[3].gameObject.SetActive(true);
+                break;
+            case 5:
+                currentViewId = 0;
+                listView[5].gameObject.SetActive(false);
+                listView[0].gameObject.SetActive(true);
+                break;
+            case 6:
+                currentViewId = 5;
+                listView[6].gameObject.SetActive(false);
+                listView[5].gameObject.SetActive(true);
                 break;
         }
     }
