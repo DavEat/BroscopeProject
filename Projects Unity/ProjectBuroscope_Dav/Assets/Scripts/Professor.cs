@@ -8,7 +8,7 @@ public class Professor : MonoBehaviour {
 
     void Update()
     {
-        if (player.GetComponent<MovePerso>().professor)
+        if (player.GetComponent<VRMove>().professor)
             if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
             {
                 if (Camera.main.GetComponent<CameraMove>().enabled)
