@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Professor : MonoBehaviour
 {
-
+    public int iDListNodes;
+    public Vector3 finalRotation;
     public float distanceToTalking = 3;
     public Transform player;
 
@@ -14,11 +15,13 @@ public class Professor : MonoBehaviour
             if (player.GetComponent<VRMove>().professor)
                 if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
                 {
-                    if (Camera.main.GetComponent<CameraMove>().enabled)
+                    if (Camera.main.transform.parent.GetComponent<CameraMove>().enabled)
                     {
-                        Camera.main.GetComponent<CameraMove>().enabled = false;
-                        Camera.main.GetComponent<MoveCameraToRail>().enabled = true;
-                        Camera.main.GetComponent<MoveCameraToRail>().currentNode = 0;
+                        Camera.main.transform.parent.GetComponent<CameraMove>().enabled = false;
+                        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().enabled = true;
+                        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().currentNode = 0;
+                        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().idListNodes = iDListNodes;
+                        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().finalRotation = finalRotation;
                         player.GetComponent<MovePerso>().professor = false;
                         player.GetComponent<MovePerso>().canMove = false;
                     }
@@ -29,11 +32,13 @@ public class Professor : MonoBehaviour
             if (player.GetComponent<MovePerso>().professor)
                 if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
                 {
-                    if (Camera.main.GetComponent<CameraMove>().enabled)
+                    if (Camera.main.transform.parent.GetComponent<CameraMove>().enabled)
                     {
-                        Camera.main.GetComponent<CameraMove>().enabled = false;
-                        Camera.main.GetComponent<MoveCameraToRail>().enabled = true;
-                        Camera.main.GetComponent<MoveCameraToRail>().currentNode = 0;
+                        Camera.main.transform.parent.GetComponent<CameraMove>().enabled = false;
+                        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().enabled = true;
+                        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().currentNode = 0;
+                        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().idListNodes = iDListNodes;
+                        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().finalRotation = finalRotation;
                         player.GetComponent<MovePerso>().professor = false;
                         player.GetComponent<MovePerso>().canMove = false;
                     }

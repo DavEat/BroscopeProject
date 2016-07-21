@@ -8,12 +8,12 @@ public class CameraMove : MonoBehaviour {
 
     void Awake ()
     {
-        camAngle = transform.eulerAngles;
+        camAngle = transform.GetChild(0).eulerAngles;
     }
 
 	void Update ()
     {
-        transform.eulerAngles = Vector3.Lerp(transform.eulerAngles, camAngle, Time.deltaTime * 5f);
+        transform.GetChild(0).eulerAngles = Vector3.Lerp(transform.GetChild(0).eulerAngles, camAngle, Time.deltaTime * 5f);
         transform.position = Vector3.Lerp(transform.position, new Vector3(player.position.x + camPos.x, player.position.y + camPos.y, player.position.z + camPos.z), Time.deltaTime * 1f);
 	}
 }

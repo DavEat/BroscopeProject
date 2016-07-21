@@ -17,7 +17,7 @@ public class Secreter : MonoBehaviour {
                 if (player.GetComponent<VRMove>().professor)
                     if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
                     {
-                        canvasElement.gameObject.SetActive(true);
+                        //canvasElement.gameObject.SetActive(true);
                         player.GetComponent<MovePerso>().professor = false;
                         player.GetComponent<MovePerso>().canMove = false;
                         active = true;
@@ -28,7 +28,7 @@ public class Secreter : MonoBehaviour {
                 if (player.GetComponent<MovePerso>().professor)
                     if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
                     {
-                        canvasElement.gameObject.SetActive(true);
+                        //canvasElement.gameObject.SetActive(true);
                         player.GetComponent<MovePerso>().professor = false;
                         player.GetComponent<MovePerso>().canMove = false;
                         active = true;
