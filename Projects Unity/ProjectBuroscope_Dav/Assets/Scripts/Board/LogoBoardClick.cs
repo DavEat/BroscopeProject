@@ -174,8 +174,11 @@ public class LogoBoardClick : MonoBehaviour {
                 inFrontOfBoard = false;
                 Camera.main.transform.parent.GetComponent<CameraMove>().enabled = true;
                 Camera.main.transform.parent.GetComponent<MoveCameraToRail>().enabled = false;
+                //GameObject.FindGameObjectWithTag("Player").gameObject.SetActive(true);
+                GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().Resume();
                 GameObject.FindGameObjectWithTag("Player").GetComponent<MovePerso>().canMove = true;
                 listPNJ.gameObject.SetActive(true);
+                
                 break;
            case 1:
                 currentViewId = 0;

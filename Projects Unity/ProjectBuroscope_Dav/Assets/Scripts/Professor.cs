@@ -22,8 +22,10 @@ public class Professor : MonoBehaviour
                         Camera.main.transform.parent.GetComponent<MoveCameraToRail>().currentNode = 0;
                         Camera.main.transform.parent.GetComponent<MoveCameraToRail>().idListNodes = iDListNodes;
                         Camera.main.transform.parent.GetComponent<MoveCameraToRail>().finalRotation = finalRotation;
-                        player.GetComponent<MovePerso>().professor = false;
-                        player.GetComponent<MovePerso>().canMove = false;
+                        player.GetComponent<NavMeshAgent>().Stop();
+                        player.GetComponent<VRMove>().professor = false;
+                        player.GetComponent<VRMove>().canMove = false;
+                        //player.gameObject.SetActive(false);
                     }
                 }
         }
@@ -39,8 +41,11 @@ public class Professor : MonoBehaviour
                         Camera.main.transform.parent.GetComponent<MoveCameraToRail>().currentNode = 0;
                         Camera.main.transform.parent.GetComponent<MoveCameraToRail>().idListNodes = iDListNodes;
                         Camera.main.transform.parent.GetComponent<MoveCameraToRail>().finalRotation = finalRotation;
+                        player.GetComponent<NavMeshAgent>().SetDestination(player.position);
+                        player.GetComponent<NavMeshAgent>().Stop();
                         player.GetComponent<MovePerso>().professor = false;
                         player.GetComponent<MovePerso>().canMove = false;
+                        //player.gameObject.SetActive(false);
                     }
                 }
         }
