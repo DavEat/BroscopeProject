@@ -31,6 +31,7 @@ public class MoveCameraToRail : MonoBehaviour {
                 if (!ListListNodes[idListNodes].parent.GetComponentInChildren<FliersClick>().inFrontOfBoard)
                 {
                     ListListNodes[idListNodes].parent.GetComponentInChildren<FliersClick>().inFrontOfBoard = true;
+                    transform.GetChild(0).eulerAngles = finalRotation;
                     ListListNodes[idListNodes].parent.GetComponentInChildren<FliersClick>().listPNJ.gameObject.SetActive(false);
                 }
             }

@@ -6,11 +6,11 @@ public class FliersMove : MonoBehaviour {
     public int currentPos = 0;
 
     public List<Transform> listArrow, listPos;
-    public List<Vector3> listRotation;
     public Transform lastNode;
 
     public void onclickArrow (Transform arrow)
     {
+        transform.parent.GetComponent<FliersClick>().inFrontOfBoard = false;
         if (arrow.name[5] == 'L')
         {
             if (currentPos == 0)
@@ -33,7 +33,7 @@ public class FliersMove : MonoBehaviour {
                 currentPos = 1;
             }
         }
-        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().finalRotation = listRotation[currentPos];
+        Camera.main.transform.parent.GetComponent<MoveCameraToRail>().finalRotation = listPos[currentPos].eulerAngles;
         lastNode.position = listPos[currentPos].position;
     }
 }
