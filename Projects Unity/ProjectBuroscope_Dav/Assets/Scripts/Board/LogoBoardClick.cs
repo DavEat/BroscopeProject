@@ -9,12 +9,18 @@ public class LogoBoardClick : MonoBehaviour {
 
     public Transform listPNJ;
 
+    public XmlReader xml;
+
     private Transform currentElemActive;
+
+    public GameObject player;
 
     void Awake()  //-----Initialisation-----
     {
         foreach (Transform t in listView)
             t.GetComponent<listElemInView>().Instentiate();
+
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
 	void Update () {
@@ -31,8 +37,6 @@ public class LogoBoardClick : MonoBehaviour {
                 }
             #endif
         }
-
-        CheckFade();
     }
 
     private void checkClick(Ray ray)
@@ -92,128 +96,90 @@ public class LogoBoardClick : MonoBehaviour {
 
     private void OnLClickActions(Transform elem)  //-----Do action on left click-----
     {
-        switch (elem.name)
-        {
-            case "word-logo":
-                if (!elem.GetComponent<LogoStat>().active)
-                {
-                    /*for (int i = 0; i < transform.GetChild(0).GetComponent<listElemInView>().listButton.Count; i++)
-                        transform.GetChild(0).GetComponent<listElemInView>().listButton[i].GetComponent<LogoStat>().fadeOut = true;
-                    for (int i = 0; i < transform.GetChild(0).GetComponent<listElemInView>().listTextButton.Count; i++)
-                        transform.GetChild(0).GetComponent<listElemInView>().listTextButton[i].GetComponent<LogoStat>().fadeOut = true;*/
-                    listView[0].gameObject.SetActive(false);
-                    listView[1].gameObject.SetActive(true);
+        currentViewId = elem.GetComponent<LogoStat>().id;
+        if (elem.GetComponent<LogoStat>().id < 100)
+        {      
+            LoadXmlValueBoard(currentViewId, 1);
+            currentViewId += 100;
 
-                    currentViewId = 1;
+            listView[0].gameObject.SetActive(false);
+            listView[1].gameObject.SetActive(true);
 
-                    /*currentElemActive = transform.GetChild(1);
-                    currentElemActive.gameObject.SetActive(true);
-                    for (int i = 0; i < currentElemActive.GetComponent<listElemInView>().listButton.Count; i++)
-                        currentElemActive.GetComponent<listElemInView>().listButton[i].GetComponent<LogoStat>().fadeIn = true;
-                    for (int i = 0; i < currentElemActive.GetComponent<listElemInView>().listTextButton.Count; i++)
-                        currentElemActive.GetComponent<listElemInView>().listTextButton[i].GetComponent<LogoStat>().fadeIn = true;*/
-                }
-                break;
-            case "programmeWord":
-                if (!elem.GetComponent<LogoStat>().active)
-                {
-                    listView[1].gameObject.SetActive(false);
-                    listView[2].gameObject.SetActive(true);
-
-                    currentViewId = 2;
-                }
-                break;
-            case "access-logo":
-                if (!elem.GetComponent<LogoStat>().active)
-                {
-                    listView[0].gameObject.SetActive(false);
-                    listView[3].gameObject.SetActive(true);
-
-                    currentViewId = 3;
-                }
-                break;
-            case "programmeAccess":
-                if (!elem.GetComponent<LogoStat>().active)
-                {
-                    listView[3].gameObject.SetActive(false);
-                    listView[4].gameObject.SetActive(true);
-
-                    currentViewId = 4;
-                }
-                break;
-            case "excel-logo":
-                if (!elem.GetComponent<LogoStat>().active)
-                {
-                    listView[0].gameObject.SetActive(false);
-                    listView[5].gameObject.SetActive(true);
-
-                    currentViewId = 5;
-                }
-                break;
-            case "programmeExcel":
-                if (!elem.GetComponent<LogoStat>().active)
-                {
-                    listView[5].gameObject.SetActive(false);
-                    listView[6].gameObject.SetActive(true);
-
-                    currentViewId = 6;
-                }
-                break;
-            default: Debug.Log("red");
-                break;
+            listView[1].GetChild(0).GetChild(listView[1].GetChild(0).childCount - 1).GetComponent<LogoStat>().id = 100 + elem.GetComponent<LogoStat>().id;
         }
+        else if (elem.GetComponent<LogoStat>().id < 10000)
+        {
+            LoadXmlValueProgramme(currentViewId - 100, 2, 0);
+            currentViewId += 10000;
+            listView[1].gameObject.SetActive(false);
+            listView[2].gameObject.SetActive(true);
 
-
+            //elem.GetChild(0).GetChild(elem.GetChild(0).childCount - 1).GetComponent<LogoStat>().id = 100 + elem.GetComponent<LogoStat>().id;
+        }
     }
 
     private void OnRClickActions()  //-----Do action on right click-----
     {
-        switch (currentViewId)
+        if (currentViewId < 10)
         {
-            case 0:
-                inFrontOfBoard = false;
-                Camera.main.transform.parent.GetComponent<CameraMove>().enabled = true;
-                Camera.main.transform.parent.GetComponent<MoveCameraToRail>().enabled = false;
-                //GameObject.FindGameObjectWithTag("Player").gameObject.SetActive(true);
-                GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().Resume();
-                GameObject.FindGameObjectWithTag("Player").GetComponent<MovePerso>().canMove = true;
-                listPNJ.gameObject.SetActive(true);
-                
-                break;
-           case 1:
-                currentViewId = 0;
-                listView[1].gameObject.SetActive(false);
-                listView[0].gameObject.SetActive(true);
-                break;
-            case 2:
-                currentViewId = 1;
-                listView[2].gameObject.SetActive(false);
-                listView[1].gameObject.SetActive(true);
-                break;
-            case 3:
-                currentViewId = 0;
-                listView[3].gameObject.SetActive(false);
-                listView[0].gameObject.SetActive(true);
-                break;
-            case 4:
-                currentViewId = 3;
-                listView[4].gameObject.SetActive(false);
-                listView[3].gameObject.SetActive(true);
-                break;
-            case 5:
-                currentViewId = 0;
-                listView[5].gameObject.SetActive(false);
-                listView[0].gameObject.SetActive(true);
-                break;
-            case 6:
-                currentViewId = 5;
-                listView[6].gameObject.SetActive(false);
-                listView[5].gameObject.SetActive(true);
-                break;
+            inFrontOfBoard = false;
+            Camera.main.transform.parent.GetComponent<CameraMove>().enabled = true;
+            Camera.main.transform.parent.GetComponent<MoveCameraToRail>().enabled = false;
+            player.SetActive(true);
+            GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().Resume();
+            GameObject.FindGameObjectWithTag("Player").GetComponent<MovePerso>().canMove = true;
+            listPNJ.gameObject.SetActive(true);
+        }
+        else if (currentViewId < 1000)
+        {
+            currentViewId = currentViewId - 100;
+            listView[1].gameObject.SetActive(false);
+            listView[0].gameObject.SetActive(true);
+        }
+        else if (currentViewId < 100000)
+        {
+            currentViewId = currentViewId - 10000;
+            listView[2].gameObject.SetActive(false);
+            listView[1].gameObject.SetActive(true);
         }
     }
 
-    private void CheckFade()
+    private void LoadXmlValueBoard(int _id, int idView)
+    {        
+        List<Transform> listT = listView[idView].GetComponent<listElemInView>().listTextToChange;
+
+        for (int i = 0; i < listT.Count; i++)
+            listT[i].GetComponent<UnityEngine.UI.Text>().text = xml.getXmlValueCours(_id, 2, i);
+        string s = "";
+        for (int i = 0; i < xml.cours[_id][3].Count; i++)
+            s += xml.getXmlValueCours(_id, 3, i) + "\n";
+        listView[idView].GetComponent<listElemInView>().objectif.GetComponent<UnityEngine.UI.Text>().text = s;
+    }
+
+    private void LoadXmlValueProgramme(int _id, int idView, int section)
+    {
+        List<Transform> listTB = listView[idView].GetComponent<listElemInView>().listTextButton;
+        List<Transform> listT = listView[idView].GetComponent<listElemInView>().listTextToChange;
+
+        for (int i = 0; i < xml.programmeQCM[_id][section].Count; i++)
+        {
+            listTB[i].GetComponent<UnityEngine.UI.Text>().text = xml.getXmlValueProg(_id, section, i, 0);
+
+            string s = "";
+            for (int j = 1; j < xml.programmeQCM[_id][section][i].Count; j++)
+                s += xml.getXmlValueProg(_id, section, i, j) + "\n";
+            listT[i].GetComponent<UnityEngine.UI.Text>().text = s;
+        }
+
+        if (xml.programmeQCM[_id][section].Count < 6)
+            for (int i = xml.programmeQCM[_id][section].Count; i < 6; i++)
+            {
+                listTB[i].GetComponent<UnityEngine.UI.Text>().text = "";
+                listT[i].GetComponent<UnityEngine.UI.Text>().text = "";
+            }
+    }
+
+    /*private void CheckFade()
     {
         float speed = 0f; // time to do the fade
         foreach (Transform t in listView)
@@ -235,9 +201,9 @@ public class LogoBoardClick : MonoBehaviour {
             }
 
         }
-    }
+    }*/
 
-    private float fade(Transform t, bool sprite, float time, float duration, float alpha)
+    /*private float fade(Transform t, bool sprite, float time, float duration, float alpha)
     {
         float timee = time, a;
 
@@ -270,5 +236,5 @@ public class LogoBoardClick : MonoBehaviour {
             timee = 0;
         }
         return timee;
-    }
+    }*/
 }

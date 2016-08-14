@@ -11,6 +11,8 @@ public class FliersClick : MonoBehaviour {
 
     private Transform currentElemActive;
 
+    public GameObject player;
+
     void Awake()  //-----Initialisation-----
     {
         /*foreach (Transform t in listView)
@@ -126,7 +128,7 @@ public class FliersClick : MonoBehaviour {
                 inFrontOfBoard = false;
                 Camera.main.transform.parent.GetComponent<CameraMove>().enabled = true;
                 Camera.main.transform.parent.GetComponent<MoveCameraToRail>().enabled = false;
-                //GameObject.FindGameObjectWithTag("Player").gameObject.SetActive(true);
+                player.SetActive(true);
                 GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().Resume();
                 GameObject.FindGameObjectWithTag("Player").GetComponent<MovePerso>().canMove = true;
                 listPNJ.gameObject.SetActive(true);

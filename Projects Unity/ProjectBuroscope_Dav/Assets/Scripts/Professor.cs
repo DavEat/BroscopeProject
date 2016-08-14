@@ -10,7 +10,7 @@ public class Professor : MonoBehaviour
 
     void Update()
     {
-        if (player.GetComponent<VRMove>() != null)
+        /*if (player.GetComponent<VRMove>() != null)
         {
             if (player.GetComponent<VRMove>().professor)
                 if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
@@ -29,9 +29,10 @@ public class Professor : MonoBehaviour
                     }
                 }
         }
-        else if (player.GetComponent<MovePerso>() != null)
+        else if (player.GetComponent<MovePerso>() != null)*/
         {
             if (player.GetComponent<MovePerso>().professor)
+                if (transform == player.GetComponent<MovePerso>().professorT)
                 if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
                 {
                     if (Camera.main.transform.parent.GetComponent<CameraMove>().enabled)
@@ -44,11 +45,12 @@ public class Professor : MonoBehaviour
                         player.GetComponent<NavMeshAgent>().SetDestination(player.position);
                         player.GetComponent<NavMeshAgent>().Stop();
                         player.GetComponent<MovePerso>().professor = false;
+                        player.GetComponent<MovePerso>().professorT = null;
                         player.GetComponent<MovePerso>().canMove = false;
-                        //player.gameObject.SetActive(false);
+                        player.gameObject.SetActive(false);
                     }
                 }
         }
-        else Debug.LogError("Perso don't have a element to move, if you are in vr put the script : 'VRMove' else put 'MovePerso'");
+        //else Debug.LogError("Perso don't have a element to move, if you are in vr put the script : 'VRMove' else put 'MovePerso'");
     }
 }

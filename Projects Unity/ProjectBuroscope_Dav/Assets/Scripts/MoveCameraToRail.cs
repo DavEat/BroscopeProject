@@ -9,8 +9,8 @@ public class MoveCameraToRail : MonoBehaviour {
     public int idListNodes, currentNode;
     //[HideInInspector]
     public Vector3 finalRotation;
-    [SerializeField]
-    private List<Transform> ListListNodes;
+    //[SerializeField]
+    public List<Transform> ListListNodes;
 
 	void Update ()
     {
@@ -33,6 +33,15 @@ public class MoveCameraToRail : MonoBehaviour {
                     ListListNodes[idListNodes].parent.GetComponentInChildren<FliersClick>().inFrontOfBoard = true;
                     transform.GetChild(0).eulerAngles = finalRotation;
                     ListListNodes[idListNodes].parent.GetComponentInChildren<FliersClick>().listPNJ.gameObject.SetActive(false);
+                }
+            }
+            else if (ListListNodes[idListNodes].parent.GetComponentInChildren<InfoOnClick>() != null)
+            {
+                if (!ListListNodes[idListNodes].parent.GetComponentInChildren<InfoOnClick>().inFrontOfBoard)
+                {
+                    ListListNodes[idListNodes].parent.GetComponentInChildren<InfoOnClick>().inFrontOfBoard = true;
+                    transform.GetChild(0).eulerAngles = finalRotation;
+                    ListListNodes[idListNodes].parent.GetComponentInChildren<InfoOnClick>().listPNJ.gameObject.SetActive(false);
                 }
             }
         }

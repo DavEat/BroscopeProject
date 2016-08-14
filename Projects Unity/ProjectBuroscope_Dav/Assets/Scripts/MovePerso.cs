@@ -7,6 +7,8 @@ public class MovePerso : MonoBehaviour {
 
     public bool professor, canMove = true;
 
+    public Transform professorT;
+
     private NavMeshAgent navA;
 
     void Awake()
@@ -39,9 +41,15 @@ public class MovePerso : MonoBehaviour {
                     navA.SetDestination(hit.point);
 
                     if (hit.transform.tag == "Professor")
+                    {
                         professor = true;
+                        professorT = hit.transform;
+                    }                        
                     else if (professor)
+                    {
                         professor = false;
+                        professorT = null;
+                    }                        
                 }            
             }
     }
