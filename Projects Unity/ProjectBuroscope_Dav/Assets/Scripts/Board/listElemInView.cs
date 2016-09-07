@@ -9,10 +9,12 @@ public class listElemInView : MonoBehaviour {
     public void Instentiate()
     {
         foreach (Transform t in listButton)
-        {
-            t.GetComponent<LogoStat>().initialSize = t.localScale;
-            t.GetComponent<LogoStat>().maxSize = t.localScale + t.localScale / 10;
-        }
+            if (t != null)
+                if (t.GetComponent<LogoStat>() != null)
+                {
+                    t.GetComponent<LogoStat>().initialSize = t.localScale;
+                    t.GetComponent<LogoStat>().maxSize = t.localScale + t.localScale / 10;
+                }
 
         if (listTextButton.Count > 0)
         {

@@ -40,6 +40,8 @@ public class MoveCameraToRail : MonoBehaviour {
                 if (!ListListNodes[idListNodes].parent.GetComponentInChildren<InfoOnClick>().inFrontOfBoard)
                 {
                     ListListNodes[idListNodes].parent.GetComponentInChildren<InfoOnClick>().inFrontOfBoard = true;
+                    foreach (SlideBarManagement slide in ListListNodes[idListNodes].parent.GetComponentInChildren<InfoOnClick>().listSliderBarMan)
+                        slide.SetSlideBar();
                     transform.GetChild(0).eulerAngles = finalRotation;
                     ListListNodes[idListNodes].parent.GetComponentInChildren<InfoOnClick>().listPNJ.gameObject.SetActive(false);
                 }

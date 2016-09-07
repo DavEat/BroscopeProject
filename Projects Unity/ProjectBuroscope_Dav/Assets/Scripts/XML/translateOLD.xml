@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<courss>
+
+  <cours>
+    <info>
+      <name></name>
+      <section></section>
+      <type></type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public></public>
+      <prerequis></prerequis>
+      <duree></duree>
+      <organisation></organisation>
+      <evaluation></evaluation>
+    </board>
+    <objectifs>
+      <a></a>
+      <b></b>
+      <c></c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+      <ddd>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ddd>
+      <eee>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </eee>
+      <fff>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </fff>
+    </programme>
+    <qcm>
+      <information>
+        <a>
+          Hello World
+        </a>
+      </information>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+    
+  <cours>
+    <info>
+		  <name>Word</name>
+      <section>Bureautique</section>
+		  <type>Formation courte</type>
+    </info>
+    <flier>  
+      <name></name> 
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Aucun</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Mettre en ouvre les méthodes efficaces dans l'élaboration de ses documents</a>
+      <b>Concevoir des documents simples de type courriers, notes affichettes, signalétiques, CV...</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Saisir et modifier le texte</titre>
+        <a>Les règles de saisie: "saisir au kilomètre", les caractères non imprimables</a>
+        <b>Sélection des parties du texte</b>
+        <c>Gestion de blocs de texte (duplication, déplacement, effacement)</c>
+        <d>Les outils de correction: orthographe, grammaire, synonymes</d>
+      </aaa>
+      <bbb>
+        <titre>Mettre en valeur le texte</titre>
+        <a>Mettre en forme le caractère : taille, couleur...</a>
+        <b>Mettre en forme le paragraphe : retrait, alignement, interlignage, encadrement, tabulations</b>
+      </bbb>
+      <ccc>
+        <titre>Gérer son document</titre>
+        <a>Créer et ouvrir un document</a>
+        <b>Dupliquer un document original</b>
+      </ccc>
+      <ddd>
+        <titre>Créer un tableau simple</titre>
+        <a>Insérer un tableau</a>
+        <b>Saisir, déplacer et sélectionner dans le tableau</b>
+        <c>Ajouter et supprimer des lignes et des colonnes</c>
+      </ddd>
+      <eee>
+        <titre>Mettre en page et imprimer le document</titre>
+        <a>Pré-visualiser le document</a>
+        <b>Modifier la mise en page : orientation, gestion de marges, sautes de page, pagination</b>
+        <c>Imprimer le document</c>
+      </eee>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Un éditeur de texte est un logiciel destiné à la création et l'édition de fichiers textes. Chaque système d'exploitation fournit un éditeur, tant son usage est courant, voire incontournable pour certaines tâches informatiques de base comme l'administration de système et le développement de logiciels.
+          Il existe plusieurs types de logiciels de traitement de texte : L'éditeur de texte : permet de saisir et modifier interactivement des textes (codés en ASCII ouUnicode); il n'était pas en général concerné par la mise en forme, sauf sur les machines Wang.
+          Word 2013 apporte l'usage tactile et un mode lecture. Word 2016 intègre de nouvelles fonctionnalités de collaboration en temps réel et de partage et simplifie la création de forme.
+        </a>
+      </introductionText>
+      <aaa>
+        <question>1. Un éditeur de texte est destiné à :</question>
+        <a>a. l'édition de fichiers textes</a>
+        <b>b. l’édition des fichier Audio</b>
+        <c>c. l'édition des fichier images</c>
+      </aaa>
+      <bbb>
+        <question>L’éditeur de texte permet de :</question>
+        <a>a. saisir et modifier interactivement des textes</a>
+        <b>b. contrôler la mise en forme de manière interactive par une IHM</b>
+        <c>c. produire le document sous sa forme imprimable, ou consommable</c>
+      </bbb>
+      <ccc>
+        <question>Quelles nouvelles fonctionnalités apporte Word 2016 :</question>
+        <a>a. de collaboration en temps réel et de partage et simplifie la création de forme</a>
+        <b>b. de collaboration en temps réel et de partage virtuelle.</b>
+        <c>c. de collaboration en temps réel et de l'usage tactile.</c>
+      </ccc>
+    </qcm>
+	</cours>
+
+  <cours>
+    <info>
+      <name>Access</name>
+      <section>Bureautique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur souhaitant exploiter et ou enrichir une base de données</public>
+      <prerequis>Aisance sur l'environnement informatique</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Savoir se déplacer dans les différents modules d'Access afin d'utiliser une base de données déjà construite</a>
+      <b>Construire des tables des données et les lier</b>
+      <c>Elaborer des formulaires des saisie, poser des requêtes pour extraire ses informations, mettre en place des états d'impression</c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Prendre un bon départ</titre>
+        <a>Ouvrir une base des données existante</a>
+        <b>Présentation des différents objets</b>
+      </aaa>
+      <bbb>
+        <titre>Créer des requêtes</titre>
+        <a>Sélectionner des informations d'une ou plusieurs tables</a>
+        <b>Concevoir des requêtes pratiques : requêtes paramétrées, requêtes analyse croisée...</b>
+        <c>Concevoir des requêtes de mise à jour de table : ajout, suppression, modification des données</c>
+      </bbb>
+      <ccc>
+        <titre>Manipuler les données d'une base</titre>
+        <a>Visualiser et ajouter des données à une base des données</a>
+        <b>Gagner du temps avec les formulaires instantanés</b>
+        <c>Apprendre à rechercher des informations</c>
+      </ccc>
+      <ddd>
+        <titre>Créer des formulaires</titre>
+        <a>Utiliser les assistants pour créer un formulaire</a>
+        <b>Modifier un formulaire en y ajoutant différents types de contrôle</b>
+        <c>Faciliter la saisie des données, les propriétés des contrôles et du formulaire</c>
+      </ddd>
+      <eee>
+        <titre>Enrichir une base de données</titre>
+        <a>Concevoir une table</a>
+        <b>Les différents types de champs et leurs propriétés</b>
+        <c>La notion de clé primaire et lier des tables entre elles</c>
+      </eee>
+      <fff>
+        <titre>Créer des états d'impression</titre>
+        <a>Utiliser les assistants pour créer un état</a>
+        <b>Modifier un état en y ajoutant des contrôles, la mise en page</b>
+        <c>Créer des états avec regroupement des données</c>
+      </fff>
+    </programme>
+    <qcm>
+      <information>
+        <a>
+          Hello World
+        </a>
+      </information>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+
+
+  <cours>
+    <info>
+      <name>Excel</name>
+      <section>Bureautique</section>
+      <type>Formation Courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Aucun</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Concevoir efficacement un tableau de type budget, suivie d'activité... en soignant sa mise en forme</a>
+      <b>Mettre en ouvre des calculs de type addition, soustraction, totalisation...</b>
+      <c>Présenter ses données graphiquement sous forme de courbe, "camembert"</c>
+      <d>Retrouver facilement ses informations en triant et filtrant son tableau</d>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Créer un tableau et modifier le contenu</titre>
+        <a>Saisir les données du tableau</a>
+        <b>Insérer et supprimer des colonnes ou des lignes</b>
+        <c>Recopier ou déplacer des données</c>
+        <d>Modifier ou effacer les données déjà saisies</d>
+      </aaa>
+      <bbb>
+        <titre>Insérer des formules de calculs</titre>
+        <a>Réaliser des opérations de base : addition, soustraction...</a>
+        <b>Insérer des fonctionnes statistiques : somme, moyenne</b>
+        <c>Recopier une formule</c>
+      </bbb>
+      <ccc>
+        <titre>Mettre en forme le tableau</titre>
+        <a>Mettre en forme le caractère : taille, couleur</a>
+        <b>Modifier l'alignement du texte : centrage, centrage sur plusieurs cellules</b>
+        <c>Les fonctionnalités d'encadrement et de trame</c>
+        <d>Mettre en forme les valeurs numériques</d>
+      </ccc>
+      <ddd>
+        <titre>Présentation du tableau sur la page imprimée</titre>
+        <a>Pré-visualiser le tableau avant l'impression</a>
+        <b>Modifier sa mise en page : orientation de la page, centrage du tableau dans la page, impression sur une ou plusieurs pages</b>
+        <c>Pagination du tableau imprimé</c>
+      </ddd>
+      <eee>
+        <titre>Présenter ses données graphiquement</titre>
+        <a>Les étapes de création du graphique</a>
+        <b>Personnaliser sa mise en forme</b>
+        <c></c>
+        <d></d>
+      </eee>
+      <fff>
+        <titre>Trier et filtrer ses données</titre>
+        <a>Trier ses données</a>
+        <b>Exploiter les filtres automatiques</b>
+      </fff>
+    </programme>
+    <qcm>
+      <information>
+        <a>
+          Hello World
+        </a>
+      </information>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+
+
+  <cours>
+    <info>
+      <name>PowerPoint</name>
+      <section>Bureautique</section>
+      <type>Formation Courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Aucun</prerequis>
+      <duree>1 jour - 7 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Présenter sous forme des diapositives, textes et photos</a>
+      <b>Enrichir graphiquement les diapositives</b>
+      <c>Dynamiser la projection de la présentation à travers des effets d'animation</c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Concevoir une présentation Power Point</titre>
+        <a>Description de l'espace de travail</a>
+        <b>Les modes d'affichage et leur utilité : normal, plan, trieuse, pages de commentaires, diaporama</b>
+      </aaa>
+      <bbb>
+        <titre>Créer une diapositive</titre>
+        <a>Les dispositions de diapositive</a>
+        <b>Les objets textes : espaces réservés, la zone de texte</b>
+        <c>Les outils de dessin, les images et photos, les objets multimédia : sons et vidéo</c>
+      </bbb>
+      <ccc>
+        <titre>Animer la présentation</titre>
+        <a>Les effets d'animation sur les objets</a>
+        <b>Les effets de transition entre diapositives</b>
+        <c>Les outils de projection lors de la diffusion</c>
+      </ccc>
+      <ddd>
+        <titre>Les choix d'impression</titre>
+        <a>Imprimer en diapositive, en "document"</a>
+      </ddd>
+    </programme>
+    <qcm>
+      <information>
+        <a>
+          Hello World
+        </a>
+      </information>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+
+  <cours>
+    <info>
+      <name>Essentiel Photoshop</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Acteurs de l'édition, de la communication, du marketing. Public débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>4 jours - 28 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation \n Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Produire rapidement et efficacement des photomontages en intégrant les fonctions essentielles de photoshop</a>
+      <b>Réaliser des retouches de qualité sur des images</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Présentation de Photoshop</titre>
+        <a>L'interface du logiciel, gestion de fenêtres</a>
+        <b>Définition de l'image numérique, le pixel</b>
+      </aaa>
+      <bbb>
+        <titre>Paramètres de l'image</titre>
+        <a>Les modes couleurs : RVB, CMJN</a>
+        <b>Taille et résolution de l'image</b>
+        <c>Rotation, cadrage</c>
+      </bbb>
+      <ccc>
+        <titre>Réglage de base de l'image</titre>
+        <a>Analyse de l'image. Réglage de la luminosité et du contraste</a>
+        <b>Correction Automatique</b>
+      </ccc>
+      <ddd>
+        <titre>Sélection et détourage</titre>
+        <a>Méthodes de détourage: plume, baguette magique, sélection rapide, lassos...</a>
+        <b>Mémorisations et récupérations de sélections (Couches Alpha)</b>
+        <c>Détourage par traces. Travail sur les sélections: contour progressif, contracter, améliorer le contour</c>
+        <d>Transformation manuelle et paramétrée</d>
+      </ddd>
+      <eee>
+        <titre>L'utilisation de calques</titre>
+        <a>Création et gestion de calques (groupes, liaisons, disposition, visibilité, protection)</a>
+        <b>Opacité et mode de fusion</b>
+        <c>Styles de calques, Photomontage</c>
+      </eee>
+      <fff>
+        <titre>La retouche d'images</titre>
+        <a>Tampon, correcteurs, pièce, déplacement base sur le contenu</a>
+        <b>Remplissage d'après le contenu. Déformation de la marionnette</b>
+        <c>Recadrer, dé incliner une image</c>
+        <d>Échelle base sur le contenu</d>
+        <e>Le filtre point de fuite</e>
+        <f>Réglage du piqué, nettoyage des poussières et rayures</f>
+      </fff>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Photoshop est un logiciel de retouche, de traitement et de dessin assisté par ordinateur édité par Adobe. Il est principalement utilisé pour le traitement de photographies numériques, mais sert également à la création d’images ex nihilo.\n
+          Il travaille essentiellement sur images matricielles car les images sont constituées d’une grille de points appelés pixels. L’intérêt de ces images est de reproduire des gradations subtiles de couleurs.\n
+          Photoshop possède son propre format de fichier (extension psd). Celui-ci permet de conserver distincts les différents calques formant l'image afin de les manipuler séparément. Le programme accepte également d’importer et d’exporter des fichiers d’image dans les formats les plus courants (extensions : gif, jpg, tif, png, etc.).
+        </a>
+      </introductionText>
+      <aaa>
+        <question>Photoshop est un logiciel de :</question>
+        <a>retouche, de traitement et de dessin assisté par ordinateur édité par Adobe</a>
+        <b>retouche, de traitement texte.</b>
+        <c>retouche, de traitement de son. </c>
+      </aaa>
+      <bbb>
+        <question>Photoshop travaille essentiellement sur du :</question>
+        <a>images matricielles </a>
+        <b>textes</b>
+        <c>photos</c>
+      </bbb>
+      <ccc>
+        <question>Photoshop permet de conserver distincts les différents calques formant l'image afin de les :</question>
+        <a>manipuler séparément</a>
+        <b>importer</b>
+        <c>exporter</c>
+      </ccc>
+    </qcm>
+  </cours>
+
+  <cours>
+    <info>
+      <name>In design</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Concevoir des mises en page simples en utilisant les techniques de base du logiciel, découvrir la conception de mise en page et la création graphique</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Présentation d'InDesign</titre>
+        <a>L'interface du logiciel, gestion de fenêtres</a>
+        <b>La présentation des outils</b>
+      </aaa>
+      <bbb>
+        <titre>Le document</titre>
+        <a>Le format di document, les marges et les colonnes</a>
+        <b>Les fonds perdus</b>
+        <c>Les règles, les repères, la grille</c>
+      </bbb>
+      <ccc>
+        <titre>Structure de la page: les blocs</titre>
+        <a>Convertir la forme d'un bloc</a>
+        <b>Le placement manuel, le placement paramétré des blocs</b>
+        <c>Grouper des blocs, déplacer, dupliquer, aligner</c>
+        <d>Le chaînage des blocs de texte, les options de bloc de texte</d>
+        <e>Les blocs de formes personnalisés - Pathfinder</e>
+      </ccc>
+      <ddd>
+        <titre>Attributs de blocs</titre>
+        <a>La mise en couleurs des blocs, les filets</a>
+        <b>Les couleurs CMJN, ton directs</b>
+        <c>La création de dégradés: panneau dégradé</c>
+        <d>Le paramétrage de contours de blocs, la mémorisation de nuances</d>
+      </ddd>
+      <eee>
+        <titre>Composition texte</titre>
+        <a>Les encarts, les colonnes, le calage vertical du texte dans son bloc</a>
+        <b>La typographie du caractère et le format du paragraphe</b>
+        <c>Les filets de paragraphes, la lettrine</c>
+        <d>La grille d'alignement du texte</d>
+      </eee>
+      <fff>
+        <titre>Les images </titre>
+        <a>Les formats de fichiers d'image</a>
+        <b>Mini Bridge</b>
+        <c>L'importation, le cadrage des images</c>
+        <d>Les couleurs des images importées, la gestion des liens avec les fichiers importés</d>
+      </fff>
+      <ggg>
+        <titre>Environnement Métier</titre>
+        <a>La description de la chaîne graphique</a>
+        <b>Le flux de production pré-presse</b>
+        <c>Les espaces couleurs, les formats d'enregistrement </c>
+      </ggg>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Hello World
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>  
+  
+   <cours>
+    <info>
+      <name>WordPress</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Tout public souhaitant apprendre à créer son site internet</public>
+      <prerequis>Être à l'aise avec l'outil informatique, Savoir organiser ses dossiers, Savoir décompresser un archive, Bonne connaissance d'Internet</prerequis>
+      <duree>5 jours - 35 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Créer, gérer et optimiser un blog professionnel ou un site internet avec le CMS WordPress (Système de Gestion de Contenus)</a>
+      <b>Utiliser des outils et techniques de référencement</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Structure d'une CMS</titre>
+        <a>Définition d'un CMS et son vocabulaire associé. Contraintes techniques</a>
+        <b>Choix d'un hébergement ou d'une solution tout-en-un</b>
+        <c>Comprendre le fonctionnement d'un FTP</c>
+        <d>La connexion et la structure des bases des données MySQL</d>
+        <e>Travail en local ou en ligne</e>
+        <f>Tour d'horizon des différents solutions de CMS</f>
+        <g>Les outils nécessaires (Wampserver, Xenu)</g>
+        <h>Configuration de son environnement du travail</h>
+      </aaa>
+      <bbb>
+        <titre>Introduction à WordPress</titre>
+        <a>Présentation et historique</a>
+        <b>Exemples d'utilisation</b>
+        <c>Vocabulaire et ressources</c>
+      </bbb>
+      <ccc>
+        <titre>Installation</titre>
+        <a>Les outils, les fichiers et la base de données</a>
+        <b>Hébergement: en ligne ou en local?</b>
+      </ccc>
+      <ddd>
+        <titre>Utilisation</titre>
+        <a>Front Office vs back office. Configuration générale</a>
+        <b>Création de pages statiques. Gestion d'un blog et des articles: taxonomie et commentaires</b>
+        <c>Trouver, installer et configurer des extensions</c>
+        <d>Gestion des utilisateurs: pages privée, commentaires et newsletter</d>
+      </ddd>
+      <eee>
+        <titre>Médias</titre>
+        <a>Gestion de la bibliothèque (photos, vidéo, pdf)</a>
+        <b>Options d'image, alignement, cliquabilité</b>
+        <c>Droits d'exploitation</c>
+        <d>Les outils pour créer un diaporama, une galerie d'images...</d>
+        <e>Gestion de flux RSS</e>
+      </eee>
+      <fff>
+        <titre>Apparence</titre>
+        <a>Trouver et personnaliser le thème</a>
+        <b>Modification avancée du thème avec l'éditeur CSS et PHP</b>
+        <c>Les widgets: intérêt, astuces et conseils</c>
+        <d>Gérer les menus principaux et secondaires</d>
+      </fff>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Hello World
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+   <cours>
+    <info>
+      <name>Illustrator</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant dont les travaux intègrent des illustrations vectorielles</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Produire rapidement et efficacement des illustrations vectorielles de qualité en appréhendant les fonctions  essentiels d'illustrator</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Présentation d'Illustrator</titre>
+        <a>L'interface de logiciel et la gestion de fenêtres. Présentation des outils</a>
+        <b>Format du document, plans de travail. Les règles, les repères, la grille</b>
+      </aaa>
+      <bbb>
+        <titre>Création d'objets vectoriels</titre>
+        <a>Formes géométriques</a>
+        <b>L'outil plume (courbes et Bézier)</b>
+      </bbb>
+      <ccc>
+        <titre>Modifications et transformations sur les objets</titre>
+        <a>Les outils de sélection. L'association et le mode isolation</a>
+        <b>Déplacements, copies et alignements et répartition d'objets</b>
+        <c>Correction, réunion et découpe de traces. Combinaison des formes (Pathfinder, concepteur)</c>
+        <d>Outils de transformations: rotation, symétrie, mise à l'échelle, déformation</d>
+        <e>Dessiner sur une grille de perspective</e>
+      </ccc>
+      <ddd>
+        <titre>L'aspect graphique des objets (fonds et contours)</titre>
+        <a>Couleurs, quadri, tons directs, RVB, palette Nuanciers</a>
+        <b>Dégradés des couleurs linéaires et radiaux. Le filet de dégradé</b>
+        <c>Création de motifs de fond. Contours simples, en pointillés, avec des flèches</c>
+      </ddd>
+      <eee>
+        <titre>Les calques</titre>
+        <a>Utiliser et organiser les calques (Insérer, supprimer, renommer...)</a>
+        <b>Masquer, afficher, verrouiller des calques. Gérer les calques et les sous-calques</b>
+        <c>Sélectionner par la palette des calques</c>
+      </eee>
+      <fff>
+        <titre>Le texte</titre>
+        <a>Saisie, importation et correction</a>
+        <b>Texte libre, curviligne, captif, outil retouche de texte, vectorisation du texte</b>
+        <c>Mise en forme (caractère, paragraphe), chaînage et habillage de texte</c>
+      </fff>
+      <ggg>
+        <titre>Techniques spécifiques appliqués aux objets</titre>
+        <a>Dégradé des formes</a>
+        <b>Le tracé transparent</b>
+        <c>Les masques d'écrêtage (simples et multiples)</c>
+        <d>Utilisation des symboles (création et pulvérisation de symboles)</d>
+      </ggg>
+      <hhh>
+        <titre>Finalisation d'un document</titre>
+        <a>Format d'enregistrement et d'exportation</a>
+        <b>Vérifier la séparation quadri et tons directs</b>
+        <c>Aplatissement de la transparence</c>
+        <d>Exportation en PDF, impression</d>
+      </hhh>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Hello World
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+   <cours>
+    <info>
+      <name>Réseaux Sociaux</name>
+      <section>Usages du numérique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Public débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>1 jour - 7 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Appréhender ce nouveau mode de partage pour en tirer parti en évitant les pièges</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Réseaux Sociaux. Qu'est-ce que c'est?</titre>
+        <a>L'historique, les objectifs de réseaux sociaux</a>
+        <b>Les différents modèles</b>
+        <c>Le vocabulaire lié à leur utilisation</c>
+      </aaa>
+      <bbb>
+        <titre>Gestion de votre E-réputation</titre>
+        <a>L'identité numérique: peut-on la modifier?, Quelle importance a-t-elle?</a>
+        <b>Anonymat ou transparence?, La recherche des personnes sur Internet</b>
+        <c>Mise en place d'un système d'alerte (Google)</c>
+      </bbb>
+      <ccc>
+        <titre>Typologie des réseaux sociaux</titre>
+        <a>Inscription rapide, créer son profil et gérer ses relations</a>
+        <b>Groupes d'affinité, invitations et messagerie, personnalisation</b>
+        <c>Twitter, Facebook et autres réseaux sociaux</c>
+        <d>Aspects juridiques, confidentialité, droits à l'image, risques</d>
+      </ccc>
+      <ddd>
+        <titre>Réseaux Sociaux et référencement</titre>
+        <a>Se faire connaître en mettant en valeur ses propres liens</a>
+        <b>Écrire pour être vu: soigner les contenus et les titres </b>
+      </ddd>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Utiliser Twitter, Facebook à usage professionnel</name>
+      <section>Usages du numérique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Public débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>2 jours - 14 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Découvrir de façon pratique les possibilités offertes aux professionnels par les médias sociaux pour échanger, communiquer et promouvoir son activité</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Réseaux Sociaux. Qu'est-ce que c'est?</titre>
+        <a>Les objectifs de réseaux sociaux</a>
+        <b>Les différents modèles, le vocabulaire lié à leur utilisation</b>
+      </aaa>
+      <bbb>
+        <titre>Facebook: Communiquer et promouvoir</titre>
+        <a>Configurer son compte Facebook: profil, sécurité, alertes, groupes</a>
+        <b>Créer une page pro et la paramétrer, mettre à jour son statut</b>
+        <c>La recherche des personnes</c>
+        <d>Illustrer sa page pro et choisir les bons mots pour communiquer</d>
+        <e>Envoyer des invitations à des contacts, solliciter du public pour récupérer du trafic</e>
+        <f>Utiliser des flux RSS pour alimenter sa page Pro</f>
+        <g>Consulter les statistiques de visite, l'application "pages" sur son Smartphone</g>
+      </bbb>
+      <ccc>
+        <titre>Viadeo et LinkedIn</titre>
+        <a>Configurer son compte, créer et faire évoluer son réseau</a>
+        <b>Compléter son profil, son parcours professionnel</b>
+        <c>Recommander des compétences</c>
+        <d>Communiquer en privé ou en public des informations</d>
+        <e>Consulter les statistiques de visite</e>
+      </ccc>
+      <ddd>
+        <titre>Se tenir informer, faire de la veille avec Twitter</titre>
+        <a>Le micro-blogging: qu'est-ce que c'est?</a>
+        <b>La timeline</b>
+        <c>Suivre et être suivi: abonnements, abonnés, listes</c>
+        <d>Recherche en utilisant les hashtags</d>
+        <e>Twitter sur son Smartphone</e>
+      </ddd>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+   <cours>
+    <info>
+      <name>Être efficace avec votre Smartphone</name>
+      <section>Usages du numérique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Public débutant</public>
+      <prerequis>Il est souhaitable que chaque participant rapporte son Smartphone avec le guide d'utilisation </prerequis>
+      <duree>1 jour - 7 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Découvrir les nouvelles fonctionnalités proposées par les téléphones mobiles de type Smartphone</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Les fondamentaux</titre>
+        <a>La notion client-serveur</a>
+        <b>Les moyens de connexion Internet (EDGE, 3G, WIFI)</b>
+      </aaa>
+      <bbb>
+        <titre>Le choix d'un modèle</titre>
+        <a>Les fonctionnalités natives et les applications</a>
+        <b>Les modalités de mise à jour et de sauvegarde des données</b>
+        <c>La compatibilité avec les logiciels usuels</c>
+        <d>Les forfaits et options proposés par les fournisseurs d'accès</d>
+      </bbb>
+      <ccc>
+        <titre>L'environnement du Smartphone</titre>
+        <a>Les actions de copier/coller</a>
+        <b>L'envoie des pièces jointes</b>
+        <c>Le renvoie d'appels, répondeur</c>
+        <d>Les paramétrages et réglages (notification code accès, code Pin, messagerie...)</d>
+      </ccc>
+      <ddd>
+        <titre>Les opérations courantes avec son Smartphone</titre>
+        <a>Configurer et synchroniser sa messagerie, son agenda et ses contacts</a>
+        <b>Paramétrer son navigateur Internet et ses favoris</b>
+        <c>Sauvegarder des données</c>
+        <d>Exploiter les utilitaires: GPS, Photos, Vidéos, SMS, MMS, Bloc notes, Dictaphone...</d>
+        <e>Régler ses notifications</e>
+        <f>Le service de localisation: ce qu'il implique, comme le désactiver</f>
+        <g>La méthode Push: de quoi s'agit-il?</g>
+      </ddd>
+      <eee>
+        <titre>Les applications pour personnaliser son Smartphone</titre>
+        <a>Rechercher une application pour un besoin précis</a>
+        <b>Installer, paramétrer et supprimer une application</b>
+        <c>Mettre à jour ses applications</c>
+        <d>Quelques sites utiles pour son Smartphone</d>
+      </eee>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Hello World
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Outils d'échange du Web 2.0</name>
+      <section>Usages du numérique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Maîtrise de l'outil informatique</public>
+      <prerequis>Il est souhaitable que chaque participant rapporte son Smartphone avec le guide d'utilisation </prerequis>
+      <duree>2 jours - 14 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Connaître les possibilités offertes par les nouveaux outils en matière d'échange de contenus, de veille, de communication et de promotion</a>
+      <b>Pratiquer pour gagner en productivité</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Organiser sa veille </titre>
+        <a>Les outils de veille: alertes Google, Twitter, Hyper Alerts, agrégateurs</a>
+        <b>Les alertes: spécifiques et générales </b>
+        <c>Les flux RSS: annuaires, abonnements, partage</c>
+        <d>Installer et utiliser un agrégateur de contenus</d>
+      </aaa>
+      <bbb>
+        <titre>Créer, archiver, partager et synchroniser ses données, Dropbox</titre>
+        <a>Partager des documents et des photos entre plusieurs ordinateurs</a>
+        <b>Créer de partage des fichiers avec accès restreint ou public pour gérer les accès</b>
+        <c>Synchroniser automatiquement des fichiers d'un ordinateur vers son espace Dropbox</c>
+      </bbb>
+      <ccc>
+        <titre>Google Drive</titre>
+        <a>Découverte de la suite bureautique: tableur, présentation et traitement de texte</a>
+        <b>Importer des documents et partager des données</b>
+        <c>Gérer les autorisations</c>
+        <d>Construire un formulaire d'enquête</d>
+      </ccc>
+      <ddd>
+        <titre>Google Agenda</titre>
+        <a>Créer et modifier un événement</a>
+        <b>Partager son calendrier</b>
+        <c>Ouvrir un calendrier partagé</c>
+        <d>La messagerie instantané</d>
+      </ddd>
+      <eee>
+        <titre>Evernote</titre>
+        <a>Créer un compte, créer une note</a>
+        <b>Ajouter une image</b>
+        <c>Enregistrer et organiser des contenus du web</c>
+      </eee>   
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Hello World
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+</courss>

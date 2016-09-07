@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<courss>
+
+  <cours>
+    <info>
+      <name></name>
+      <section></section>
+      <type></type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public></public>
+      <prerequis></prerequis>
+      <duree></duree>
+      <organisation></organisation>
+      <evaluation></evaluation>
+    </board>
+    <objectifs>
+      <a></a>
+      <b></b>
+      <c></c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+      <ddd>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ddd>
+      <eee>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </eee>
+      <fff>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </fff>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+    
+  <cours>
+    <info>
+		  <name>Word</name>
+      <section>Bureautique</section>
+		  <type>Formation courte</type>
+    </info>
+    <flier>  
+      <name></name> 
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Aucun</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Mettre en ouvre les méthodes efficaces dans l'élaboration de ses documents</a>
+      <b>Concevoir des documents simples de type courriers, notes affichettes, signalétiques, CV...</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Saisir et modifier le texte</titre>
+        <a>Les règles de saisie: "saisir au kilomètre", les caractères non imprimables</a>
+        <b>Sélection des parties du texte</b>
+        <c>Gestion de blocs de texte (duplication, déplacement, effacement)</c>
+        <d>Les outils de correction: orthographe, grammaire, synonymes</d>
+      </aaa>
+      <bbb>
+        <titre>Mettre en valeur le texte</titre>
+        <a>Mettre en forme le caractère : taille, couleur...</a>
+        <b>Mettre en forme le paragraphe : retrait, alignement, interlignage, encadrement, tabulations</b>
+      </bbb>
+      <ccc>
+        <titre>Gérer son document</titre>
+        <a>Créer et ouvrir un document</a>
+        <b>Dupliquer un document original</b>
+      </ccc>
+      <ddd>
+        <titre>Créer un tableau simple</titre>
+        <a>Insérer un tableau</a>
+        <b>Saisir, déplacer et sélectionner dans le tableau</b>
+        <c>Ajouter et supprimer des lignes et des colonnes</c>
+      </ddd>
+      <eee>
+        <titre>Mettre en page et imprimer le document</titre>
+        <a>Pré-visualiser le document</a>
+        <b>Modifier la mise en page : orientation, gestion de marges, sautes de page, pagination</b>
+        <c>Imprimer le document</c>
+      </eee>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Un éditeur de texte est un logiciel destiné à la création et l'édition de fichiers textes. Chaque système d'exploitation fournit un éditeur, tant son usage est courant, voire incontournable pour certaines tâches informatiques de base comme l'administration de système et le développement de logiciels.
+          Il existe plusieurs types de logiciels de traitement de texte : L'éditeur de texte : permet de saisir et modifier interactivement des textes (codés en ASCII ouUnicode); il n'était pas en général concerné par la mise en forme, sauf sur les machines Wang.
+          Word 2013 apporte l'usage tactile et un mode lecture. Word 2016 intègre de nouvelles fonctionnalités de collaboration en temps réel et de partage et simplifie la création de forme.
+        </a>
+      </introductionText>
+      <aaa>
+        <question>1. Un éditeur de texte est destiné à :</question>
+        <a>a. l'édition de fichiers textes</a>
+        <b>b. l’édition des fichier Audio</b>
+        <c>c. l'édition des fichier images</c>
+      </aaa>
+      <bbb>
+        <question>L’éditeur de texte permet de :</question>
+        <a>a. saisir et modifier interactivement des textes</a>
+        <b>b. contrôler la mise en forme de manière interactive par une IHM</b>
+        <c>c. produire le document sous sa forme imprimable, ou consommable</c>
+      </bbb>
+      <ccc>
+        <question>Quelles nouvelles fonctionnalités apporte Word 2016 :</question>
+        <a>a. de collaboration en temps réel et de partage et simplifie la création de forme</a>
+        <b>b. de collaboration en temps réel et de partage virtuelle.</b>
+        <c>c. de collaboration en temps réel et de l'usage tactile.</c>
+      </ccc>
+    </qcm>
+	</cours>
+
+  <cours>
+    <info>
+      <name>Access</name>
+      <section>Bureautique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur souhaitant exploiter et ou enrichir une base de données</public>
+      <prerequis>Aisance sur l'environnement informatique</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Savoir se déplacer dans les différents modules d'Access afin d'utiliser une base de données déjà construite</a>
+      <b>Construire des tables des données et les lier</b>
+      <c>Elaborer des formulaires des saisie, poser des requêtes pour extraire ses informations, mettre en place des états d'impression</c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Prendre un bon départ</titre>
+        <a>Ouvrir une base des données existante</a>
+        <b>Présentation des différents objets</b>
+      </aaa>
+      <bbb>
+        <titre>Créer des requêtes</titre>
+        <a>Sélectionner des informations d'une ou plusieurs tables</a>
+        <b>Concevoir des requêtes pratiques : requêtes paramétrées, requêtes analyse croisée...</b>
+        <c>Concevoir des requêtes de mise à jour de table : ajout, suppression, modification des données</c>
+      </bbb>
+      <ccc>
+        <titre>Manipuler les données d'une base</titre>
+        <a>Visualiser et ajouter des données à une base des données</a>
+        <b>Gagner du temps avec les formulaires instantanés</b>
+        <c>Apprendre à rechercher des informations</c>
+      </ccc>
+      <ddd>
+        <titre>Créer des formulaires</titre>
+        <a>Utiliser les assistants pour créer un formulaire</a>
+        <b>Modifier un formulaire en y ajoutant différents types de contrôle</b>
+        <c>Faciliter la saisie des données, les propriétés des contrôles et du formulaire</c>
+      </ddd>
+      <eee>
+        <titre>Enrichir une base de données</titre>
+        <a>Concevoir une table</a>
+        <b>Les différents types de champs et leurs propriétés</b>
+        <c>La notion de clé primaire et lier des tables entre elles</c>
+      </eee>
+      <fff>
+        <titre>Créer des états d'impression</titre>
+        <a>Utiliser les assistants pour créer un état</a>
+        <b>Modifier un état en y ajoutant des contrôles, la mise en page</b>
+        <c>Créer des états avec regroupement des données</c>
+      </fff>
+    </programme>
+    <qcm>
+      <information>
+        <a>
+          
+        </a>
+      </information>
+      <aaa>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+        <d>la réponse d</d>
+      </aaa>
+    </qcm>
+  </cours>
+
+
+  <cours>
+    <info>
+      <name>Excel</name>
+      <section>Bureautique</section>
+      <type>Formation Courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Aucun</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Concevoir efficacement un tableau de type budget, suivie d'activité... en soignant sa mise en forme</a>
+      <b>Mettre en ouvre des calculs de type addition, soustraction, totalisation...</b>
+      <c>Présenter ses données graphiquement sous forme de courbe, "camembert"</c>
+      <d>Retrouver facilement ses informations en triant et filtrant son tableau</d>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Créer un tableau et modifier le contenu</titre>
+        <a>Saisir les données du tableau</a>
+        <b>Insérer et supprimer des colonnes ou des lignes</b>
+        <c>Recopier ou déplacer des données</c>
+        <d>Modifier ou effacer les données déjà saisies</d>
+      </aaa>
+      <bbb>
+        <titre>Insérer des formules de calculs</titre>
+        <a>Réaliser des opérations de base : addition, soustraction...</a>
+        <b>Insérer des fonctionnes statistiques : somme, moyenne</b>
+        <c>Recopier une formule</c>
+      </bbb>
+      <ccc>
+        <titre>Mettre en forme le tableau</titre>
+        <a>Mettre en forme le caractère : taille, couleur</a>
+        <b>Modifier l'alignement du texte : centrage, centrage sur plusieurs cellules</b>
+        <c>Les fonctionnalités d'encadrement et de trame</c>
+        <d>Mettre en forme les valeurs numériques</d>
+      </ccc>
+      <ddd>
+        <titre>Présentation du tableau sur la page imprimée</titre>
+        <a>Pré-visualiser le tableau avant l'impression</a>
+        <b>Modifier sa mise en page : orientation de la page, centrage du tableau dans la page, impression sur une ou plusieurs pages</b>
+        <c>Pagination du tableau imprimé</c>
+      </ddd>
+      <eee>
+        <titre>Présenter ses données graphiquement</titre>
+        <a>Les étapes de création du graphique</a>
+        <b>Personnaliser sa mise en forme</b>
+        <c></c>
+        <d></d>
+      </eee>
+      <fff>
+        <titre>Trier et filtrer ses données</titre>
+        <a>Trier ses données</a>
+        <b>Exploiter les filtres automatiques</b>
+      </fff>
+    </programme>
+    <qcm>
+      <information>
+        <a>
+          
+        </a>
+      </information>
+      <aaa>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+        <d>la réponse d</d>
+      </aaa>
+    </qcm>
+  </cours>
+
+
+  <cours>
+    <info>
+      <name>PowerPoint</name>
+      <section>Bureautique</section>
+      <type>Formation Courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Aucun</prerequis>
+      <duree>1 jour - 7 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Présenter sous forme des diapositives, textes et photos</a>
+      <b>Enrichir graphiquement les diapositives</b>
+      <c>Dynamiser la projection de la présentation à travers des effets d'animation</c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Concevoir une présentation Power Point</titre>
+        <a>Description de l'espace de travail</a>
+        <b>Les modes d'affichage et leur utilité : normal, plan, trieuse, pages de commentaires, diaporama</b>
+      </aaa>
+      <bbb>
+        <titre>Créer une diapositive</titre>
+        <a>Les dispositions de diapositive</a>
+        <b>Les objets textes : espaces réservés, la zone de texte</b>
+        <c>Les outils de dessin, les images et photos, les objets multimédia : sons et vidéo</c>
+      </bbb>
+      <ccc>
+        <titre>Animer la présentation</titre>
+        <a>Les effets d'animation sur les objets</a>
+        <b>Les effets de transition entre diapositives</b>
+        <c>Les outils de projection lors de la diffusion</c>
+      </ccc>
+      <ddd>
+        <titre>Les choix d'impression</titre>
+        <a>Imprimer en diapositive, en "document"</a>
+      </ddd>
+    </programme>
+    <qcm>
+      <aaa>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+        <d>la réponse d</d>
+      </aaa>
+    </qcm>
+  </cours>
+
+  <cours>
+    <info>
+      <name>Essentiel Photoshop</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Acteurs de l'édition, de la communication, du marketing. Public débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>4 jours - 28 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation \n Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Produire rapidement et efficacement des photomontages en intégrant les fonctions essentielles de photoshop</a>
+      <b>Réaliser des retouches de qualité sur des images</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Présentation de Photoshop</titre>
+        <a>L'interface du logiciel, gestion de fenêtres</a>
+        <b>Définition de l'image numérique, le pixel</b>
+      </aaa>
+      <bbb>
+        <titre>Paramètres de l'image</titre>
+        <a>Les modes couleurs : RVB, CMJN</a>
+        <b>Taille et résolution de l'image</b>
+        <c>Rotation, cadrage</c>
+      </bbb>
+      <ccc>
+        <titre>Réglage de base de l'image</titre>
+        <a>Analyse de l'image. Réglage de la luminosité et du contraste</a>
+        <b>Correction Automatique</b>
+      </ccc>
+      <ddd>
+        <titre>Sélection et détourage</titre>
+        <a>Méthodes de détourage: plume, baguette magique, sélection rapide, lassos...</a>
+        <b>Mémorisations et récupérations de sélections (Couches Alpha)</b>
+        <c>Détourage par traces. Travail sur les sélections: contour progressif, contracter, améliorer le contour</c>
+        <d>Transformation manuelle et paramétrée</d>
+      </ddd>
+      <eee>
+        <titre>L'utilisation de calques</titre>
+        <a>Création et gestion de calques (groupes, liaisons, disposition, visibilité, protection)</a>
+        <b>Opacité et mode de fusion</b>
+        <c>Styles de calques, Photomontage</c>
+      </eee>
+      <fff>
+        <titre>La retouche d'images</titre>
+        <a>Tampon, correcteurs, pièce, déplacement base sur le contenu</a>
+        <b>Remplissage d'après le contenu. Déformation de la marionnette</b>
+        <c>Recadrer, dé incliner une image</c>
+        <d>Échelle base sur le contenu</d>
+        <e>Le filtre point de fuite</e>
+        <f>Réglage du piqué, nettoyage des poussières et rayures</f>
+      </fff>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Photoshop est un logiciel de retouche, de traitement et de dessin assisté par ordinateur édité par Adobe. Il est principalement utilisé pour le traitement de photographies numériques, mais sert également à la création d’images ex nihilo.\n
+          Il travaille essentiellement sur images matricielles car les images sont constituées d’une grille de points appelés pixels. L’intérêt de ces images est de reproduire des gradations subtiles de couleurs.\n
+          Photoshop possède son propre format de fichier (extension psd). Celui-ci permet de conserver distincts les différents calques formant l'image afin de les manipuler séparément. Le programme accepte également d’importer et d’exporter des fichiers d’image dans les formats les plus courants (extensions : gif, jpg, tif, png, etc.).
+        </a>
+      </introductionText>
+      <aaa>
+        <question>Photoshop est un logiciel de :</question>
+        <a>retouche, de traitement et de dessin assisté par ordinateur édité par Adobe</a>
+        <b>retouche, de traitement texte.</b>
+        <c>retouche, de traitement de son. </c>
+      </aaa>
+      <bbb>
+        <question>Photoshop travaille essentiellement sur du :</question>
+        <a>images matricielles </a>
+        <b>textes</b>
+        <c>photos</c>
+      </bbb>
+      <ccc>
+        <question>Photoshop permet de conserver distincts les différents calques formant l'image afin de les :</question>
+        <a>manipuler séparément</a>
+        <b>importer</b>
+        <c>exporter</c>
+      </ccc>
+    </qcm>
+  </cours>
+
+  <cours>
+    <info>
+      <name>In design</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Concevoir des mises en page simples en utilisant les techniques de base du logiciel, découvrir la conception de mise en page et la création graphique</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Présentation d'InDesign</titre>
+        <a>L'interface du logiciel, gestion de fenêtres</a>
+        <b>La présentation des outils</b>
+      </aaa>
+      <bbb>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>  
+  
+</courss>

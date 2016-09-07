@@ -8,6 +8,8 @@ public class InfoOnClick : MonoBehaviour
     public int currentViewId;
     public List<Transform> listButton;
 
+    public List<SlideBarManagement> listSliderBarMan;
+
     public Transform listPNJ;
 
     public XmlReader xml;
@@ -73,16 +75,31 @@ public class InfoOnClick : MonoBehaviour
 
     private void OnLClickActions(Transform elem)  //-----Do action on left click-----
     {
-        if (elem.GetComponent<ButtonStat>().id > 1000)
+        if (elem.GetComponent<ButtonStat>().id == -10)  //---It's return button
         {
-            elem.parent.parent.GetComponent<AnimPlace2>().SetElementValue(elem.GetComponent<ButtonStat>().id - 1000);
-            elem.parent.parent.GetComponent<AnimPlace2>().animIndex = elem.GetComponent<ButtonStat>().id - 1000;
+            currentElemActive.GetComponent<BoxCollider>().enabled = true;
+            currentElemActive.gameObject.layer = 11;
+            currentElemActive.GetComponent<AnimHexagone>().startlPos = currentElemActive.localPosition;
+            currentElemActive.GetComponent<AnimHexagone>().targetPos = currentElemActive.GetComponent<AnimHexagone>().initialPos;
+            currentElemActive.GetComponent<AnimHexagone>().targetScale = currentElemActive.GetComponent<AnimHexagone>().initialScale;
+            currentElemActive.GetComponent<AnimHexagone>().displayContent = true;
+            currentElemActive.GetComponent<AnimHexagone>().inAnim = true;
+            currentElemActive = currentElemActive.parent.parent;
         }
-        else if (elem.GetComponent<ButtonStat>().id > 10)
+        else
         {
-            elem.parent.parent.GetComponent<AnimPlace1>().SetElementValue(elem.GetComponent<ButtonStat>().id - 10);
-            elem.parent.parent.GetComponent<AnimPlace1>().animIndex = elem.GetComponent<ButtonStat>().id - 10;
+            currentElemActive = elem;
+            elem.GetComponent<BoxCollider>().enabled = false;
+            if (elem.GetComponent<ButtonStat>().id > 1000)
+                elem.gameObject.layer = 14;
+            elem.GetComponent<AnimHexagone>().startlPos = elem.localPosition;
+            elem.GetComponent<AnimHexagone>().targetPos = new Vector3(0, 0, -0.03f);
+            elem.GetComponent<AnimHexagone>().targetScale = elem.GetComponent<AnimHexagone>().maxScale;
+            elem.GetComponent<AnimHexagone>().displayContent = true;
+            elem.GetComponent<AnimHexagone>().inAnim = true;
         }
+
+
     }
 
     private void OnRClickActions()  //-----Do action on right click-----
