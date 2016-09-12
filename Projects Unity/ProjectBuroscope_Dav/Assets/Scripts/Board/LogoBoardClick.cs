@@ -15,6 +15,10 @@ public class LogoBoardClick : MonoBehaviour {
 
     public GameObject player;
 
+    private Transform lastClickedElem;
+
+    private bool Intrigger;
+
     void Awake()  //-----Initialisation-----
     {
         foreach (Transform t in listView)
@@ -25,19 +29,39 @@ public class LogoBoardClick : MonoBehaviour {
     }
 
 	void Update () {
-        if (inFrontOfBoard)
+        if (VRinfo.firstPersonCamera)
         {
-            #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                checkClick(ray);
-            #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
-                if (Input.touchCount > 0)
-                {
-                    Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+            if (inFrontOfBoard)
+            {
+                #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                     checkClick(ray);
-                }
-            #endif
+                #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
+                    if (Input.touchCount > 0)
+                    {
+                        Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+                        checkClick(ray);
+                    }
+                #endif
+            }
         }
+        else if (Intrigger)
+        {
+            Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.rotation * Vector3.forward);
+            checkClick(ray);
+        }
+    }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.CompareTag("Player"))
+            Intrigger = true;
+    }
+
+    private void OnTriggerExit(Collider col)
+    {
+        if (col.CompareTag("Player"))
+            Intrigger = false;
     }
 
     private void checkClick(Ray ray)
@@ -73,24 +97,44 @@ public class LogoBoardClick : MonoBehaviour {
     private void CheckClicked(Transform elem)  //-----Check if elem is clicked of touched-----
     {
         #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
-            if (Input.GetMouseButtonUp(0) && elem != null)
+            if (Input.GetMouseButtonDown(0) && elem != null)
+                lastClickedElem = elem;
+            else if (Input.GetMouseButtonUp(0) && elem != null)
             {
-                if (elem.GetComponent<LogoStat>() != null)
+                if (lastClickedElem == elem)
+                {
                     OnLClickActions(elem);
+                    lastClickedElem = null;
+                }                    
             }
             else if (Input.GetMouseButtonUp(1))
+                OnRClickActions();
+            else if (Input.GetButtonDown("Click"))
+                lastClickedElem = elem;
+            else if (Input.GetButtonUp("Click"))
+            {
+                if (lastClickedElem == elem)
+                {
+                    OnLClickActions(elem);
+                    lastClickedElem = null;
+                }
+            }
+            else if (Input.GetButtonUp("ClickReturn"))
             {
                 OnRClickActions();
             }
         #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
-            if (Input.touchCount > 0 && elem != null) {
-                if (Input.touches[0].phase == TouchPhase.Ended)
-                    OnLClickActions(elem);
+            if (Input.touchCount == 1)
+            {
+                if (Input.touches[0].phase == TouchPhase.Began && elem != null)
+                    lastClickedElem = elem;
+                else if (Input.touches[0].phase == TouchPhase.Ended && elem != null)
+                    if (lastClickedElem = elem)
+                        OnLClickActions(elem);
             }
-            else if (Input.touchCount >= 2 && elem == null) {
+            else if (Input.touchCount == 2)
                 if (Input.touches[0].phase == TouchPhase.Ended && Input.touches[1].phase == TouchPhase.Ended)
                     OnRClickActions();
-            }
         #endif
     }
 
@@ -100,14 +144,14 @@ public class LogoBoardClick : MonoBehaviour {
         {
             elem.GetComponent<CheckBoxManagement>().Mangement();
         }
-        else if (elem.GetComponent<LogoStat>().id == -42)
+        else if (elem.GetComponent<LogoStat>() != null && elem.GetComponent<LogoStat>().id == -42)
         {
             LoadXmlValueQCM(currentViewId - 20200, 4, 1);
             currentElemActive.gameObject.SetActive(false);
             listView[4].gameObject.SetActive(true);
             currentElemActive = listView[4];            
         }
-        else if (elem.GetComponent<LogoStat>().id == -43)
+        else if (elem.GetComponent<LogoStat>() != null && elem.GetComponent<LogoStat>().id == -43)
         {
             if (!elem.GetComponent<LogoStat>().active)
             {
@@ -118,7 +162,6 @@ public class LogoBoardClick : MonoBehaviour {
                 SaveGame.WriteInText(score,  currentViewId - 20201, PlayerInformation.path);
 
                 ToggleScoreDisplayQCM();
-
                 elem.GetComponent<LogoStat>().active = true;
             }
             else
@@ -131,7 +174,7 @@ public class LogoBoardClick : MonoBehaviour {
                 currentElemActive = listView[0];
             }         
         }
-        else
+        else if (elem.GetComponent<LogoStat>() != null)
         {
             currentViewId = elem.GetComponent<LogoStat>().id;
             if (elem.GetComponent<LogoStat>().id < 100)
@@ -173,7 +216,8 @@ public class LogoBoardClick : MonoBehaviour {
             Camera.main.transform.parent.GetComponent<CameraMove>().enabled = true;
             Camera.main.transform.parent.GetComponent<MoveCameraToRail>().enabled = false;
             player.SetActive(true);
-            GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().Resume();
+            if (GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().enabled)
+                GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().Resume();
             GameObject.FindGameObjectWithTag("Player").GetComponent<MovePerso>().canMove = true;
             listPNJ.gameObject.SetActive(true);
         }

@@ -30,4 +30,10 @@ public class BlackFadeGesture : MonoBehaviour {
     {
         GetComponent<Animator>().Play("BlackFade");
     }
+
+    public void Disable()
+    {
+        if (i >= listScreen.Count - 1)
+            gameObject.SetActive(false);
+    }
 }

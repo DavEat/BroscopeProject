@@ -14,25 +14,49 @@ public class InfoOnClick : MonoBehaviour
 
     public XmlReader xml;
 
-    private Transform currentElemActive;
+    private Transform currentElemActive, lastClickedElem;
 
     public GameObject player;
 
+    private bool Intrigger;
+
     void Update()
     {
-        if (inFrontOfBoard)
+        if (VRinfo.firstPersonCamera)
         {
-            #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
+            if (inFrontOfBoard)
+            {
+                #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                checkClick(ray);
-            #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
-                if (Input.touchCount > 0)
-                {
-                    Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
                     checkClick(ray);
-                }
-            #endif
+                #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
+                    if (Input.touchCount > 0)
+                    {
+                        Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+                        checkClick(ray);
+                    }
+                #endif
+            }
         }
+        else if (Intrigger)
+        {
+            Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.rotation * Vector3.forward);
+            checkClick(ray);
+        }
+    }
+
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.CompareTag("Player"))
+            Intrigger = true;
+        foreach (SlideBarManagement slide in listSliderBarMan)
+            slide.SetSlideBar();
+    }
+
+    private void OnTriggerExit(Collider col)
+    {
+        if (col.CompareTag("Player"))
+            Intrigger = false;
     }
 
     private void checkClick(Ray ray)
@@ -61,6 +85,20 @@ public class InfoOnClick : MonoBehaviour
             {
                 OnRClickActions();
             }
+            else if (Input.GetButtonDown("Click") && elem != null)
+                lastClickedElem = elem;
+            else if (Input.GetButtonUp("Click") && elem != null)
+            {
+                if (lastClickedElem == elem)
+                {
+                    OnLClickActions(elem);
+                    lastClickedElem = null;
+                }
+            }
+            else if (Input.GetButtonUp("ClickReturn") && elem == null)
+            {
+                OnRClickActions();
+            }
         #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
             if (Input.touchCount > 0 && elem != null) {
                 if (Input.touches[0].phase == TouchPhase.Ended)
@@ -75,6 +113,7 @@ public class InfoOnClick : MonoBehaviour
 
     private void OnLClickActions(Transform elem)  //-----Do action on left click-----
     {
+        if (elem.GetComponent<ButtonStat>() != null)
         if (elem.GetComponent<ButtonStat>().id == -10)  //---It's return button
         {
             currentElemActive.GetComponent<BoxCollider>().enabled = true;
@@ -108,7 +147,8 @@ public class InfoOnClick : MonoBehaviour
         Camera.main.transform.parent.GetComponent<CameraMove>().enabled = true;
         Camera.main.transform.parent.GetComponent<MoveCameraToRail>().enabled = false;
         player.SetActive(true);
-        GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().Resume();
+        if (GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().enabled)
+            GameObject.FindGameObjectWithTag("Player").GetComponent<NavMeshAgent>().Resume();
         GameObject.FindGameObjectWithTag("Player").GetComponent<MovePerso>().canMove = true;
         listPNJ.gameObject.SetActive(true);
     }

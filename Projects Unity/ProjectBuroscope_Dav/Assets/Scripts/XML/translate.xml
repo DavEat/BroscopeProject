@@ -1151,6 +1151,30 @@
     <qcm>
       <introductionText>
         <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+    <qcm>
+      <introductionText>
+        <a>
           Lorsque une entreprise tient elle-même sa comptabilité, elle doit saisir dans son logiciel comptable  les factures d'achats qu'elle reçoit et les factures de ventes qu'elle émet.  
           Cet encodage, également appelé enregistrement comptable, doit être maîtrisé par l'opérateur de saisie afin que la comptabilité soit correcte et qu'elle soit simple et rapide à réviser lors du bilan de fin d'année. 
           La comptabilité possède trois finalités: économique, fiscal et juridique qui permet d'avoir une image fidèle de la sante d'une entreprise

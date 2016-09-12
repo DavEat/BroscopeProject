@@ -6,7 +6,7 @@ public class AnimationGesture : MonoBehaviour {
     private Animator anim;
     private NavMeshAgent parentNavA;
 
-	void Awake ()
+	void Start ()
     {
         anim = GetComponent<Animator>();
         parentNavA = transform.parent.GetComponent<NavMeshAgent>();

@@ -8,7 +8,7 @@ public class FindAllSaveFiles : MonoBehaviour {
     [SerializeField]
     private Dropdown drop;
     [SerializeField]
-    private GameObject keyboard, textAllreadyExist, textUnvalidprofile, ChoseAvatarScreen, mainMenu, player;
+    private GameObject keyboard, textAllreadyExist, textUnvalidprofile, ChoseAvatarScreen, mainMenu, player, listAvatar, pointer;
 
     private static FileInfo[] info = FindFiles();
 
@@ -19,7 +19,7 @@ public class FindAllSaveFiles : MonoBehaviour {
 	
     public static FileInfo[] FindFiles()
     {
-        DirectoryInfo dir = new DirectoryInfo(@"Files");
+        DirectoryInfo dir = new DirectoryInfo(SaveGame.path);
         return dir.GetFiles("*.save");
     }
 
@@ -66,9 +66,7 @@ public class FindAllSaveFiles : MonoBehaviour {
 
         if (SaveGame.CheckExitsFiles(name + ".save"))
         {
-            if (!textAllreadyExist.activeSelf)
-                textAllreadyExist.SetActive(true);
-            else textAllreadyExist.GetComponent<Animator>().Play("TextFade");
+            textAllreadyExist.GetComponent<Animator>().Play("FadeText");
         }
         else
         {
@@ -106,15 +104,27 @@ public class FindAllSaveFiles : MonoBehaviour {
     public void Play()
     {
         if (drop.value > 1)
+        {
             gameObject.SetActive(false);
-        else if (textUnvalidprofile.activeSelf)
-            textUnvalidprofile.GetComponent<Animator>().Play("TextFade");
+
+            PlayerInformation.name = keyboard.GetComponent<Keyboard>().GetTextDrop().text;
+            PlayerInformation.path = PlayerInformation.name + ".save";
+
+            PlayerInformation.avatarIndex = int.Parse(SaveGame.ReadText(PlayerInformation.path)[1]);
+
+            GameObject obj = Instantiate(listAvatar.GetComponent<AvatarList>().GetAvatarList()[PlayerInformation.avatarIndex]) as GameObject;
+            obj.transform.parent = player.transform;
+            obj.transform.localPosition = Vector3.zero;
+            obj.transform.localEulerAngles = Vector3.zero;
+
+            player.GetComponent<MovePerso>().canMove = true;
+            Camera.main.transform.parent.GetComponent<NavMeshObstacle>().enabled = true;
+            pointer.SetActive(true);
+        }            
         else
-            textUnvalidprofile.SetActive(true);
-
-        PlayerInformation.name = keyboard.GetComponent<Keyboard>().GetTextDrop().text;
-        PlayerInformation.path = PlayerInformation.name + ".save";
-
-        player.GetComponent<MovePerso>().canMove = true;
+        {
+            Debug.Log("true");
+            textUnvalidprofile.GetComponent<Animator>().Play("FadeText");
+        }        
     }
 }
