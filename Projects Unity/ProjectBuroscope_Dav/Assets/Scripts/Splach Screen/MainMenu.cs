@@ -16,6 +16,8 @@ public class MainMenu : MonoBehaviour {
     {
         gameObject.SetActive(false);
         playScreen.SetActive(true);
+        FindAllSaveFiles.info = FindAllSaveFiles.FindFiles();
+        playScreen.GetComponent<FindAllSaveFiles>().AssignFilesName();        
     }
 
     public void Credit()

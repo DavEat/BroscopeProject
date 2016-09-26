@@ -8,14 +8,16 @@ public class FindAllSaveFiles : MonoBehaviour {
     [SerializeField]
     private Dropdown drop;
     [SerializeField]
-    private GameObject keyboard, textAllreadyExist, textUnvalidprofile, ChoseAvatarScreen, mainMenu, player, listAvatar, pointer;
+    private GameObject keyboard, textAllreadyExist, textUnvalidprofile, ChoseAvatarScreen, mainMenu, player, listAvatar;
+    [SerializeField]
+    private Transform spawn;
 
-    private static FileInfo[] info = FindFiles();
+    public static FileInfo[] info;
 
-    void Awake ()
+    /*void Start ()
     {
         AssignFilesName();
-    }
+    }*/
 	
     public static FileInfo[] FindFiles()
     {
@@ -28,7 +30,7 @@ public class FindAllSaveFiles : MonoBehaviour {
         return info;
     }
 
-    private void AssignFilesName()
+    public void AssignFilesName()
     {
         List<Dropdown.OptionData> listDropOption = new List<Dropdown.OptionData>();
         foreach (FileInfo f in info)
@@ -119,7 +121,8 @@ public class FindAllSaveFiles : MonoBehaviour {
 
             player.GetComponent<MovePerso>().canMove = true;
             Camera.main.transform.parent.GetComponent<NavMeshObstacle>().enabled = true;
-            pointer.SetActive(true);
+            player.transform.position = spawn.position;
+            //pointer.SetActive(true);
         }            
         else
         {

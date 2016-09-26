@@ -17,7 +17,7 @@ public class LogoBoardClick : MonoBehaviour {
 
     private Transform lastClickedElem;
 
-    private bool Intrigger;
+    public bool Intrigger;
 
     void Awake()  //-----Initialisation-----
     {
@@ -29,12 +29,36 @@ public class LogoBoardClick : MonoBehaviour {
     }
 
 	void Update () {
-        if (VRinfo.firstPersonCamera)
+
+        if (Intrigger)//(VRinfo.firstPersonCamera)
         {
-            if (inFrontOfBoard)
+
+            foreach (Transform t in listView)
+            {
+                List<Transform> listButton;
+                if (t.gameObject.activeSelf)
+                {
+                    listButton = t.GetComponent<listElemInView>().listButton;
+
+                    if (PointPos.hit.transform.GetComponent<LogoStat>() != null)
+                    {
+                        ButtonInteraction.ButtonChangeSize(PointPos.hit.collider.transform, PointPos.hit.collider.transform.GetComponent<LogoStat>().maxSize);
+                        //CheckClicked(listButton[i]);
+                    }
+
+                    for (int i = 0; i < listButton.Count; i++)
+                        if (listButton[i] != PointPos.hit.transform)
+                            if ((Vector2)listButton[i].localScale != listButton[i].GetComponent<LogoStat>().initialSize)
+                                ButtonInteraction.ButtonChangeSize(listButton[i], listButton[i].GetComponent<LogoStat>().initialSize);
+                    //ButtonInteraction.ButtonChangeSize(listTextButton[i], listTextButton[i].GetComponent<LogoStat>().initialSize);             
+                }
+            }
+            CheckClicked(PointPos.hit.transform);
+        }
+            /*if (true)//(inFrontOfBoard)
             {
                 #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                     checkClick(ray);
                 #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
                     if (Input.touchCount > 0)
@@ -49,10 +73,10 @@ public class LogoBoardClick : MonoBehaviour {
         {
             Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.rotation * Vector3.forward);
             checkClick(ray);
-        }
+        }*/
     }
 
-    private void OnTriggerEnter(Collider col)
+    /*private void OnTriggerEnter(Collider col)
     {
         if (col.CompareTag("Player"))
             Intrigger = true;
@@ -62,7 +86,7 @@ public class LogoBoardClick : MonoBehaviour {
     {
         if (col.CompareTag("Player"))
             Intrigger = false;
-    }
+    }*/
 
     private void checkClick(Ray ray)
     {

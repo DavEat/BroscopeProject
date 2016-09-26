@@ -18,17 +18,24 @@ public class InfoOnClick : MonoBehaviour
 
     public GameObject player;
 
-    private bool Intrigger;
+    public bool Intrigger;
 
     void Update()
     {
-        if (VRinfo.firstPersonCamera)
+        if (Intrigger)//(VRinfo.firstPersonCamera)
         {
-            if (inFrontOfBoard)
+            foreach (Transform t in listButton)
+            {
+                if (t == PointPos.hit.transform)
+                    CheckClicked(t);
+            }
+            CheckClicked(null);
+            /*if (true)
             {
                 #if (UNITY_EDITOR || UNITY_STANDALONE_WIN)
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                     checkClick(ray);
+                    
                 #elif (UNITY_ANDROID || UNITY_IPHONE || UNITY_WP8)
                     if (Input.touchCount > 0)
                     {
@@ -36,35 +43,33 @@ public class InfoOnClick : MonoBehaviour
                         checkClick(ray);
                     }
                 #endif
-            }
+            }*/
         }
-        else if (Intrigger)
+        /*else if (Intrigger)
         {
             Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.rotation * Vector3.forward);
             checkClick(ray);
-        }
+        }*/
     }
 
-    private void OnTriggerEnter(Collider col)
+    public void OnTriggerEnterrr()
     {
-        if (col.CompareTag("Player"))
-            Intrigger = true;
         foreach (SlideBarManagement slide in listSliderBarMan)
             slide.SetSlideBar();
     }
 
-    private void OnTriggerExit(Collider col)
+    /*private void OnTriggerExit(Collider col)
     {
         if (col.CompareTag("Player"))
             Intrigger = false;
-    }
+    }*/
 
     private void checkClick(Ray ray)
     {
         RaycastHit hit;
         Debug.DrawRay(ray.origin, ray.direction * 100, Color.blue);
         if (Physics.Raycast(ray, out hit, 100))
-        {
+        {            
             foreach (Transform t in listButton)
             {
                 if (t == hit.transform)

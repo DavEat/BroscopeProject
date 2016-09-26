@@ -81,6 +81,27 @@ public class MovePerso : MonoBehaviour {
                     v = Vector3.forward * Input.GetAxis("Vertical");
                 if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0.2f || Mathf.Abs(Input.GetAxis("Vertical")) > 0.2f)
                     rb.Move(transform.rotation * (h + v) * VRinfo.speed);
+                /*
+                if (Input.GetButton("Click"))
+                {
+                    Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.rotation * Vector3.forward);
+                    RaycastHit hit;
+                    if (Physics.Raycast(ray, out hit, 100))
+                    {
+                        if (!hit.transform.CompareTag("BoardElem"))
+                            navA.SetDestination(hit.point);
+                    }
+                }
+                else if (navA.velocity.x > 0 || navA.velocity.z > 0)
+                    navA.SetDestination(transform.position);*/
+
+                if (Input.GetButton("Click"))
+                {
+                    rb.Move(transform.rotation * Vector3.forward * VRinfo.speed);
+                }
+                else if (rb.velocity.x > 0 || rb.velocity.z > 0)
+                    rb.Move(Vector3.zero);
+
             }
             else //---Oculus is active---
             {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <courss>
-  
+
   <cours>
     <info>
       <name></name>
@@ -149,21 +149,21 @@
       </introductionText>
       <aaa>
         <question>1. Un éditeur de texte est destiné à :</question>
-        <a>a. l'édition de fichiers textes</a>
-        <b>b. l’édition des fichier Audio</b>
-        <c>c. l'édition des fichier images</c>
+        <a>l'édition de fichiers textes</a>
+        <b>l’édition des fichier Audio</b>
+        <c>l'édition des fichier images</c>
       </aaa>
       <bbb>
         <question>L’éditeur de texte permet de :</question>
-        <a>a. saisir et modifier interactivement des textes</a>
-        <b>b. contrôler la mise en forme de manière interactive par une IHM</b>
-        <c>c. produire le document sous sa forme imprimable, ou consommable</c>
+        <a>saisir et modifier interactivement des textes</a>
+        <b>contrôler la mise en forme de manière interactive par une IHM</b>
+        <c>produire le document sous sa forme imprimable, ou consommable</c>
       </bbb>
       <ccc>
         <question>Quelles nouvelles fonctionnalités apporte Word 2016 :</question>
-        <a>a. de collaboration en temps réel et de partage et simplifie la création de forme</a>
-        <b>b. de collaboration en temps réel et de partage virtuelle.</b>
-        <c>c. de collaboration en temps réel et de l'usage tactile.</c>
+        <a>de collaboration en temps réel et de partage et simplifie la création de forme</a>
+        <b>de collaboration en temps réel et de partage virtuelle.</b>
+        <c>de collaboration en temps réel et de l'usage tactile.</c>
       </ccc>
     </qcm>
 	</cours>
@@ -228,28 +228,39 @@
       </fff>
     </programme>
     <qcm>
-      <information>
+      <introductionText>
         <a>
-          Hello World
+          Access vous permet de créer non seulement de bases des données de bureau, mais aussi des applications de base de données que vous pouvez utiliser dans un navigateur pour vous aider à gérer votre entreprise. 
+          Vos données sont automatiquement stockées dans une base des données SQL et sécurisées comme jamais, et vous pouvez partager facilement vos applications avec vos collègues.
+          Chaque entreprise génère des données au quotidien, cependant il faut pouvoir contrôler et organiser tous ses données. Il faut donc réussir à bien les organiser pour pouvoir en profiter d'avantage. 
+          Access permet d'utiliser des templates pour construire les bases des données plus rapidement.           
         </a>
-      </information>
+        <b>
+          Une donnée c'est une information sur un objet, une personne, un lieu ou un événement, sous sa forme brute qui va être utile pour la création des bases des données. 
+          C'est une information que nous voulons conserver pour faire des traitements dessus ultérieurement (soit des calculs, soit des analyses).        
+        </b>
+        <c>
+          La conception de bases des données est primordiale pour atteindre vos objectifs (gérer les informations des employés, fournir des états hebdomadaires élaborés à pa	rtir des données, suivre les commandes client, etc.).
+          Pour créer une base de données utile, vous devez créer des tables axées sur un sujet.     
+        </c>
+      </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>a</a>
-        <b>b</b>
-        <c>c</c>
+        <question>Quelle avantage permet d'avoir Access dans le milieu de l'entreprise?</question>
+        <a>Organisation des données</a>
+        <b>Interprétation des données</b>
+        <c>Génération des données</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a>a</a>
-        <b>b</b>
-        <c>c</c>
+        <question>Quel type d'opérations je peux faire grâce aux données?</question>
+        <a>Calculs et analyses</a>
+        <b>Une dissertation</b>
+        <c>Un résumé </c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a>a</a>
-        <b>b</b>
-        <c>c</c>
+        <question>Vous pouvez capturer les données nécessaires pour un sujet déterminé à l'aide de:</question>
+        <a>Tables</a>
+        <b>Requêtes</b>
+        <c>Champs</c>
       </ccc>
     </qcm>
   </cours>
@@ -308,8 +319,6 @@
         <titre>Présenter ses données graphiquement</titre>
         <a>Les étapes de création du graphique</a>
         <b>Personnaliser sa mise en forme</b>
-        <c></c>
-        <d></d>
       </eee>
       <fff>
         <titre>Trier et filtrer ses données</titre>
@@ -320,29 +329,38 @@
     <qcm>
       <information>
         <a>
-          Hello World
+           Le logiciel Excel intègre des fonctions de calcul numérique, de représentation graphique, d'analyse de données (notamment de tableau croisé dynamique) et de programmation, laquelle utilise les macros écrites 
+           dans le langage VBA (Visual Basic for Applications) qui est commun aux autres logiciels de Microsoft Office.
         </a>
+        <b>
+          Excel est un chiffrier ou un tableur. Il est utilisé pour faire des calculs et pour la création des modèles pour simuler la réalité. Une fois que le modèle est complété l'utilisateur peux regarder le comportement des données qu'il a mit.
+          Par exemple le budget d'une entreprise, des réponses à une questionnaire, contrôle des commandes, etc. Excel a aussi d'autres outils pour vous aider à mieux représenter, analyser et interpréter vos données. 
+        </b>
+        <c>
+          Excel vous permet d'additionner des nombres à l'aide des formules, des buttons et des fonctions. Une formule commence toujours par le signe =.  Les nombres ou informations sont contenus dans un espace qui s'appelle cellule.  
+        </c>
       </information>
       <aaa>
-        <question>La question</question>
-        <a>a</a>
-        <b>b</b>
-        <c>c</c>
+        <question>Le logiciel Excel intègre des fonctions de :</question>
+        <a>de calcul numérique, de représentation graphique, d'analyse de données</a>
+        <b>de calcul numérique, de représentation 3D, d'analyse de données</b>
+        <c>de représentation graphique, d'analyse de textes</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a>a</a>
-        <b>b</b>
-        <c>c</c>
+        <question>Le logiciel excel permet à l'utilisateur de:</question>
+        <a>Faire des prédictions et contrôler les données qu'il dispose.</a>
+        <b>Augmenter la promotion d'un produit.</b>
+        <c>Dessiner et construire une page Web.</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a>a</a>
-        <b>b</b>
-        <c>c</c>
+        <question>Laquelle des suivantes expressions est une formule?</question>
+        <a>c. = B3+ B6</a>
+        <b>b. SOMME (B3:B6)</b>
+        <c>image qui n'apparaît pas</c>
       </ccc>
     </qcm>
   </cours>
+
 
   <cours>
     <info>
@@ -390,13 +408,35 @@
       </ddd>
     </programme>
     <qcm>
+       <information>
+        <a>
+        Dans PowerPoint, ainsi que dans la plupart des logiciels de présentation, les textes, images, vidéos et autres objets sont positionnés sur des pages individuelles, les « slides » (on parle aussi de diapositives, de diapos ou de planches).
+        </a>
+        <b>
+         Pour créer une nouvelle diapositive, je peut me rapporter au ruban Accueil. Plusieurs dispositions sont disponibles pour votre présentation. Vous pouvez choisir aussi le type de diapositive souhaitée.  
+        </b>
+        <c>
+          Power Point propose plusieurs thèmes disponibles. Chaque thème inclut différentes variantes présentant des modifications subtiles. Les thèmes contrôlent les polices, les effets, les dispositions et les couleurs de votre présentation.   
+        </c>
+      </information>
       <aaa>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
-        <d>la réponse d</d>
+        <question>les « slides » sont :</question>
+        <a>des pages individuelles</a>
+        <b>des pages relationnels </b>
+        <c>des textes</c>
       </aaa>
+      <bbb>
+        <question>Cependant si vous cherchez à obtenir une autre apparence, il vous faudrait vous rapporter au ruban:</question>
+        <a>Création</a>
+        <b>Affichage</b>
+        <c>Animation</c>
+      </bbb>
+      <ccc>
+        <question>Si vous cherchez à modifier l'apparence de votre document il est recommandé de modifier:</question>
+        <a>Les thèmes ou variantes</a>
+        <b>Le diaporama</b>
+        <c>Une slide</c>
+      </ccc> 
     </qcm>
   </cours>
 
@@ -473,7 +513,7 @@
         <question>Photoshop est un logiciel de :</question>
         <a>retouche, de traitement et de dessin assisté par ordinateur édité par Adobe</a>
         <b>retouche, de traitement texte.</b>
-        <c>retouche, de traitement de son. </c>
+        <c>retouche, de traitement de son.</c>
       </aaa>
       <bbb>
         <question>Photoshop travaille essentiellement sur du :</question>
@@ -561,30 +601,40 @@
     <qcm>
       <introductionText>
         <a>
+          Adobe InDesign est un logiciel de PAO produit par Adobe Systems. Initialement conçu pour créer des œuvres telles que des affiches, dépliants, brochures, magazines, journaux ou livres,
+          il peut également publier du contenu adapté aux tablettes, utilisé avec Adobe Digital Publishing Suite. 
         </a>
+        <b>
+          Les principaux utilisateurs sont les graphistes et artistes de production pour la création et la pose des publications périodiques, des affiches et des supports d'impression. 
+          Il prend également en charge l'exportation des formats EPUB et SWF servant à créer des e-livres ou des publications numériques, y compris des magazines numériques, et du contenu adaptés à la consommation sur tablette tactile.
+        </b>
+        <C>
+          En outre, InDesign prend en charge XML, les feuilles de style et autres balises de codage, ce qui convient pour l'exportation marquée le contenu du texte pour une utilisation dans d'autres formats numériques et en ligne. 
+          Le traitement de texte Adobe InCopy utilise le même moteur que la mise en forme InDesign.
+        </C>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Initialement conçu pour créer des œuvres telles que des :</question>
+        <a>affiches, dépliants, brochures, magazines, journaux ou livres.</a>
+        <b>e-books et images.</b>
+        <c>documents PDF.</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Les principaux utilisateurs sont : </question>
+        <a>les graphistes et artistes de production des publications périodiques</a>
+        <b>les programmeurs</b>
+        <c>les concepteurs des animations numériques</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>InDesign prend en charge:</question>
+        <a>XML, les feuilles de style et autres balises de codage.</a>
+        <b>XML, les feuilles de style uniquement.</b>
+        <c>Les feuilles de style et Iclone.</c>
       </ccc>
     </qcm>
   </cours>  
   
-  <cours>
+   <cours>
     <info>
       <name>WordPress</name>
       <section>Web and Publication</section>
@@ -654,30 +704,39 @@
     <qcm>
       <introductionText>
         <a>
+          WordPress est un système de gestion de contenu (SGC ou Content management system (CMS) en anglais) libre écrit en PHP, reposant sur une base de données MySQL, et distribué par l'entreprise américaine Automattic.
         </a>
+        <b>
+          WordPress est un logiciel de blog qui présente toutes les fonctionnalités habituelles de ce type de logiciels. Il permet à plusieurs auteurs de publier des billets, lesquels seront classés par date et par catégories.
+          De multiples catégories, elles-mêmes imbricables, peuvent être affectées à un billet donné. 
+        </b>
+        <c>
+          De plus, WordPress inclut la gestion des liens externes, des rétroliens, et un système de gestion fine des commentaires. 
+          À ceci s'ajoutent des fonctionnalités plus mineures, telles que des filtres typographiques, une interface polyglotte, et un système de liens permanents.
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>WordPress est un système de gestion de contenu libre écrit en :</question>
+        <a>PHP</a>
+        <b>OS</b>
+        <c>XML</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>WordPress permet à plusieurs auteurs de publier des : </question>
+        <a>billets</a>
+        <b>articles</b>
+        <c>dessins</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>WordPress inclut entre autres :</question>
+        <a>des liens externes</a>
+        <b>un système de gestion des codes</b>
+        <c>un système d’écriture simultanée</c>
       </ccc>
     </qcm>
   </cours>
   
-  <cours>
+   <cours>
     <info>
       <name>Illustrator</name>
       <section>Web and Publication</section>
@@ -752,30 +811,39 @@
     <qcm>
       <introductionText>
         <a>
+          Adobe Illustrator est un logiciel de création graphique vectorielle. Il fait partie de la gamme Adobe et peut être utilisé indépendamment ou en complément de Photoshop, il offre des outils de dessin vectoriel puissants. 
+          Les images vectorielles sont constituées de courbes générées par des formules mathématiques.
         </a>
+        <b>
+          L'un des outils principaux d'Illustrator étant « la plume » qui permet de tracer des courbes à l'aspect parfait grâce au placement de points d'ancrage et de tangentes qui vont en modifier la courbure. 
+        </b>
+        <c>
+          Un des avantages des images vectorielles est qu'elles sont indépendantes de la résolution, c’est-à-dire qu'elles gagnent en qualité si on les agrandit pour mieux les observer. 
+          Adapté aussi bien à la création de document papier qu'à celle d'illustrations sur Internet ce logiciel est orienté vers le marché professionnel, il intègre de nombreuses options propres à améliorer la productivité.
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Les images vectorielles sont constituées de:</question>
+        <a>courbes générées par des formules mathématiques.</a>
+        <b>cercles générés par des formules mathématiques.</b>
+        <c>carrées générées par des formules numériques.</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>L'un des outils principaux d'Illustrator est:</question>
+        <a>la plume</a>
+        <b>les animations</b>
+        <c>les couleurs</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Un des avantages des images vectorielles est:</question>
+        <a>qu'elles gagnent en qualité si on les agrandit pour mieux les observer </a>
+        <b>qu'elles perdent en qualité si on les agrandit pour mieux les observer</b>
+        <c>qu'elles gagnent en qualité si on les minimise</c>
       </ccc>
     </qcm>
   </cours>
   
-  <cours>
+   <cours>
     <info>
       <name>Réseaux Sociaux</name>
       <section>Usages du numérique</section>
@@ -824,25 +892,35 @@
     <qcm>
       <introductionText>
         <a>
+          Certains « réseaux sociaux » sur Internet regroupent des amis de la vie réelle. D'autres aident à se créer un cercle d'amis, à trouver des partenaires commerciaux, un emploi ou autres. 
+          Il s'agit de services de réseautage social, comme MySpace, Facebook, SoundMeet.net, Twitter, Identi.ca, Kik, Viadeo, Instagram, Snapchat, LinkedIn, The_Changebook, Blupps, Weebluzz ou Pheed.
         </a>
+        <b>
+          D'autres réseaux sociaux se concentrent sur la découverte et le partage de contenu, tel que StumbleUpon ou Reddit pour les pages web, 500px ou Pinterest pour les photographies.
+          Il existe aussi des réseaux sociaux en fonction de la sexualité tel que Rainbow Web. (LGBT mais aussi asexuel, pan-sexuel ou hétérosexuel).
+        </b>
+        <c>
+          Au-delà des nouveaux modes de réseau social utile aux missions de recrutement des RH, les réseaux sociaux commencent progressivement à investir les organisations sous la forme de réseaux sociaux d’entreprise. Il s’agit de réseaux virtuels, sécurisés, 
+          internes aux entreprises qui permettent de regrouper des collaborateurs au sein de communautés créées en fonction de projets, d’expertises, de centres d’intérêt, etc.
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Ce réseau social sur Internet aide à se créer un cercle d'amis :</question>
+        <a>Facebook</a>
+        <b>Twitter</b>
+        <c>LinkedIn</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Quel réseau social sur Internet aide à partager des photographies :</question>
+        <a>Pinterest</a>
+        <b>Reddit</b>
+        <c>StumbleUpon</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Les réseaux sociaux commencent progressivement à investir les organisations sous la forme de :</question>
+        <a>réseaux sociaux d’entreprise</a>
+        <b>réseaux sociaux de l’église</b>
+        <c>réseaux sociaux de clubs</c>
       </ccc>
     </qcm>
   </cours>
@@ -903,30 +981,40 @@
     <qcm>
       <introductionText>
         <a>
+          Facebook permet de développer son audience en fonctions des objectifs de l'utilisateur. Ainsi vous pouvez inciter vos fans et amis actuels à aimer votre page facebook pour la faire connaître à d'autres cercles d'amis. 
+          De cette façon, ses personnes sont le plus susceptibles de voir vos publications dans leur file d'actualité. 
         </a>
+        <b>
+          Grâce à l'option "statistiques" sur votre Page, vous pouvez voir les publications qui suscitent le plus (ou le moins) de réactions de la part des clients pour vous permettre de prendre les meilleures décisions sur la gestion de votre Page.
+          De cette façon vous améliorez la relation et communication avec vos fans ou amis.
+        </b>
+        <c>
+          LinkedIn est un outil incontournable dans la démarche de recherche d'emploi ou simplement pour proposer une carte de visite bien travaillée de votre profil professionnel.
+          Mais un facteur clé reste la visibilité qui doit être entretenu à l'aide d'usage de mots-clés, qui doivent être bien disposées sur des endroits stratégiques.  
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Quand on invite ses à amis à aimer sa page facebook, les actualités vont apparaître:</question>
+        <a>fil d'actualité.</a>
+        <b>messagerie facebook.</b>
+        <c>dans sa boîte mail.</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Quel bouton vous permet d'avoir un aperçu par rapport à la performance de votre Page?</question>
+        <a>Statistiques.</a>
+        <b>Posts.</b>
+        <c>Notifications.</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Quels éléments utilisent les recruteurs pour faciliter leur recherches dans les profils LinkedIN?</question>
+        <a>des mots-clés.</a>
+        <b>annuaires de la ville.</b>
+        <c>fil d'actualité facebbok.</c>
       </ccc>
     </qcm>
   </cours>
   
-  <cours>
+   <cours>
     <info>
       <name>Être efficace avec votre Smartphone</name>
       <section>Usages du numérique</section>
@@ -990,20 +1078,20 @@
         </a>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
+        <question>La question : ?</question>
+        <a>a</a>
         <b></b>
         <c></c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
+        <question>La question : ?</question>
+        <a>a</a>
         <b></b>
         <c></c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
+        <question>La question : ?</question>
+        <a>a</a>
         <b></b>
         <c></c>
       </ccc>
@@ -1069,25 +1157,34 @@
     <qcm>
       <introductionText>
         <a>
+          Aujourd’hui, l’entreprise doit être de plus en plus en relation permanente avec ses clients.  Pour cela, les outils du Web 2.0 permettent d’être à l’écoute et d’offrir des services interactifs, d’autant plus que beaucoup d’entre eux sont gratuits !
+          Affinitiz est un outil de communication pour les groupes avec la possibilité de coordonner les actions, les documents, les événements et tous les types d’échanges.
         </a>
+        <b>
+          Twitter est un outil de micro-blogging bénéficiant d’un écosystème riche et inventif et un fil d’échange communautaire. Cet outil permet de mettre en place une communication rapide, immédiate et efficace.
+        </b>
+        <c>
+          Google Maps est un outil de cartographie et géolocalisation devenu incontournable pour présenter son entreprise et son commerce dans les cartes de Google. 
+          Dailymotion est un portail de diffusion de contenus vidéo sur le Web. Au-delà de l’hébergement et la diffusion des vidéos, il permet de faire connaitre son entreprise dans ce nouveau canal de diffusion
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Affinitiz est un outil de communication pour:</question>
+        <a>les groupes offrant la possibilité de coordonner les actions, les événements et tous les types d’échanges.</a>
+        <b>les groupes offrant la possibilité de coordonner des sites web.</b>
+        <c>un seul individu offrant la possibilité de coordonner des sortis.</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Twitter permet de mettre en place : </question>
+        <a>une communication rapide, immédiate et efficace.</a>
+        <b>un système de gestion des documents</b>        
+        <c>un système de publicité.</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Google Maps est un outil :</question>
+        <a>de cartographie et géolocalisation</a>
+        <b>d’hébergement des vidéos</b>
+        <c>diffusion de contenus vidéo</c>
       </ccc>
     </qcm>
   </cours>
@@ -1151,30 +1248,6 @@
     <qcm>
       <introductionText>
         <a>
-        </a>
-      </introductionText>
-      <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
-      </aaa>
-      <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
-      </bbb>
-      <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
-      </ccc>
-    </qcm>
-    <qcm>
-      <introductionText>
-        <a>
           Lorsque une entreprise tient elle-même sa comptabilité, elle doit saisir dans son logiciel comptable  les factures d'achats qu'elle reçoit et les factures de ventes qu'elle émet.  
           Cet encodage, également appelé enregistrement comptable, doit être maîtrisé par l'opérateur de saisie afin que la comptabilité soit correcte et qu'elle soit simple et rapide à réviser lors du bilan de fin d'année. 
           La comptabilité possède trois finalités: économique, fiscal et juridique qui permet d'avoir une image fidèle de la sante d'une entreprise
@@ -1182,24 +1255,21 @@
       </introductionText>
       <aaa>
         <question>Comment appelle-t-on la saisie des factures dans le logiciel de comptabilité:</question>
-        <a>codage </a>
+        <d>remplissage comptable</d>
         <b>encodage</b>
         <c>bilan de fin d'année</c>
-        <d>remplissage comptable</d>
       </aaa>
       <bbb>
         <question>Quels sont les trois finalités comptables? </question>
         <a>juridique, politique, économique</a>
-        <b>financière, sociologique, contrôle </b>
-        <c>juridique, fiscale, financière</c>
         <d>juridique, fiscale, économique</d>
+        <c>juridique, fiscale, financière</c>
       </bbb>
       <ccc>
         <question>Lequel de ces principes comptables vous semble le plus important?</question>
         <a>prudence</a>
         <b>spécialisation</b>
         <c>l'image fidèle</c>
-        <d>nominalisme</d>
       </ccc>
     </qcm>
   </cours>
@@ -1262,31 +1332,32 @@
     </programme>
     <qcm>
       <introductionText>
-        <a>
+        <a>Le logiciel de Gestion Commerciale vous permet de gérer et mesurer toute votre activité commerciale de la commande à la livraison: devis, factures, gestion de stocks, nomenclature article, opérations administratives.
+          De cette façon vous pouvez piloter sereinement votre activité. 
         </a>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Lequel des fonctionnalités suivantes ne fait pas partie des fonctionnalités du logiciel de gestion commerciale?</question>
+        <a>analyser les coûts</a>
+        <b>mesurer la gestion de stocks</b>
+        <c>gérer nomenclature article</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Je veux acheter des marchandises ou des fournitures, j'utilise:</question>
+        <c>Bon de commande</c>
+        <a>Un bon de livraison</a>
+        <b>Facture</b>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Mon fournisseur ne m'a pas livré certains articles. De plus, il a oublié de facturer la remise convenue. J'envoie:</question>
+        <a>Une lettre de réclamation</a>
+        <b>Une lettre de change</b>
+        <c>Un billet à ordre</c>
       </ccc>
     </qcm>
   </cours>
   
-  <cours>
+   <cours>
     <info>
       <name>Logiciel de Paie / SAGE</name>
       <section>COMPTABILITÉ ET GESTION</section>
@@ -1348,25 +1419,33 @@
     <qcm>
       <introductionText>
         <a>
+          Lorsqu'une entreprise gère elle-même la paie de ses salariés, elle doit s'équiper d'un logiciel de paie. C'est à dire que ce logiciel ne s'adresse qu'aux entreprises qui assurent la fonction "paie" en interne c'est à dire 
+          celle qui n'ont pas recours à l'externalisation auprès d'un professionnel (généralement un expert comptable).
         </a>
+        <b>
+          Un logiciel de paie est un élément centrale de l'organisation administrative d'une entreprise. Il permet d'automatiser  les processus administratifs et de synthétiser l'ensemble des données sociales d'une entité. 
+        </b>
+        <c>
+          Lors qu'il est correctement  paramétré, il permet: un gain de temps (paramétrage des primes, heures supplémentaires, pré-paramétrage des profils salariés) et une fiabilité plus importante des états produits (diminution du risque d'erreur). 
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question> A qui est destiné l'usage d'un logiciel de paie?</question>
+        <b>Entreprises qui gèrent la paie en interne</b>
+        <a>Professions libérales</a>        
+        <c>Sociétés de Portage salariale</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Un logiciel de paie permet de:</question>
+        <c>automatiser les processus administratifs</c>
+        <a>gérer et payer les impôts</a>
+        <b>concevoir de maquettes pour montrer les balances</b>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Cochez une avantage pour l'entreprise grâce à l'usage du logiciel:</question>
+        <c>plus de gain et fiabilité </c>
+        <a>réduction des impôts</a>
+        <b>besoin d'embaucher un expert comptable</b>        
       </ccc>
     </qcm>
   </cours>
@@ -1427,25 +1506,35 @@
     <qcm>
       <introductionText>
         <a>
+          Pour le fonctionnement d'un site web et sa création il est nécessaire d'utiliser les codes HTML et CSS qui permettent de générer la page. Des codes que les développeurs utilisent pour la création des sites web. "HTML"
+          vas vous permettre d'écrire le contenu de la page (textes et images) tandis que "CSS" permet de mettre en forme la page (mettre de la couleur, de placer les éléments sur la page, etc).
         </a>
+        <b>
+          Le navigateur est le programme qui nous permet de voir les sites web. Google Chrome, Mozilla Firefox, Internet explorer, Safari ou Opera sont quelques exemples de navigateur. 
+          Les différentes navigateurs n'affichent pas le même site exactement de le même façon. Le rôle du navigateur est donc essentiel.
+        </b>
+        <c>
+          Une des raisons pour laquelle un même site web ne s'affiche pas de la même façon en fonction du navigateur c'est que celui-ci ne connait pas toujours les dernières fonctionnalités de HTML et CSS.
+          En effet chaque version du navigateur prend en charge de nouvelles fonctionnalités et les mises à jour ne sont pas toujours automatiques. Cela devient problématique pour le webmasters.
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Quel type de code je doit utiliser pour ajouter des images à mon site web?</question>
+        <b>b. HTML</b>
+        <a>a. CSS</a>       
+        <c>c. C++</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Lequel des suivants ne fait pas partie d'un navigateur:</question>
+        <c>c. Snapchat</c>
+        <a>a. Internet explorer</a>
+        <b>b. Mozilla Firefox</b>        
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Pour quelle raison le même site web ne s'affiche pas de la même façon sur tous les navigateurs?</question>
+        <b>b. le navigateur ne connaît pas les dernières fonctionnalités de HTML et CSS</b>
+        <a>a. problème de conception du site</a>        
+        <c>c. le mises à jour du navigateur sont automatiques</c>
       </ccc>
     </qcm>
   </cours>
@@ -1546,25 +1635,35 @@
     <qcm>
       <introductionText>
         <a>
+          Le succès commercial d'un produit en ligne n'est pas uniquement un affaire de technicité (code informatique du site). Le choix du consommateur se porte vers le produit le mieux adapté à son besoin et à ses compétences.
+          Le design et l'ergonomie du site sont aussi des facteurs de réussite pour un site marchand qui fonctionne bien.
         </a>
+        <b>
+          Il est important d'identifier le contenu du site en fonction du public visé. Le client en ligne est volatile et doit pouvoir identifier votre valeur ajoutée au premier coup d'œil. 
+          Il est important que votre offre soit claire et que vous puissiez valoriser vos avantages. Il ne faut pas oublier de proposer le bon produit au bon prix.
+        </b>
+        <c>
+          Il existe un moyen de faire du référencement sponsorisé pour acquérir des prospects cibles. Google AdWords  permet que vous soyez visible des internautes lorsqu'ils recherchent sur Google vos produits ou services.
+          Il vous permettra d'augmenter le nombre des visites sur votre site web. 
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>A part le code informatique (développement web) quels autres critères il faut tenir en compte pour la bonne réalisation d'un site e-commerce?</question>
+        <b>b. le design et l'ergonomie.</b>
+        <a>a. le contenu et les liens externes.</a>        
+        <c>c. le choix des produits.</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Pour quoi est-il important de penser à construire un contenu "adapté" à votre public visé?</question>
+        <a>pour que le site produit des ventes effectives.</a>
+        <b>pour tester différentes produits.</b>
+        <c>analyser les comportements des utilisateurs.</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Google AdWords vous permet de:</question>
+        <b>b. Faire du référencement.</b>
+        <a>a. Créer des documents Texte.</a>        
+        <c>c. Envoyer des mails publicitaires ciblés.</c>
       </ccc>
     </qcm>
   </cours>
@@ -1624,25 +1723,33 @@
     <qcm>
       <introductionText>
         <a>
+          L'assistante de gestion est l'interface entre le client, le commerciaux du terrain et la direction commerciale de l'entreprise, il assure le traitement commercial (suivi des commandes, délais de fabrication et de livraison)
+          et administratif (factures, devis, actualisation des tableaux statistiques...) des ventes.
         </a>
+        <b>
+          Le salaire minimum inter professionnel de croissance SMIC est la rémunération minimal que doit apercevoir un salarié en France, à condition de travailler à temps plein (35 heures).
+        </b>
+        <c>
+          Les charges patronales (presque 30% de salaires versés) représentent l'ensemble de cotisations sociales versées par un employeur  et calculées sur la base de salaires, quelque soient la taille et le secteur d'activité de l'entreprise.
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Qui des profils suivants, assure la relation entre le client, le commerciaux du terrain et la direction?</question>
+        <c>assistante de gestion.</c>
+        <a>game level designer.</a>
+        <b>comptable.</b>        
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Quel est le taux horaire du SMIC depuis le 1er janvier 2016?</question>
+        <c>9€67</c>
+        <a>10€58</a>
+        <b>8€54</b>        
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Les charges patronales destinées au financement de la Sécurité Sociale représentent:</question>
+        <a>30% de salaires versés.</a>
+        <b>38% de salaires versés.</b>
+        <c>45% de salaires versés.</c>
       </ccc>
     </qcm>
   </cours>
@@ -1687,25 +1794,34 @@
     <qcm>
       <introductionText>
         <a>
+          Le ou La secrétaire (les postes son encore aujourd'hui occupés en grande majorité par des femmes) joue un rôle essentiel dans le fonctionnement d'un service, 
+          d'une entreprise, d'une administration ou d'un cabinet d'avocats par exemple.
         </a>
+        <b>
+          Entre l'accueil des visiteurs, la réception des appels, les prises de rendez-vous, l'organisation de l'agenda de son (ou ses) responsable (s), la rédaction des courriers, 
+          le classement de dossiers, ses missions sont au cœur de l'activité du secrétaire quotidienne de l'entreprise.
+        </b>
+        <c>
+          Excel vous permet d'additionner des nombres dans les cellules en utilisant des formules, qui permettent de vous faire gagner du temps. De cette façon si je modifie un nombre dans une cellule le résultat est mis automatiquement  à jour.
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Dans les métiers du secrétariat, quel est le pourcentage d'emplois occupés par des femmes?</question>
+        <a>97%</a>
+        <b>75%</b>
+        <c>50%</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Pour exercer le métier de secrétaire généraliste, que faut-il maîtriser?</question>
+        <b>Différents logiciels de bureautique.</b>
+        <a>Les statistiques.</a>        
+        <c>Un logiciel de comptabilité</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Comment appelle-t-on  l'emplacement qui contient soit du texte, une chiffre ou une formule?</question>
+        <c>cellule.</c>
+        <a>feuille de calcul.</a>
+        <b>classeur.</b>        
       </ccc>
     </qcm>
   </cours>
@@ -1754,25 +1870,33 @@
     <qcm>
       <introductionText>
         <a>
+          Tout salarié a droit à des congés payés, à la charge de l'employeur, à condition de justifier chez celui-ci d'une période d'activité équivalente à un mois de travail effectif pendant la période de référence.
+          La période de référence va du 1er juin de l'année précédente au 31 mai de l'année en cours.
         </a>
+        <b>
+          Les salariés embauchés en CDD bénéficient d'indemnités spécifiques  au terme de leur contrat de travail, sous certains conditions.
+        </b>
+        <c>
+          Les heures supplémentaires sont les heures travaillés au delà des heures prévus au contrat du travail. On ne peut pas dépasser 220 heures supplémentaires par an et par salarié.   Supposons que j'ai un travail de 35h par semaine.
+        </c>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Combien des jours ouvrables de congé payé acquiert chaque salarié par mois de travail?</question>
+        <c>2 jours et demie</c>
+        <a>5 jours</a>
+        <b>3 jours et demie</b>        
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>à quel pourcentage s'élève l'indemnité de fin de contrat de la rémunération totale brute perçue par le salarié pendant toute la durée du CDD?</question>
+        <b>10%</b>
+        <a>25%</a>        
+        <c>5%</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Combien d'heures supplémentaires par semaine je peux effectuer dans le cadre de la législation?</question>
+        <b>18 heures.</b>
+        <a>25 heures.</a>        
+        <c>15 heures.</c>
       </ccc>
     </qcm>
   </cours>
@@ -1819,25 +1943,27 @@
     <qcm>
       <introductionText>
         <a>
+          Pour tenir une comptabilité, il convient de mettre en place des journaux comptables, avec obligatoirement un journal général qui constitue le support légal de la comptabilité.
+          Sur celui-ci on a le journal d'achats, journal de ventes, journal de banque, journal de caisse... 
         </a>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Comment appel-t-on le support général de la comptabilité?</question>
+        <b>journal général.</b>
+        <a>journal d'achats.</a>        
+        <c>journal centralisateur.</c>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Quel est l'organe législatif en terme de comptabilité?</question>
+        <c>CRC.</c>
+        <a>OEC.</a>
+        <b>AMF.</b>        
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Quels sont les conséquences des décalages de flux physiques et flux monétaires?</question>
+        <b>stock, dettes, créances.</b>
+        <a>dettes, trésorerie.</a>        
+        <c>dettes, immobilisation et capital.</c>
       </ccc>
     </qcm>
   </cours>
@@ -1884,30 +2010,34 @@
     <qcm>
       <introductionText>
         <a>
+          Lorsque une entreprise tient elle-même sa comptabilité, elle doit saisir dans son logiciel comptable  les factures d'achats qu'elle reçoit et les factures de ventes qu'elle émet.  Cet encodage, également appelé enregistrement comptable, 
+          doit être maîtrisé par l'opérateur de saisie afin que la comptabilité soit correcte et qu'elle soit simple et rapide à réviser lors du bilan de fin d'année.
         </a>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Comment appelle-t-on la saisie des factures dans le logiciel de comptabilité:</question>
+        <a>a. encodage.</a>
+        <b>b. codage.</b>
+        <c>c. bilan de fin d'année.</c>
+        <d>d. la réponse b</d>
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Donner les 4 notions principales qui définissent la comptabilité générale.</question>
+        <a>a. analyse de coûts, calcul des écarts, le coût de revient, système informatique.</a>
+        <b>b. système d'information, mémoire, flux, techniques</b>
+        <c>c. balances, tableau de bord, gestion de stocks</c>
+        <d>d. la réponse b</d>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Citer les étapes de création d'une entreprise.</question>
+        <a>a. emprunter, produire, s'enrichir et ré investir.</a>
+        <b>b. réunir des fonds, acquérir des facteurs de production, consommer les facteurs de production, commercialiser  et créer de nouvelles richesses.</b>
+        <c>c. immobiliser des ressources, produire, créer de richesses et capitaliser.</c>
       </ccc>
     </qcm>
   </cours>
   
-  <cours>
+   <cours>
     <info>
       <name>Comptable assistante </name>
       <section>MÉTIERS DE GESTION</section>
@@ -1922,10 +2052,9 @@
       <prerequis>Niveau BEP, première ou terminale, personnes issues des métiers du secrétariat, de la comptabilité, du commerce ou encore de l’administration commerciale </prerequis>
       <duree>110 jours - 770 heures de cours, 25 jours - 175 heures de stage</duree>
       <organisation>Phases de recrutement
-        1. Information collective: contours du métier, objectifs, modalités de formation
-        2. Test de pré-sélection:   français, bureautique
-        3. Entretien individuel 
-      </organisation>
+      1. Information collective: contours du métier, objectifs, modalités de formation
+      2. Test de pré-sélection:   français, bureautique
+      3. Entretien individuel </organisation>
       <evaluation>Entraînement aux ECF et aux épreuves du titre, accompagnement, tutoriel, suivi individualisé, remédiation pédagogique, mise en relation avec des entreprises</evaluation>
     </board>
     <objectifs>
@@ -1949,25 +2078,27 @@
     <qcm>
       <introductionText>
         <a>
+          Pour tenir une comptabilité, il convient de mettre en place des journaux comptables, avec obligatoirement un journal général qui constitue le support légal de la comptabilité.
+          Sur celui-ci on a le journal d'achats, journal de ventes, journal de banque, journal de caisse... 
         </a>
       </introductionText>
       <aaa>
-        <question>La question</question>
-        <a>reponse</a>
-        <b></b>
-        <c></c>
+        <question>Comment appel-t-on le support général de la comptabilité?</question>
+        <c>journal général.</c>
+        <a>journal auxiliaire.</a>
+        <b>journal centralisateur.</b>        
       </aaa>
       <bbb>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Je règle une commande, j'envoie:</question>
+        <b>Un billet à ordre.</b>
+        <a>Une facture.</a>        
+        <c>Un bon de livraison.</c>
       </bbb>
       <ccc>
-        <question>La question</question>
-        <a></a>
-        <b></b>
-        <c></c>
+        <question>Je livre les marchandises à mon client, j'utilise:</question>
+        <b>Un bon de livraison.</b>
+        <a>Un bon de commande.</a>        
+        <c>Une facture.</c>
       </ccc>
     </qcm>
   </cours>

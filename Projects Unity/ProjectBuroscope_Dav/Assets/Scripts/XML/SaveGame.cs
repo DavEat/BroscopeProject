@@ -10,10 +10,10 @@ public class SaveGame : MonoBehaviour {
     #if (UNITY_EDITOR)
         public static string path = @"Files/";
     #elif (UNITY_STANDALONE_WIN)
-        public static string path = @"Project Buroscope a 1.7_Data/";
+        public static string path = @"Project Buroscope a 1.8.1_Data/";
     #endif
     private const int number = 5; //The number of specifics element before the score
-    private const int numberElementSave = 15; //The number of save section
+    private const int numberElementSave = 23; //The number of save section
 
 
     public static List<string> ReadText(string _path)

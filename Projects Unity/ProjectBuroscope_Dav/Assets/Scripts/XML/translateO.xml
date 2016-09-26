@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<courss>
+  
+  <cours>
+    <info>
+      <name></name>
+      <section></section>
+      <type></type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public></public>
+      <prerequis></prerequis>
+      <duree></duree>
+      <organisation></organisation>
+      <evaluation></evaluation>
+    </board>
+    <objectifs>
+      <a></a>
+      <b></b>
+      <c></c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+      <ddd>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ddd>
+      <eee>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </eee>
+      <fff>
+        <titre></titre>
+        <a></a>
+        <b></b>
+        <c></c>
+      </fff>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+    
+  <cours>
+    <info>
+		  <name>Word</name>
+      <section>Bureautique</section>
+		  <type>Formation courte</type>
+    </info>
+    <flier>  
+      <name></name> 
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Aucun</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Mettre en ouvre les méthodes efficaces dans l'élaboration de ses documents</a>
+      <b>Concevoir des documents simples de type courriers, notes affichettes, signalétiques, CV...</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Saisir et modifier le texte</titre>
+        <a>Les règles de saisie: "saisir au kilomètre", les caractères non imprimables</a>
+        <b>Sélection des parties du texte</b>
+        <c>Gestion de blocs de texte (duplication, déplacement, effacement)</c>
+        <d>Les outils de correction: orthographe, grammaire, synonymes</d>
+      </aaa>
+      <bbb>
+        <titre>Mettre en valeur le texte</titre>
+        <a>Mettre en forme le caractère : taille, couleur...</a>
+        <b>Mettre en forme le paragraphe : retrait, alignement, interlignage, encadrement, tabulations</b>
+      </bbb>
+      <ccc>
+        <titre>Gérer son document</titre>
+        <a>Créer et ouvrir un document</a>
+        <b>Dupliquer un document original</b>
+      </ccc>
+      <ddd>
+        <titre>Créer un tableau simple</titre>
+        <a>Insérer un tableau</a>
+        <b>Saisir, déplacer et sélectionner dans le tableau</b>
+        <c>Ajouter et supprimer des lignes et des colonnes</c>
+      </ddd>
+      <eee>
+        <titre>Mettre en page et imprimer le document</titre>
+        <a>Pré-visualiser le document</a>
+        <b>Modifier la mise en page : orientation, gestion de marges, sautes de page, pagination</b>
+        <c>Imprimer le document</c>
+      </eee>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Un éditeur de texte est un logiciel destiné à la création et l'édition de fichiers textes. Chaque système d'exploitation fournit un éditeur, tant son usage est courant, voire incontournable pour certaines tâches informatiques de base comme l'administration de système et le développement de logiciels.
+          Il existe plusieurs types de logiciels de traitement de texte : L'éditeur de texte : permet de saisir et modifier interactivement des textes (codés en ASCII ouUnicode); il n'était pas en général concerné par la mise en forme, sauf sur les machines Wang.
+          Word 2013 apporte l'usage tactile et un mode lecture. Word 2016 intègre de nouvelles fonctionnalités de collaboration en temps réel et de partage et simplifie la création de forme.
+        </a>
+      </introductionText>
+      <aaa>
+        <question>1. Un éditeur de texte est destiné à :</question>
+        <a>a. l'édition de fichiers textes</a>
+        <b>b. l’édition des fichier Audio</b>
+        <c>c. l'édition des fichier images</c>
+      </aaa>
+      <bbb>
+        <question>L’éditeur de texte permet de :</question>
+        <a>a. saisir et modifier interactivement des textes</a>
+        <b>b. contrôler la mise en forme de manière interactive par une IHM</b>
+        <c>c. produire le document sous sa forme imprimable, ou consommable</c>
+      </bbb>
+      <ccc>
+        <question>Quelles nouvelles fonctionnalités apporte Word 2016 :</question>
+        <a>a. de collaboration en temps réel et de partage et simplifie la création de forme</a>
+        <b>b. de collaboration en temps réel et de partage virtuelle.</b>
+        <c>c. de collaboration en temps réel et de l'usage tactile.</c>
+      </ccc>
+    </qcm>
+	</cours>
+
+  <cours>
+    <info>
+      <name>Access</name>
+      <section>Bureautique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur souhaitant exploiter et ou enrichir une base de données</public>
+      <prerequis>Aisance sur l'environnement informatique</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Savoir se déplacer dans les différents modules d'Access afin d'utiliser une base de données déjà construite</a>
+      <b>Construire des tables des données et les lier</b>
+      <c>Elaborer des formulaires des saisie, poser des requêtes pour extraire ses informations, mettre en place des états d'impression</c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Prendre un bon départ</titre>
+        <a>Ouvrir une base des données existante</a>
+        <b>Présentation des différents objets</b>
+      </aaa>
+      <bbb>
+        <titre>Créer des requêtes</titre>
+        <a>Sélectionner des informations d'une ou plusieurs tables</a>
+        <b>Concevoir des requêtes pratiques : requêtes paramétrées, requêtes analyse croisée...</b>
+        <c>Concevoir des requêtes de mise à jour de table : ajout, suppression, modification des données</c>
+      </bbb>
+      <ccc>
+        <titre>Manipuler les données d'une base</titre>
+        <a>Visualiser et ajouter des données à une base des données</a>
+        <b>Gagner du temps avec les formulaires instantanés</b>
+        <c>Apprendre à rechercher des informations</c>
+      </ccc>
+      <ddd>
+        <titre>Créer des formulaires</titre>
+        <a>Utiliser les assistants pour créer un formulaire</a>
+        <b>Modifier un formulaire en y ajoutant différents types de contrôle</b>
+        <c>Faciliter la saisie des données, les propriétés des contrôles et du formulaire</c>
+      </ddd>
+      <eee>
+        <titre>Enrichir une base de données</titre>
+        <a>Concevoir une table</a>
+        <b>Les différents types de champs et leurs propriétés</b>
+        <c>La notion de clé primaire et lier des tables entre elles</c>
+      </eee>
+      <fff>
+        <titre>Créer des états d'impression</titre>
+        <a>Utiliser les assistants pour créer un état</a>
+        <b>Modifier un état en y ajoutant des contrôles, la mise en page</b>
+        <c>Créer des états avec regroupement des données</c>
+      </fff>
+    </programme>
+    <qcm>
+      <information>
+        <a>
+          Hello World
+        </a>
+      </information>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+
+  <cours>
+    <info>
+      <name>Excel</name>
+      <section>Bureautique</section>
+      <type>Formation Courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Aucun</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Concevoir efficacement un tableau de type budget, suivie d'activité... en soignant sa mise en forme</a>
+      <b>Mettre en ouvre des calculs de type addition, soustraction, totalisation...</b>
+      <c>Présenter ses données graphiquement sous forme de courbe, "camembert"</c>
+      <d>Retrouver facilement ses informations en triant et filtrant son tableau</d>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Créer un tableau et modifier le contenu</titre>
+        <a>Saisir les données du tableau</a>
+        <b>Insérer et supprimer des colonnes ou des lignes</b>
+        <c>Recopier ou déplacer des données</c>
+        <d>Modifier ou effacer les données déjà saisies</d>
+      </aaa>
+      <bbb>
+        <titre>Insérer des formules de calculs</titre>
+        <a>Réaliser des opérations de base : addition, soustraction...</a>
+        <b>Insérer des fonctionnes statistiques : somme, moyenne</b>
+        <c>Recopier une formule</c>
+      </bbb>
+      <ccc>
+        <titre>Mettre en forme le tableau</titre>
+        <a>Mettre en forme le caractère : taille, couleur</a>
+        <b>Modifier l'alignement du texte : centrage, centrage sur plusieurs cellules</b>
+        <c>Les fonctionnalités d'encadrement et de trame</c>
+        <d>Mettre en forme les valeurs numériques</d>
+      </ccc>
+      <ddd>
+        <titre>Présentation du tableau sur la page imprimée</titre>
+        <a>Pré-visualiser le tableau avant l'impression</a>
+        <b>Modifier sa mise en page : orientation de la page, centrage du tableau dans la page, impression sur une ou plusieurs pages</b>
+        <c>Pagination du tableau imprimé</c>
+      </ddd>
+      <eee>
+        <titre>Présenter ses données graphiquement</titre>
+        <a>Les étapes de création du graphique</a>
+        <b>Personnaliser sa mise en forme</b>
+        <c></c>
+        <d></d>
+      </eee>
+      <fff>
+        <titre>Trier et filtrer ses données</titre>
+        <a>Trier ses données</a>
+        <b>Exploiter les filtres automatiques</b>
+      </fff>
+    </programme>
+    <qcm>
+      <information>
+        <a>
+          Hello World
+        </a>
+      </information>
+      <aaa>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a>a</a>
+        <b>b</b>
+        <c>c</c>
+      </ccc>
+    </qcm>
+  </cours>
+
+  <cours>
+    <info>
+      <name>PowerPoint</name>
+      <section>Bureautique</section>
+      <type>Formation Courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Aucun</prerequis>
+      <duree>1 jour - 7 heures</duree>
+      <organisation>Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Présenter sous forme des diapositives, textes et photos</a>
+      <b>Enrichir graphiquement les diapositives</b>
+      <c>Dynamiser la projection de la présentation à travers des effets d'animation</c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Concevoir une présentation Power Point</titre>
+        <a>Description de l'espace de travail</a>
+        <b>Les modes d'affichage et leur utilité : normal, plan, trieuse, pages de commentaires, diaporama</b>
+      </aaa>
+      <bbb>
+        <titre>Créer une diapositive</titre>
+        <a>Les dispositions de diapositive</a>
+        <b>Les objets textes : espaces réservés, la zone de texte</b>
+        <c>Les outils de dessin, les images et photos, les objets multimédia : sons et vidéo</c>
+      </bbb>
+      <ccc>
+        <titre>Animer la présentation</titre>
+        <a>Les effets d'animation sur les objets</a>
+        <b>Les effets de transition entre diapositives</b>
+        <c>Les outils de projection lors de la diffusion</c>
+      </ccc>
+      <ddd>
+        <titre>Les choix d'impression</titre>
+        <a>Imprimer en diapositive, en "document"</a>
+      </ddd>
+    </programme>
+    <qcm>
+      <aaa>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+        <d>la réponse d</d>
+      </aaa>
+    </qcm>
+  </cours>
+
+  <cours>
+    <info>
+      <name>Essentiel Photoshop</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Acteurs de l'édition, de la communication, du marketing. Public débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>4 jours - 28 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation \n Pédagogie en face à face</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Produire rapidement et efficacement des photomontages en intégrant les fonctions essentielles de photoshop</a>
+      <b>Réaliser des retouches de qualité sur des images</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Présentation de Photoshop</titre>
+        <a>L'interface du logiciel, gestion de fenêtres</a>
+        <b>Définition de l'image numérique, le pixel</b>
+      </aaa>
+      <bbb>
+        <titre>Paramètres de l'image</titre>
+        <a>Les modes couleurs : RVB, CMJN</a>
+        <b>Taille et résolution de l'image</b>
+        <c>Rotation, cadrage</c>
+      </bbb>
+      <ccc>
+        <titre>Réglage de base de l'image</titre>
+        <a>Analyse de l'image. Réglage de la luminosité et du contraste</a>
+        <b>Correction Automatique</b>
+      </ccc>
+      <ddd>
+        <titre>Sélection et détourage</titre>
+        <a>Méthodes de détourage: plume, baguette magique, sélection rapide, lassos...</a>
+        <b>Mémorisations et récupérations de sélections (Couches Alpha)</b>
+        <c>Détourage par traces. Travail sur les sélections: contour progressif, contracter, améliorer le contour</c>
+        <d>Transformation manuelle et paramétrée</d>
+      </ddd>
+      <eee>
+        <titre>L'utilisation de calques</titre>
+        <a>Création et gestion de calques (groupes, liaisons, disposition, visibilité, protection)</a>
+        <b>Opacité et mode de fusion</b>
+        <c>Styles de calques, Photomontage</c>
+      </eee>
+      <fff>
+        <titre>La retouche d'images</titre>
+        <a>Tampon, correcteurs, pièce, déplacement base sur le contenu</a>
+        <b>Remplissage d'après le contenu. Déformation de la marionnette</b>
+        <c>Recadrer, dé incliner une image</c>
+        <d>Échelle base sur le contenu</d>
+        <e>Le filtre point de fuite</e>
+        <f>Réglage du piqué, nettoyage des poussières et rayures</f>
+      </fff>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+          Photoshop est un logiciel de retouche, de traitement et de dessin assisté par ordinateur édité par Adobe. Il est principalement utilisé pour le traitement de photographies numériques, mais sert également à la création d’images ex nihilo.\n
+          Il travaille essentiellement sur images matricielles car les images sont constituées d’une grille de points appelés pixels. L’intérêt de ces images est de reproduire des gradations subtiles de couleurs.\n
+          Photoshop possède son propre format de fichier (extension psd). Celui-ci permet de conserver distincts les différents calques formant l'image afin de les manipuler séparément. Le programme accepte également d’importer et d’exporter des fichiers d’image dans les formats les plus courants (extensions : gif, jpg, tif, png, etc.).
+        </a>
+      </introductionText>
+      <aaa>
+        <question>Photoshop est un logiciel de :</question>
+        <a>retouche, de traitement et de dessin assisté par ordinateur édité par Adobe</a>
+        <b>retouche, de traitement texte.</b>
+        <c>retouche, de traitement de son. </c>
+      </aaa>
+      <bbb>
+        <question>Photoshop travaille essentiellement sur du :</question>
+        <a>images matricielles </a>
+        <b>textes</b>
+        <c>photos</c>
+      </bbb>
+      <ccc>
+        <question>Photoshop permet de conserver distincts les différents calques formant l'image afin de les :</question>
+        <a>manipuler séparément</a>
+        <b>importer</b>
+        <c>exporter</c>
+      </ccc>
+    </qcm>
+  </cours>
+
+  <cours>
+    <info>
+      <name>In design</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Concevoir des mises en page simples en utilisant les techniques de base du logiciel, découvrir la conception de mise en page et la création graphique</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Présentation d'InDesign</titre>
+        <a>L'interface du logiciel, gestion de fenêtres</a>
+        <b>La présentation des outils</b>
+      </aaa>
+      <bbb>
+        <titre>Le document</titre>
+        <a>Le format di document, les marges et les colonnes</a>
+        <b>Les fonds perdus</b>
+        <c>Les règles, les repères, la grille</c>
+      </bbb>
+      <ccc>
+        <titre>Structure de la page: les blocs</titre>
+        <a>Convertir la forme d'un bloc</a>
+        <b>Le placement manuel, le placement paramétré des blocs</b>
+        <c>Grouper des blocs, déplacer, dupliquer, aligner</c>
+        <d>Le chaînage des blocs de texte, les options de bloc de texte</d>
+        <e>Les blocs de formes personnalisés - Pathfinder</e>
+      </ccc>
+      <ddd>
+        <titre>Attributs de blocs</titre>
+        <a>La mise en couleurs des blocs, les filets</a>
+        <b>Les couleurs CMJN, ton directs</b>
+        <c>La création de dégradés: panneau dégradé</c>
+        <d>Le paramétrage de contours de blocs, la mémorisation de nuances</d>
+      </ddd>
+      <eee>
+        <titre>Composition texte</titre>
+        <a>Les encarts, les colonnes, le calage vertical du texte dans son bloc</a>
+        <b>La typographie du caractère et le format du paragraphe</b>
+        <c>Les filets de paragraphes, la lettrine</c>
+        <d>La grille d'alignement du texte</d>
+      </eee>
+      <fff>
+        <titre>Les images </titre>
+        <a>Les formats de fichiers d'image</a>
+        <b>Mini Bridge</b>
+        <c>L'importation, le cadrage des images</c>
+        <d>Les couleurs des images importées, la gestion des liens avec les fichiers importés</d>
+      </fff>
+      <ggg>
+        <titre>Environnement Métier</titre>
+        <a>La description de la chaîne graphique</a>
+        <b>Le flux de production pré-presse</b>
+        <c>Les espaces couleurs, les formats d'enregistrement </c>
+      </ggg>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>  
+  
+  <cours>
+    <info>
+      <name>WordPress</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Tout public souhaitant apprendre à créer son site internet</public>
+      <prerequis>Être à l'aise avec l'outil informatique, Savoir organiser ses dossiers, Savoir décompresser un archive, Bonne connaissance d'Internet</prerequis>
+      <duree>5 jours - 35 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Créer, gérer et optimiser un blog professionnel ou un site internet avec le CMS WordPress (Système de Gestion de Contenus)</a>
+      <b>Utiliser des outils et techniques de référencement</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Structure d'une CMS</titre>
+        <a>Définition d'un CMS et son vocabulaire associé. Contraintes techniques</a>
+        <b>Choix d'un hébergement ou d'une solution tout-en-un</b>
+        <c>Comprendre le fonctionnement d'un FTP</c>
+        <d>La connexion et la structure des bases des données MySQL</d>
+        <e>Travail en local ou en ligne</e>
+        <f>Tour d'horizon des différents solutions de CMS</f>
+        <g>Les outils nécessaires (Wampserver, Xenu)</g>
+        <h>Configuration de son environnement du travail</h>
+      </aaa>
+      <bbb>
+        <titre>Introduction à WordPress</titre>
+        <a>Présentation et historique</a>
+        <b>Exemples d'utilisation</b>
+        <c>Vocabulaire et ressources</c>
+      </bbb>
+      <ccc>
+        <titre>Installation</titre>
+        <a>Les outils, les fichiers et la base de données</a>
+        <b>Hébergement: en ligne ou en local?</b>
+      </ccc>
+      <ddd>
+        <titre>Utilisation</titre>
+        <a>Front Office vs back office. Configuration générale</a>
+        <b>Création de pages statiques. Gestion d'un blog et des articles: taxonomie et commentaires</b>
+        <c>Trouver, installer et configurer des extensions</c>
+        <d>Gestion des utilisateurs: pages privée, commentaires et newsletter</d>
+      </ddd>
+      <eee>
+        <titre>Médias</titre>
+        <a>Gestion de la bibliothèque (photos, vidéo, pdf)</a>
+        <b>Options d'image, alignement, cliquabilité</b>
+        <c>Droits d'exploitation</c>
+        <d>Les outils pour créer un diaporama, une galerie d'images...</d>
+        <e>Gestion de flux RSS</e>
+      </eee>
+      <fff>
+        <titre>Apparence</titre>
+        <a>Trouver et personnaliser le thème</a>
+        <b>Modification avancée du thème avec l'éditeur CSS et PHP</b>
+        <c>Les widgets: intérêt, astuces et conseils</c>
+        <d>Gérer les menus principaux et secondaires</d>
+      </fff>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Illustrator</name>
+      <section>Web and Publication</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Utilisateur débutant dont les travaux intègrent des illustrations vectorielles</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Produire rapidement et efficacement des illustrations vectorielles de qualité en appréhendant les fonctions  essentiels d'illustrator</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Présentation d'Illustrator</titre>
+        <a>L'interface de logiciel et la gestion de fenêtres. Présentation des outils</a>
+        <b>Format du document, plans de travail. Les règles, les repères, la grille</b>
+      </aaa>
+      <bbb>
+        <titre>Création d'objets vectoriels</titre>
+        <a>Formes géométriques</a>
+        <b>L'outil plume (courbes et Bézier)</b>
+      </bbb>
+      <ccc>
+        <titre>Modifications et transformations sur les objets</titre>
+        <a>Les outils de sélection. L'association et le mode isolation</a>
+        <b>Déplacements, copies et alignements et répartition d'objets</b>
+        <c>Correction, réunion et découpe de traces. Combinaison des formes (Pathfinder, concepteur)</c>
+        <d>Outils de transformations: rotation, symétrie, mise à l'échelle, déformation</d>
+        <e>Dessiner sur une grille de perspective</e>
+      </ccc>
+      <ddd>
+        <titre>L'aspect graphique des objets (fonds et contours)</titre>
+        <a>Couleurs, quadri, tons directs, RVB, palette Nuanciers</a>
+        <b>Dégradés des couleurs linéaires et radiaux. Le filet de dégradé</b>
+        <c>Création de motifs de fond. Contours simples, en pointillés, avec des flèches</c>
+      </ddd>
+      <eee>
+        <titre>Les calques</titre>
+        <a>Utiliser et organiser les calques (Insérer, supprimer, renommer...)</a>
+        <b>Masquer, afficher, verrouiller des calques. Gérer les calques et les sous-calques</b>
+        <c>Sélectionner par la palette des calques</c>
+      </eee>
+      <fff>
+        <titre>Le texte</titre>
+        <a>Saisie, importation et correction</a>
+        <b>Texte libre, curviligne, captif, outil retouche de texte, vectorisation du texte</b>
+        <c>Mise en forme (caractère, paragraphe), chaînage et habillage de texte</c>
+      </fff>
+      <ggg>
+        <titre>Techniques spécifiques appliqués aux objets</titre>
+        <a>Dégradé des formes</a>
+        <b>Le tracé transparent</b>
+        <c>Les masques d'écrêtage (simples et multiples)</c>
+        <d>Utilisation des symboles (création et pulvérisation de symboles)</d>
+      </ggg>
+      <hhh>
+        <titre>Finalisation d'un document</titre>
+        <a>Format d'enregistrement et d'exportation</a>
+        <b>Vérifier la séparation quadri et tons directs</b>
+        <c>Aplatissement de la transparence</c>
+        <d>Exportation en PDF, impression</d>
+      </hhh>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Réseaux Sociaux</name>
+      <section>Usages du numérique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Public débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>1 jour - 7 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Appréhender ce nouveau mode de partage pour en tirer parti en évitant les pièges</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Réseaux Sociaux. Qu'est-ce que c'est?</titre>
+        <a>L'historique, les objectifs de réseaux sociaux</a>
+        <b>Les différents modèles</b>
+        <c>Le vocabulaire lié à leur utilisation</c>
+      </aaa>
+      <bbb>
+        <titre>Gestion de votre E-réputation</titre>
+        <a>L'identité numérique: peut-on la modifier?, Quelle importance a-t-elle?</a>
+        <b>Anonymat ou transparence?, La recherche des personnes sur Internet</b>
+        <c>Mise en place d'un système d'alerte (Google)</c>
+      </bbb>
+      <ccc>
+        <titre>Typologie des réseaux sociaux</titre>
+        <a>Inscription rapide, créer son profil et gérer ses relations</a>
+        <b>Groupes d'affinité, invitations et messagerie, personnalisation</b>
+        <c>Twitter, Facebook et autres réseaux sociaux</c>
+        <d>Aspects juridiques, confidentialité, droits à l'image, risques</d>
+      </ccc>
+      <ddd>
+        <titre>Réseaux Sociaux et référencement</titre>
+        <a>Se faire connaître en mettant en valeur ses propres liens</a>
+        <b>Écrire pour être vu: soigner les contenus et les titres </b>
+      </ddd>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Utiliser Twitter, Facebook à usage professionnel</name>
+      <section>Usages du numérique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Public débutant</public>
+      <prerequis>Maîtrise de l'outil informatique</prerequis>
+      <duree>2 jours - 14 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Découvrir de façon pratique les possibilités offertes aux professionnels par les médias sociaux pour échanger, communiquer et promouvoir son activité</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Réseaux Sociaux. Qu'est-ce que c'est?</titre>
+        <a>Les objectifs de réseaux sociaux</a>
+        <b>Les différents modèles, le vocabulaire lié à leur utilisation</b>
+      </aaa>
+      <bbb>
+        <titre>Facebook: Communiquer et promouvoir</titre>
+        <a>Configurer son compte Facebook: profil, sécurité, alertes, groupes</a>
+        <b>Créer une page pro et la paramétrer, mettre à jour son statut</b>
+        <c>La recherche des personnes</c>
+        <d>Illustrer sa page pro et choisir les bons mots pour communiquer</d>
+        <e>Envoyer des invitations à des contacts, solliciter du public pour récupérer du trafic</e>
+        <f>Utiliser des flux RSS pour alimenter sa page Pro</f>
+        <g>Consulter les statistiques de visite, l'application "pages" sur son Smartphone</g>
+      </bbb>
+      <ccc>
+        <titre>Viadeo et LinkedIn</titre>
+        <a>Configurer son compte, créer et faire évoluer son réseau</a>
+        <b>Compléter son profil, son parcours professionnel</b>
+        <c>Recommander des compétences</c>
+        <d>Communiquer en privé ou en public des informations</d>
+        <e>Consulter les statistiques de visite</e>
+      </ccc>
+      <ddd>
+        <titre>Se tenir informer, faire de la veille avec Twitter</titre>
+        <a>Le micro-blogging: qu'est-ce que c'est?</a>
+        <b>La timeline</b>
+        <c>Suivre et être suivi: abonnements, abonnés, listes</c>
+        <d>Recherche en utilisant les hashtags</d>
+        <e>Twitter sur son Smartphone</e>
+      </ddd>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Être efficace avec votre Smartphone</name>
+      <section>Usages du numérique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Public débutant</public>
+      <prerequis>Il est souhaitable que chaque participant rapporte son Smartphone avec le guide d'utilisation </prerequis>
+      <duree>1 jour - 7 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Découvrir les nouvelles fonctionnalités proposées par les téléphones mobiles de type Smartphone</a>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Les fondamentaux</titre>
+        <a>La notion client-serveur</a>
+        <b>Les moyens de connexion Internet (EDGE, 3G, WIFI)</b>
+      </aaa>
+      <bbb>
+        <titre>Le choix d'un modèle</titre>
+        <a>Les fonctionnalités natives et les applications</a>
+        <b>Les modalités de mise à jour et de sauvegarde des données</b>
+        <c>La compatibilité avec les logiciels usuels</c>
+        <d>Les forfaits et options proposés par les fournisseurs d'accès</d>
+      </bbb>
+      <ccc>
+        <titre>L'environnement du Smartphone</titre>
+        <a>Les actions de copier/coller</a>
+        <b>L'envoie des pièces jointes</b>
+        <c>Le renvoie d'appels, répondeur</c>
+        <d>Les paramétrages et réglages (notification code accès, code Pin, messagerie...)</d>
+      </ccc>
+      <ddd>
+        <titre>Les opérations courantes avec son Smartphone</titre>
+        <a>Configurer et synchroniser sa messagerie, son agenda et ses contacts</a>
+        <b>Paramétrer son navigateur Internet et ses favoris</b>
+        <c>Sauvegarder des données</c>
+        <d>Exploiter les utilitaires: GPS, Photos, Vidéos, SMS, MMS, Bloc notes, Dictaphone...</d>
+        <e>Régler ses notifications</e>
+        <f>Le service de localisation: ce qu'il implique, comme le désactiver</f>
+        <g>La méthode Push: de quoi s'agit-il?</g>
+      </ddd>
+      <eee>
+        <titre>Les applications pour personnaliser son Smartphone</titre>
+        <a>Rechercher une application pour un besoin précis</a>
+        <b>Installer, paramétrer et supprimer une application</b>
+        <c>Mettre à jour ses applications</c>
+        <d>Quelques sites utiles pour son Smartphone</d>
+      </eee>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Outils d'échange du Web 2.0</name>
+      <section>Usages du numérique</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Maîtrise de l'outil informatique</public>
+      <prerequis>Il est souhaitable que chaque participant rapporte son Smartphone avec le guide d'utilisation </prerequis>
+      <duree>2 jours - 14 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Connaître les possibilités offertes par les nouveaux outils en matière d'échange de contenus, de veille, de communication et de promotion</a>
+      <b>Pratiquer pour gagner en productivité</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Organiser sa veille </titre>
+        <a>Les outils de veille: alertes Google, Twitter, Hyper Alerts, agrégateurs</a>
+        <b>Les alertes: spécifiques et générales </b>
+        <c>Les flux RSS: annuaires, abonnements, partage</c>
+        <d>Installer et utiliser un agrégateur de contenus</d>
+      </aaa>
+      <bbb>
+        <titre>Créer, archiver, partager et synchroniser ses données, Dropbox</titre>
+        <a>Partager des documents et des photos entre plusieurs ordinateurs</a>
+        <b>Créer de partage des fichiers avec accès restreint ou public pour gérer les accès</b>
+        <c>Synchroniser automatiquement des fichiers d'un ordinateur vers son espace Dropbox</c>
+      </bbb>
+      <ccc>
+        <titre>Google Drive</titre>
+        <a>Découverte de la suite bureautique: tableur, présentation et traitement de texte</a>
+        <b>Importer des documents et partager des données</b>
+        <c>Gérer les autorisations</c>
+        <d>Construire un formulaire d'enquête</d>
+      </ccc>
+      <ddd>
+        <titre>Google Agenda</titre>
+        <a>Créer et modifier un événement</a>
+        <b>Partager son calendrier</b>
+        <c>Ouvrir un calendrier partagé</c>
+        <d>La messagerie instantané</d>
+      </ddd>
+      <eee>
+        <titre>Evernote</titre>
+        <a>Créer un compte, créer une note</a>
+        <b>Ajouter une image</b>
+        <c>Enregistrer et organiser des contenus du web</c>
+      </eee>   
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Logiciel de comptabilité SAGE</name>
+      <section>COMPTABILITÉ ET GESTION</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Secrétaires, comptables, agent administratif ou public débutant</public>
+      <prerequis>Notions essentiels à la comptabilité</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Enregistrer les opérations courantes de comptabilité</a>
+      <b>Créer des écritures guidés</b>
+      <c>Effectuer le rapprochement bancaire et le lettrage de comptes</c>
+      <d>Imprimer les journaux, le grand-livre, la balance</d>
+      <e>Clôturer l'exercice comptable </e>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Création et paramétrage</titre>
+        <a>Création d'une nouvelle société</a>
+        <b>Paramétrage du dossier</b>
+        <c>Personnalisation du plan comptable</c>
+        <d>Création de journaux</d>
+        <e>Création de modèles d'écriture</e>
+      </aaa>
+      <bbb>
+        <titre>Saisie des écritures dans les journaux</titre>
+        <a>La saisie standard</a>
+        <b>La saisie guidée</b>
+      </bbb>
+      <ccc>
+        <titre>Les traitements quotidiens</titre>
+        <a>Le lettrage de comptes</a>
+        <b>Le rapprochement bancaire </b>
+        <c>Les contrepassations </c>
+      </ccc>
+      <ddd>
+        <titre>Editer les états</titre>
+        <a>Les relances</a>
+        <b>Impression de brouillards et journaux</b>
+        <c>Impression de la balance et du grand-livre</c>
+        <d>Etablir la déclaration de TVA</d>
+        <e>Dresser le bilan et le compte de résultat</e>
+      </ddd>
+      <eee>
+        <titre>Clôture</titre>
+      </eee>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+    <qcm>
+      <introductionText>
+        <a>
+          Lorsque une entreprise tient elle-même sa comptabilité, elle doit saisir dans son logiciel comptable  les factures d'achats qu'elle reçoit et les factures de ventes qu'elle émet.  
+          Cet encodage, également appelé enregistrement comptable, doit être maîtrisé par l'opérateur de saisie afin que la comptabilité soit correcte et qu'elle soit simple et rapide à réviser lors du bilan de fin d'année. 
+          La comptabilité possède trois finalités: économique, fiscal et juridique qui permet d'avoir une image fidèle de la sante d'une entreprise
+        </a>
+      </introductionText>
+      <aaa>
+        <question>Comment appelle-t-on la saisie des factures dans le logiciel de comptabilité:</question>
+        <a>codage </a>
+        <b>encodage</b>
+        <c>bilan de fin d'année</c>
+        <d>remplissage comptable</d>
+      </aaa>
+      <bbb>
+        <question>Quels sont les trois finalités comptables? </question>
+        <a>juridique, politique, économique</a>
+        <b>financière, sociologique, contrôle </b>
+        <c>juridique, fiscale, financière</c>
+        <d>juridique, fiscale, économique</d>
+      </bbb>
+      <ccc>
+        <question>Lequel de ces principes comptables vous semble le plus important?</question>
+        <a>prudence</a>
+        <b>spécialisation</b>
+        <c>l'image fidèle</c>
+        <d>nominalisme</d>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Logiciel de Gestion Commerciale / SAGE</name>
+      <section>COMPTABILITÉ ET GESTION</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Secrétaires, comptables, agent administratif ou public débutant  </public>
+      <prerequis>Notions essentiels à la comptabilité</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Gérer l'intégralité de l'activité commerciale du devis au règlement</a>
+      <b>Gérer des grilles tarifaires</b>
+      <c>Gérer les régulations de stocks</c>
+      <d>Imprimer les pièces commerciales, les relances, l'état de stock, les relèves de comptes et les relances</d>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Création et paramétrage du dossier</titre>
+        <a>Création du fichier de représentants</a>
+        <b>Création du fichier de fournisseurs</b>
+        <c>Création des familles articles et des articles</c>
+        <d>Gestion de tarifs</d>
+        <e>Saisie des fichiers clients</e>
+      </aaa>
+      <bbb>
+        <titre>La gestion de pièces commerciales</titre>
+        <a>Saisie d'une pièce commerciale</a>
+        <b>Transfert d'une pièce commerciale</b>
+        <c>Enregistrement ou la validation d'une pièce</c>
+        <d>Générer un avoir commerciale</d>
+        <e>Le règlement</e>
+      </bbb>
+      <ccc>
+        <titre>Les traitements</titre>
+        <a>La gestion de tarifs</a>
+        <b>Le réapprovisionnement automatique</b>
+        <c>La régulation de stocks</c>
+        <d>L'assemblage/ désassemblage</d>
+      </ccc>
+      <ddd>
+        <titre>Les états</titre>
+        <a>Le relevé des comptes</a>
+        <b>Les relances</b>
+        <c>Les catalogues</c>
+        <d>L'inventaire</d>
+        <e>L'évolution de ventes</e>
+      </ddd>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Logiciel de Paie / SAGE</name>
+      <section>COMPTABILITÉ ET GESTION</section>
+      <type>Formation courte</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Secrétaires, comptables, agent administratif ou public débutant  </public>
+      <prerequis>Notions essentiels relatives à l'établissement de la paie</prerequis>
+      <duree>3 jours - 21 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Evaluation sommative à travers un cas pratique à chaque fin de module</evaluation>
+    </board>
+    <objectifs>
+      <a>Saisir les variables en vue de lancer la paie d'un période </a>
+      <b>Imprimer les bulletins de salaire</b>
+      <c>Etablir et imprimer les charges sociales</c>
+      <d>Clôturer la paie d'un mois</d>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Création et paramétrage</titre>
+        <a>La création et paramétrage d'un dossier </a>
+        <b>Le paramétrage de caisses, des tranches, des tables, des banques</b>
+        <c>Le paramétrage des variables, des rubriques et de cotisations</c>
+        <d>La création du profil ou bulletin modèle</d>
+        <e>La création des fiches salariées</e>
+      </aaa>
+      <bbb>
+        <titre>Le bulletin de paie</titre>
+        <a>Créer le bulletin mensuellement</a>
+        <b>Saisir et contrôler les variables collectées</b>
+        <c>Imprimer les bulletins</c>
+        <d>Valider et clôturer les bulletins chaque mois</d>
+      </bbb>
+      <ccc>
+        <titre>Traitements et éditions mensuels</titre>
+        <a>La DPAE (DUE)</a>
+        <b>Les contrats de travail</b>
+        <c>Les attestations maladie et accident du travail</c>
+        <d>Les documents de fin de contrat</d>
+        <e>Le journal de paie, le livre de paie</e>
+        <f>Transfert des écritures en comptabilité</f>
+        <g>Etats de charges à payer</g>
+      </ccc>
+      <ddd>
+        <titre>Traitements annuels</titre>
+        <a>Préparation et transmission des données annuels (DADSU+ DSN)</a>
+      </ddd>
+      <eee>
+        <titre>Utilitaires</titre>
+        <a>Sauvegarde / Restauration</a>
+        <b>Clôture</b>
+      </eee>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Technicien Intégrateur Web</name>
+      <section>Métiers du web</section>
+      <type>Formation longue</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Salariés, demandeurs d'emploi, jeunes de moins de 26 ans</public>
+      <prerequis>Être titulaire d'un niveau IV (bac ou équivalent), 3 années d'expérience dans l'un des métiers concernés </prerequis>
+      <duree>113 jours - 791 heures</duree>
+      <organisation>Phases de recrutement
+      1. Information collective: contours du métier, objectifs, modalités de formation 
+      2. Test de positionnement à l'entrée en formation
+      3. Entretien individuel: restitution des évaluations, questionnement sur parcours et projet professionnel; préconisation si l'action ne correspond pas au besoins</organisation>
+      <evaluation>Projets individuels et collectifs - Soutenance</evaluation>
+    </board>
+    <objectifs>
+      <a>Maîtriser la conception de sites, depuis le cahier des charges jusqu'à la réalisation finale</a>
+      <b>Acquérir une bonne connaissance des métiers liés au web</b>
+      <c>Développer une bonne appréhension des technologies de communication</c>
+      <d>Savoir travailler en réseau avec différents profils liés à la création d'un site </d>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>PARCOURS COMMUN</titre>
+        <a>Appréhender l'environnement informatique et l'hébergement de sites</a>
+        <b>Infographie - Traitement de l'image: concevoir et réaliser la partie graphique des interfaces de sites web ou d'applications mobiles</b>
+        <c>Conception web - Gestion de projet: identifier les besoins du site avec l'équipe et définir le contenu fonctionnel d'un projet web</c>
+        <d>Intégration Web: Composer la mise en page d'un site, traduire, produire puis transposer les maquettes en langage informatique</d>
+      </aaa>
+      <bbb>
+        <titre>PARCOURS COMMUN</titre>
+        <a>Communication - Web marketing: optimiser le contenu du site afin de favoriser et mesurer la création de trafic</a>
+        <b>Web dynamique et interactivité: assurer la réalisation technique et le développement informatique d'un site internet</b>
+        <c>Services Rich Media: réaliser des sites internet interactifs et des applications internet riches</c>
+        <d>Anglais informatique (lu)</d>
+        <e>Droit informatique (propriété intellectuelle) </e>
+      </bbb>
+      <ccc>
+        <titre>SPECIFICITES</titre>
+        <a>Orientation Développement Web: Ajax, PHP MYSQL, HTML et CSS, JQUERY</a>
+        <b>Orientation Web Marketing: CMS, rédaction web, référencement, réseaux sociaux et outils collaboratifs</b>
+      </ccc>
+      <ddd>
+        <titre>AUTRES ACTIVITES</titre>
+        <a>Emploi - entraînement à la recherche d'emploi</a>
+        <b>Évaluations - Projets individuels et collectifs - Soutenance</b>
+      </ddd>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Animateur E-commerce</name>
+      <section>Métiers du web</section>
+      <type>Formation longue</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Salariés, demandeurs d'emploi, public débutant</public>
+      <prerequis>Bonne pratique de l'environnement informatique</prerequis>
+      <duree>21 jours - 147 heures</duree>
+      <organisation>Diagnostique / Positionnement avant la formation\n Pédagogie en face à face\n Écoute active des besoins</organisation>
+      <evaluation>Projets individuels et collectifs - Soutenance</evaluation>
+    </board>
+    <objectifs>
+      <a>Comprendre tous les enjeux et les actions autour de la mise en place d'un site e-commerce et son animation</a>
+      <b>Structurer et gérer son catalogue des produits</b>
+      <c>Définir et paramétrer les services de logistique (paiement, stock, expédition, suivi)</c>
+      <d>Optimiser le site et son contenu pour le référencement</d>
+      <e>Animer le site par les pratiques du web marketing (réseaux sociaux, liens sponsorisés, emailing, ...)</e>
+      <f>Développement de l'activité e-commerce dans le respect des lois</f>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>Intro I- 1/2j</titre>
+        <a>Contexte e-commerce</a>
+        <b>Structure d'une boutique en ligne</b>
+        <c>Solutions techniques / coûts</c>
+        <d>Mode de paiement</d>
+        <e>Logistique</e>
+      </aaa>
+      <bbb>
+        <titre>Intro II- 1/2j</titre>
+        <a>Entonnoir de conversion</a>
+        <b>Produits physiques / Produits virtuels / Services</b>
+        <c>B2C / B2B</c>
+        <d>Projet: Construction d'une boutique en ligne</d>
+        <e>Présentation de quelques solutions de boutiques en ligne</e>
+        <f>Avantages et Inconvénients </f>
+      </bbb>
+      <ccc>
+        <titre>Création de la Boutique - 5j (mise en ouvre en continu) + ateliers 3j</titre>
+        <a>Catégories, fiches produits, pages indispensables</a>
+        <b>Variantes de produits</b>
+        <c>Gestion du Stock</c>
+        <d>A partir de la deuxième semaine, 1/2 journée en début de chaque semaine est consacrée à faire le point sur l'avancement des projets des stagiaires</d>
+      </ccc>
+      <ddd>
+        <titre>Personnalisation graphique - 2j</titre>
+        <a>Charte graphique d'une boutique</a>
+        <b>Presta Shop</b>
+        <c>Préparation des contenus de produits</c>
+      </ddd>
+      <eee>
+        <titre>Les respect des lois, la sécurisation de paiements - 1j</titre>
+        <a>Informations légales, conditions générales de vente</a>
+        <b>CNIL</b>
+        <c>Nom de domaine</c>
+        <d>Délai de rétraction</d>
+        <e>Solutions bancaires et mise en place</e>
+      </eee>
+      <fff>
+        <titre>Livraison / Frais de port - 1j</titre>
+        <a>Modes de livraisons</a>
+        <b>Relais, export</b>
+        <c>Suivi de livraisons</c>
+        <d>Calcul de frais de port</d>
+      </fff>
+      <ggg>
+        <titre>Animation commerciale - 1j</titre>
+        <a>Coupons, promotions</a>
+        <b>Soldes</b>
+        <c>Cross-selling</c>
+        <d>Up-selling </d>
+        <e>Grilles de remises</e>
+      </ggg>
+      <hhh>
+        <titre>Référencement - 1j</titre>
+        <a>Optimisation technique et éditoriale</a>
+        <b>Rédaction de fiches Produits</b>
+        <c>Marquage microdata</c>
+      </hhh>
+      <iii>
+        <titre>Prospection et fidélisation - 4j</titre>
+        <a>Emailing spécifique e-commerce</a>
+        <b>Blog et réseaux sociaux</b>
+        <c>Promouvoir la boutique sur Facebook</c>
+        <d>Campagnes de liens sponsorisés avec Google Adwords</d>
+      </iii>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Assistante de Gestion</name>
+      <section>MÉTIERS ASSISTANTES</section>
+      <type>Formation longue</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Salariés, demandeurs d'emploi, jeunes de moins de 26 ans</public>
+      <prerequis>Être titulaire d'un niveau 	IV (bac ou équivalent)</prerequis>
+      <duree>158 jours - 1100 heures de cours, 60 jours - 420 heures de stage</duree>
+      <organisation>Phases de recrutement
+      1. Information collective: contours du métier, objectifs, modalités de formation
+      2. Test de pré-sélection: français, bureautique, comptabilité, anglais (2h)   
+      3. Entretien individuel</organisation>
+      <evaluation>Projets individuels et collectifs - Soutenance</evaluation>
+    </board>
+    <objectifs>
+      <a>Développer des compétences complémentaires ou transversales de personnes ayant une formation initiale ou une expérience dans les métiers du tertiaire: secrétariat, comptabilité, administration commerciale</a>
+      <b>Assurer des missions caractérisées par une forte polyvalence à dominante administrative, soit des fonctions administratives, de gestion ou commerciales et contribuer à l'amélioration de la gestion de risques,
+      de l'organisation, de l'efficacité, de la rentabilité, de l'image de l'entreprise</b>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>ENSEIGNEMENT PROFESSIONNEL I</titre>
+        <a>Gestion de relations avec les clients (prospection, administration des ventes, suivi de réclamations)</a>
+        <b>Gestion de relations avec les fournisseurs (études de demandes, comparaison, mise à jour du système d'information, achat et suivi d'achats)</b>
+        <c>Communication interne et externe</c>
+        <d>Administration et développement des ressources humaines (dossier du personnel, gestion du temps, préparation des éléments de paie, suivi actions formation)</d>
+      </aaa>
+      <bbb>
+        <titre>ENSEIGNEMENT PROFESSIONNEL II</titre>
+        <a>Organisation et planification (travail administratif, planification de prestations, organisation de déplacements, participation au travail collaboratif)</a>
+        <b>Gestion de ressources (immobilisations, ressources financières, information)</b>
+        <c>Pérennisation de l'entreprise (démarche qualité, gestion de connaissances, développement commercial, contrôle de gestion)</c>
+        <d>Analyse du système d'information et des risques informatiques (promotion de la santé et de la sécurité au travail, participation à la protection de personnes, des biens et des droits, à la gestion de risques financières)</d>
+      </bbb>
+      <ccc>
+        <titre>ENSEIGNEMENT GENERAL </titre>
+        <a>Culture générale et expression</a>
+        <b>Langue vivante étrangère (présentiel anglais)</b>
+        <c>Économie - management -droit</c>
+      </ccc>
+      <ddd>
+        <titre>AUTRES MODULES</titre>
+        <a>Égalité professionnelle: sensibiliser aux enjeux de l'égalité professionnelle femmes - hommes</a>
+        <b>Développement durable: acquérir les bons pratiques éco-citoyennes</b>
+      </ddd>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Secrétaire Assistante</name>
+      <section>MÉTIERS ASSISTANTES</section>
+      <type>Formation longue</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Salariés, demandeurs d'emploi, jeunes de moins de 26 ans</public>
+      <prerequis>Niveau BEP, première ou terminale, Personnes issues du métier du secrétariat, des fonctions administratives, Aisance en saisie souhaité</prerequis>
+      <duree>110 jours - 770 heures de cours, 25 jours - 175 heures de stage</duree>
+      <organisation>Phases de recrutement
+      1. Information collective: contours du métier, objectifs, modalités de formation
+      2. Test de pré-sélection: français, bureautique
+      3. Entretien individuel</organisation>
+      <evaluation>Entraînement aux ECF et aux épreuves du titre, Accompagnement, tutoriel, suivi individualisé, remédiation pédagogique, mise en relation avec des entreprises</evaluation>
+    </board>
+    <objectifs>
+      <a>Permettre à des personnes issues du métier du secrétariat, d'acquérir une qualification  reconnue par un titre homologué</a>
+      <b>Acquérir des compétences techniques pour une employabilité immédiate, une adaptabilité et une autonomie face aux nouveaux besoins des entreprises</b>
+      <c>Être en phase avec les contraintes du métier: polyvalence, organisation, suivie, rigueur, discrétion, sens du contact</c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>CERTIFICATS DE COMPÉTENCE PROFESSIONNELLE (CCP)</titre>
+        <a>Assurer les travaux courants de secrétariat et assister un équipe</a>
+        <b>Réaliser le traitement administratif des diverses fonctions de l'entreprise</b>
+      </aaa>
+      <bbb>
+        <titre>AUTRES MODULES</titre>
+        <a>Égalité professionnelle: sensibiliser aux enjeux de l'égalité professionnelle femmes - hommes</a>
+        <b>Développement durable: acquérir les bonnes pratiques éco-citoyennes</b>
+      </bbb>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Gestionnaire de Paie</name>
+      <section>MÉTIERS DE GESTION</section>
+      <type>Formation longue</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Salariés, demandeurs d'emploi, jeunes de moins de 26 ans</public>
+      <prerequis>Être titulaire d'un niveau IV (bac ou équivalent) ou niveau V + expérience dans le domaine RH ou comptable</prerequis>
+      <duree>109 jours - 763 heures de cours, 30 jours - 210 heures de stage</duree>
+      <organisation>Phases de recrutement
+      1. Information collective: contours du métier, objectifs, modalités de formation
+      2. Test de pré-sélection: calculs,  français, recherche internet
+      3. Entretien individuel </organisation>
+      <evaluation>Entraînement aux ECF et aux épreuves du titre, accompagnement, tutoriel, suivi individualisé, remédiation pédagogique, mise en relation avec des entreprises</evaluation>
+    </board>
+    <objectifs>
+      <a>Préparer les personnes à assurer la fiabilité de processus de recueil des informations en fonction de l'organisation et de l'évolution de l'entreprise</a>
+      <b>Superviser et contrôler le paramétrage et la saisie mensuelle des variables de paie</b>
+      <c>Établir ou contrôler les déclarations sociales périodiques</c>
+      <d>Conseiller le chef d'entreprise en matière contractuelle dans le respect de la réglementation sociale</d>
+      <e>Assurer une veille réglementaire en lien avec des professionnels externes</e>
+      <f>Exercer seul(e) ou avec l'appui des tiers (conseils externes, chef de service...)   </f>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>CERTIFICATS DE COMPÉTENCE PROFESSIONNELLE (CCP)</titre>
+        <a>CONSTITUTIFS DU TITRE VISE</a>
+        <b>Assurer la tenue et le suivi du dossier social de l'entreprise</b>
+        <c>Assurer la gestion de la paie et des déclarations sociales</c>
+      </aaa>
+      <bbb>
+        <titre>AUTRES MODULES</titre>
+        <a>Égalité professionnelle: sensibiliser aux enjeux de l'égalité professionnelle femmes - hommes</a>
+        <b>Développement durable: acquérir les bonnes pratiques éco-citoyennes</b>
+      </bbb>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Secrétaire comptable</name>
+      <section>MÉTIERS DE GESTION</section>
+      <type>Formation longue</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Salariés, demandeurs d'emploi, jeunes de moins de 26 ans</public>
+      <prerequis>Niveau BEP, première ou terminale</prerequis>
+      <duree>159 jours - 1113 heures de cours, 25 jours - 175 heures de stage</duree>
+      <organisation>Phases de recrutement
+      1. Information collective: contours du métier, objectifs, modalités de formation
+      2. Test de pré-sélection:   français, bureautique
+      3. Entretien individuel </organisation>
+      <evaluation>Entraînement aux ECF et aux épreuves du titre, accompagnement, tutoriel, suivi individualisé, remédiation pédagogique, mise en relation avec des entreprises</evaluation>
+    </board>
+    <objectifs>
+      <a>Permettre à des personnes issues des métiers du secrétariat, ou de la comptabilité, d’acquérir une qualification reconnue par un titre homologué</a>
+      <b>Acquérir des compétences techniques pour une employabilité immédiate, une adaptabilité et une autonomie face aux nouveaux besoins des entreprises</b>
+      <c>Etre en phase avec les contraintes du métier : polyvalence, organisation, suivie, rigueur, discrétion, sens du contact </c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>CERTIFICATS DE COMPÉTENCE PROFESSIONNELLE (CCP)</titre>
+        <a>Assurer les travaux courants de secrétariat et assister un équipe</a>
+        <b>Réaliser le traitement administratif des diverses fonctions de l’entreprise</b>
+        <c>Assurer les travaux courants de comptabilité</c>
+        <d>Réaliser les travaux courants de paie</d>
+      </aaa>
+      <bbb>
+        <titre>AUTRES MODULES</titre>
+        <a>Égalité professionnelle: sensibiliser aux enjeux de l'égalité professionnelle femmes - hommes</a>
+        <b>Développement durable: acquérir les bonnes pratiques éco-citoyennes</b>
+      </bbb>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Comptable gestionnaire</name>
+      <section>MÉTIERS DE GESTION</section>
+      <type>Formation longue</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Salariés, demandeurs d'emploi, jeunes de moins de 26 ans</public>
+      <prerequis>Etre titulaire d’un niveau IV (bac ou équivalent) ou niveau V + expérience dans le domaine RH ou comptable</prerequis>
+      <duree>109 jours - 945 heures de cours, 30 jours - 210 heures de stage</duree>
+      <organisation>Phases de recrutement
+      1. Information collective: contours du métier, objectifs, modalités de formation
+      2. Test de pré-sélection:   français, bureautique
+      3. Entretien individuel</organisation>
+      <evaluation>Entraînement aux ECF et aux épreuves du titre, accompagnement, tutoriel, suivi individualisé, remédiation pédagogique, mise en relation avec des entreprises</evaluation>
+    </board>
+    <objectifs>
+      <a>Préparer les personnes à encadrer et valider la tenue de la comptabilité et la mise à dispositions des informations des gestion dans les entreprises et organisations du secteur privé</a>
+      <b>Assurer la tenue de la comptabilité jusqu’à opérations d’inventaire</b>
+      <c>Réaliser les travaux de paie courants, et les travaux de fin d’exercice comptable, fiscal et social</c>
+      <d>Concevoir, mettre en place et suivre le processus budgétaire propre à l’entreprise</d>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>CERTIFICATS DE COMPÉTENCE PROFESSIONNELLE (CCP)</titre>
+        <a>Assurer la tenue de la comptabilité et la réalisation de paies courantes</a>
+        <b>Assurer les obligations fiscales et réglementaires</b>
+        <c>Assurer le traitement des informations de gestion</c>
+      </aaa>
+      <bbb>
+        <titre>AUTRES MODULES</titre>
+        <a>Égalité professionnelle: sensibiliser aux enjeux de l'égalité professionnelle femmes - hommes</a>
+        <b>Développement durable: acquérir les bonnes pratiques éco-citoyennes</b>
+      </bbb>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+  
+  <cours>
+    <info>
+      <name>Comptable assistante </name>
+      <section>MÉTIERS DE GESTION</section>
+      <type>Formation longue</type>
+    </info>
+    <flier>
+      <name></name>
+      <function></function>
+    </flier>
+    <board>
+      <public>Salariés, demandeurs d'emploi, jeunes de moins de 26 ans</public>
+      <prerequis>Niveau BEP, première ou terminale, personnes issues des métiers du secrétariat, de la comptabilité, du commerce ou encore de l’administration commerciale </prerequis>
+      <duree>110 jours - 770 heures de cours, 25 jours - 175 heures de stage</duree>
+      <organisation>Phases de recrutement
+        1. Information collective: contours du métier, objectifs, modalités de formation
+        2. Test de pré-sélection:   français, bureautique
+        3. Entretien individuel 
+      </organisation>
+      <evaluation>Entraînement aux ECF et aux épreuves du titre, accompagnement, tutoriel, suivi individualisé, remédiation pédagogique, mise en relation avec des entreprises</evaluation>
+    </board>
+    <objectifs>
+      <a>Acquérir une compétence comptable et une qualification reconnue par un titre homologué</a>
+      <b>Acquérir des compétences techniques pour une employabilité immédiate, une adaptabilité et une autonomie face aux nouveaux besoins des entreprises</b>
+      <c>Etre en phase avec les contraintes du métier : organisation, suivie, rigueur, discrétion, sens du contact</c>
+    </objectifs>
+    <programme>
+      <aaa>
+        <titre>CERTIFICATS DE COMPÉTENCE PROFESSIONNELLE (CCP)</titre>
+        <a>Assurer les travaux courants de comptabilité</a>
+        <b>Réaliser les travaux courants de paie</b>
+        <c>Préparer la fin d’exercice comptable et fiscal et calculer les éléments de gestion</c>
+      </aaa>
+      <bbb>
+        <titre>AUTRES MODULES</titre>
+        <a>Égalité professionnelle: sensibiliser aux enjeux de l'égalité professionnelle femmes - hommes</a>
+        <b>Développement durable: acquérir les bonnes pratiques éco-citoyennes</b>
+      </bbb>
+    </programme>
+    <qcm>
+      <introductionText>
+        <a>
+        </a>
+      </introductionText>
+      <aaa>
+        <question>La question</question>
+        <a>reponse</a>
+        <b></b>
+        <c></c>
+      </aaa>
+      <bbb>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </bbb>
+      <ccc>
+        <question>La question</question>
+        <a></a>
+        <b></b>
+        <c></c>
+      </ccc>
+    </qcm>
+  </cours>
+
+</courss>
