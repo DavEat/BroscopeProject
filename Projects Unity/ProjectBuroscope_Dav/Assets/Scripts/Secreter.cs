@@ -12,14 +12,29 @@ public class Secreter : MonoBehaviour {
     {
         if (!active)
         {
-            if (player.GetComponent<MovePerso>().professor)
-                if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
-                {
-                    canvasElement.gameObject.SetActive(true);
-                    player.GetComponent<MovePerso>().professor = false;
-                    player.GetComponent<MovePerso>().canMove = false;
-                    active = true;
-                }
+            if (player.GetComponent<VRMove>() != null)
+            {
+                if (player.GetComponent<VRMove>().professor)
+                    if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
+                    {
+                        //canvasElement.gameObject.SetActive(true);
+                        player.GetComponent<MovePerso>().professor = false;
+                        player.GetComponent<MovePerso>().canMove = false;
+                        active = true;
+                    }
+            }
+            else if (player.GetComponent<MovePerso>() != null)
+            {
+                if (player.GetComponent<MovePerso>().professor)
+                    if ((Vector3.Distance(player.position, transform.position)) < distanceToTalking)
+                    {
+                        //canvasElement.gameObject.SetActive(true);
+                        player.GetComponent<MovePerso>().professor = false;
+                        player.GetComponent<MovePerso>().canMove = false;
+                        active = true;
+                    }
+            }
+            else Debug.LogError("Perso don't have a element to move, if you are in vr put the script : 'VRMove' else put 'MovePerso'");
         }
         else
         {

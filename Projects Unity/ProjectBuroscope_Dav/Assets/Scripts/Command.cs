@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.IO;
+using UnityEngine.SceneManagement;
 
 public class Command : MonoBehaviour {
 
@@ -8,6 +9,12 @@ public class Command : MonoBehaviour {
         if (Input.GetKey(KeyCode.Escape))
         {
             Application.Quit();
+        }
+        if (Input.GetKeyDown(KeyCode.F5))
+        {
+            File.Delete(SaveGame.path + PlayerInformation.path);
+            SaveGame.CreateFiles(PlayerInformation.path);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
